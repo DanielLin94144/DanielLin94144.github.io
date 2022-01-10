@@ -1,10 +1,10 @@
 ---
 title: "Analyzing the Robustness of Unsupervised Speech Recognition"
 collection: preprint
-permalink: /publication/Analyzing_the_Robustness_of_Unsupervised_Speech_Recognition
+permalink: /publication/2021-10-07-Analyzing-the-Robustness-of-Unsupervised-Speech-Recognition
 excerpt: 'Analyzing the state-of-the-art unsupervised ASR Wav2vec-U's training robustness.'
-date: 2021/10/7
-venue: ''
+date: 2021-10-07
+venue: 'Submited to ICASSP 2022'
 paperurl: 'https://arxiv.org/pdf/2110.03509.pdf'
 citation: ''
 ---
