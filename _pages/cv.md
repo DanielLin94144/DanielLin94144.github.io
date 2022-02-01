@@ -17,12 +17,12 @@ Education
   * GPA: 4.3/4.3
 * M.S. in Communication Engineering, National Taiwan University, 2021 - present
   * Advisor: Prof. Hung-yi Lee
-  
+
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul> 
 <!--   
 Work experience
 ====== -->
