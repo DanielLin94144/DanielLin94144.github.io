@@ -9,19 +9,21 @@ redirect_from:
 ---
 Hi, I am Guan-Ting Lin! \\
 \\
-Currently, I am a master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml) in [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
-My research interest includes Deep Learning for speech processing, spoken language understanding, and self-supervised learning.
+Currently, I am a master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
+My research interest includes Deep Learning for speech processing, spoken language understanding, and self-supervised learning.\\
+
+Open for any research cooperation :blush:
 
 Education
 ======
-* B.S. in Biomedical Engineering and Environmental Science, National Tsing Hua University\\
-*2017 - 2021*
+* **B.S.** in Biomedical Engineering and Environmental Science, National Tsing Hua University\\
+*[2017 - 2021]*
   * GPA: 4.08/4.3; Ranking: 1/48
-* Artificial Intelligence Program, National Tsing Hua University\\
-*2020 - 2021*
+* **Advanced AI Program**, National Tsing Hua University\\
+*[2020 - 2021]*
   * GPA: 4.3/4.3
-* M.S. in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University\\
-*2021 - present*
+* **M.S.** in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University\\
+*[2021 - present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
 
 Publications
@@ -42,6 +44,6 @@ Teaching
 
 Skills
 ======
-* Programming: Python, C, Matlab\\
-* Package: Pytorch, Tensorflow, PyTorch Lightning, Pandas\\
+* Programming: Python, C, Matlab
+* Package: Pytorch, Tensorflow, PyTorch Lightning, Pandas
 
