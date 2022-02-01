@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "About Guan-Ting (Daniel) Lin"
+excerpt: "About Guan-Ting (Daniel) Lin"
 author_profile: true
 redirect_from: 
   - /about/
