@@ -9,7 +9,8 @@ redirect_from:
 ---
 Hi, I am Guan-Ting Lin! \\
 \\
-Currently, I am a master student at Speech Processing and Machine Learning Lab in National Taiwan University. My research interest includes but not limits to deep learning/machine learning for speech processing, spoken language understanding, self-supervised learning.\\
+Currently, I am a master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml) in [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
+My research interest includes Deep Learning for speech processing, spoken language understanding, and self-supervised learning.
 
 Education
 ======
@@ -31,16 +32,16 @@ Publications
 
 Teaching
 ======
-* Machine Learning Summer School 2021, Taipei
+* [Machine Learning Summer School 2021, Taipei](https://ai.ntu.edu.tw/mlss2021/)
   * Role: Head Teaching Assistant
 * 2021 Fall Linear Algebra, National Taiwan University
   * Role: Teaching Assistant
-* 2021 Fall Speech Project, National Taiwan University
+* 2021 Fall Speech Processing Project, National Taiwan University
   * Role: Teaching Assistant
 
 
 Skills
 ======
-Programming: Python, C, Matlab
-Package: Pytorch, Tensorflow, PyTorch Lightning, Pandas
+* Programming: Python, C, Matlab\\
+* Package: Pytorch, Tensorflow, PyTorch Lightning, Pandas\\
 

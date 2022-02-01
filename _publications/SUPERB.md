@@ -2,7 +2,7 @@
 title: "SUPERB: Speech processing Universal PERformance Benchmark"
 collection: publications
 # permalink: /publication/2021-10-07-paper-title-number-1
-excerpt: 'A universal speech processing benchmark for self-supervised speech model'
+# excerpt: 'A universal speech processing benchmark for self-supervised speech model'
 date: 2021-01-01
 venue: 'Interspeech'
 # paperurl: 'https://arxiv.org/pdf/2105.01051'
