@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-[CV](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)
+[pdf](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)
 
 <!-- Education
 ======

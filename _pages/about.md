@@ -13,11 +13,14 @@ Currently, I am a master student at Speech Processing and Machine Learning Lab i
 
 Education
 ======
-* B.S. in Biomedical Engineering and Environmental Science, National Tsing Hua University, 2017 - 2021
+* B.S. in Biomedical Engineering and Environmental Science, National Tsing Hua University\\
+*2017 - 2021*
   * GPA: 4.08/4.3; Ranking: 1/48
-* Artificial Intelligence Program, National Tsing Hua University, 2020 - 2021
+* Artificial Intelligence Program, National Tsing Hua University\\
+*2020 - 2021*
   * GPA: 4.3/4.3
-* M.S. in Communication Engineering, National Taiwan University, 2021 - present
+* M.S. in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University\\
+*2021 - present*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
 
 Publications
@@ -28,11 +31,16 @@ Publications
 
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Machine Learning Summer School 2021, Taipei
+  * Role: Head Teaching Assistant
+* 2021 Fall Linear Algebra, National Taiwan University
+  * Role: Teaching Assistant
+* 2021 Fall Speech Project, National Taiwan University
+  * Role: Teaching Assistant
+
 
 Skills
 ======
-
+Programming: Python, C, Matlab
+Package: Pytorch, Tensorflow, PyTorch Lightning, Pandas
 
