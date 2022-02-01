@@ -3,7 +3,7 @@ title: "Analyzing the Robustness of Unsupervised Speech Recognition"
 collection: publications
 # permalink: /publication/2021-10-07-paper-title-number-1
 # excerpt: 'Analyze the training robustness of the state-of-the-art unsupervised ASR Wav2vec-U.'
-date: 2022
+date: 2022-01-01
 venue: 'ICASSP'
 # paperurl: 'https://arxiv.org/pdf/2110.03509.pdf'
 # citation: ''
