@@ -10,9 +10,8 @@ redirect_from:
 Hi, I am Guan-Ting Lin! \\
 \\
 Currently, I am a master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
-My research interest includes Deep Learning for speech processing, spoken language understanding, and self-supervised learning.\\
+My research interest includes Deep Learning for speech processing, spoken language understanding, and self-supervised learning.
 
-Open for any research cooperation :blush:
 
 Education
 ======
