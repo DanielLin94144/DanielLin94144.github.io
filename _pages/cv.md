@@ -8,8 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
+[CV](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)
 
-Education
+<!-- Education
 ======
 * B.S. in Biomedical Engineering and Environmental Science, National Tsing Hua University, 2017 - 2021
   * GPA: 4.08/4.3; Ranking: 1/48
@@ -23,9 +24,6 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> 
-<!--   
-Work experience
-====== -->
 
 Teaching
 ======
@@ -34,16 +32,7 @@ Teaching
   {% endfor %}</ul>
 
 Skills
-======
-
-
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
-
-  
-<!-- Service and leadership
 ====== -->
+
+
 
