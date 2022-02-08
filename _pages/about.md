@@ -51,7 +51,7 @@ Teaching
   * Role: Teaching Assistant
 * 2021 Fall Speech Processing Project, National Taiwan University
   * Role: Teaching Assistant
-  * Unsupervised ASR project\\ [[colab]](https://colab.research.google.com/drive/15lFjIFxwtYVuF-SGVIRPaXrT-PkZuyg-?usp=sharing) [[slide]](https://docs.google.com/presentation/d/1tITzQ24q-85RJ25kP0N_VGo3B4fKyXHWvPMdfWL4ivI/edit?usp=sharing)
+  * Unsupervised ASR project [[colab]](https://colab.research.google.com/drive/15lFjIFxwtYVuF-SGVIRPaXrT-PkZuyg-?usp=sharing) [[slide]](https://docs.google.com/presentation/d/1tITzQ24q-85RJ25kP0N_VGo3B4fKyXHWvPMdfWL4ivI/edit?usp=sharing)
 
 
 Skills
