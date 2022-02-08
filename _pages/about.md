@@ -28,18 +28,18 @@ Education
 Publications
 ======
 * **Analyzing the Robustness of Unsupervised Speech Recognition**\\
-  **Guan-Ting Lin**<sup>*</sup>, Chan-Jan Hsu<sup>*</sup>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
+  <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
   *ICASSP 2022*\\
   [[paper]](https://arxiv.org/pdf/2110.03509.pdf)
 * **SUPERB: Speech processing Universal PERformance Benchmark**\\
-  Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, **Guan-Ting Lin**, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee\\
+  Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, <u>Guan-Ting Lin</u>, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee\\
   *Interspeech 2021*\\
   [[paper]](https://arxiv.org/pdf/2105.01051)
 
 Pre-prints
 ======
 * **Context-gloss Augmentation for Improving Word Sense Disambiguation**\\
-  **Guan-Ting Lin**, Manuel Giambi\\
+  <u>Guan-Ting Lin</u>, Manuel Giambi\\
   *arXiv preprint arXiv:2110.07174*\\
   [[paper]](https://arxiv.org/pdf/2110.07174)
 
