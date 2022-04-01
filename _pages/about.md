@@ -15,18 +15,17 @@ My research interest includes:
 * Self-supervised Learning
 * Real-world Challenges for Speech Technologies
 
-
 Education
 ======
-* **B.S.** in Biomedical Engineering and Environmental Science, National Tsing Hua University\\
-*[2017 - 2021]*
-  * GPA: 4.08/4.3; Ranking: 1/48
-* **Advanced AI Program**, National Tsing Hua University\\
-*[2020 - 2021]*
-  * GPA: 4.3/4.3
 * **M.S.** in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University\\
 *[2021 - present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
+* **Advanced AI Program**, National Tsing Hua University\\
+*[2020 - 2021]*
+  * GPA: 4.3/4.3
+* **B.S.** in Biomedical Engineering and Environmental Science, National Tsing Hua University\\
+*[2017 - 2021]*
+  * GPA: 4.08/4.3; Ranking: 1/48
 
 Publications
 ======
