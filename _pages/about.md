@@ -7,13 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am Guan-Ting Lin! \\
-\\
-Currently, I am a master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
+Hi, I am a master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
 My research interest includes: 
 * Deep Learning for Speech Processing
 * Self-supervised Learning
 * Real-world Challenges for Speech Technologies
+
+Recent News
+======
+* (04/2022) I will join Amazon AI as Applied Scientist Intern this summer.
+* (03/2022) Submitted three papers to Interspeech 2022.
 
 Education
 ======
@@ -56,7 +59,7 @@ Pre-prints
 Teaching
 ======
 * 2022 Spring - [Machine Learning](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php), National Taiwan University
-  * Design homework for adversarial attack. 
+  * Design homework for adversarial attack
 * 2021 Fall - Speech Processing Project, National Taiwan University
   * Role: Teaching Assistant
   * Unsupervised ASR project [[colab]](https://colab.research.google.com/drive/15lFjIFxwtYVuF-SGVIRPaXrT-PkZuyg-?usp=sharing) [[slide]](https://docs.google.com/presentation/d/1tITzQ24q-85RJ25kP0N_VGo3B4fKyXHWvPMdfWL4ivI/edit?usp=sharing)
@@ -65,6 +68,11 @@ Teaching
 * [Machine Learning Summer School 2021, Taipei](https://ai.ntu.edu.tw/mlss2021/)
   * Role: Head Teaching Assistant
 
+Services
+======
+* Reviewer
+  * Offical: ARR
+  * Unoffical: ICASSP, Computer Speech & Language, IEEE Transactions on Audio, Speech and Language Processing, Speech Communication
 
 Skills
 ======
