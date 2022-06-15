@@ -15,6 +15,7 @@ My research interest includes:
 
 Recent News
 ======
+* (06/2022) My two first-author papers have been accepted at [Interspeech 2022](https://interspeech2022.org/).
 * (04/2022) I will join Amazon AI as Applied Scientist Intern this summer.
 * (03/2022) Submitted three papers to Interspeech 2022.
 
@@ -34,11 +35,11 @@ Publications
 ======
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
-  *Submitted to Interspeech 2022*\\
+  *Interspeech 2022*\\
   [[paper]](https://arxiv.org/abs/2203.14222) [[code]](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
 * **DUAL: Discrete Spoken Unit Adaptive Learning for Textless Spoken Question Answering**\\
   <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
-  *Submitted to Interspeech 2022*\\
+  *Interspeech 2022*\\
   [[paper]](https://arxiv.org/abs/2203.04911) [[code]](https://github.com/DanielLin94144/DUAL-textless-SQA) 
 * **Analyzing the Robustness of Unsupervised Speech Recognition**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
@@ -59,7 +60,7 @@ Pre-prints
 Teaching
 ======
 * 2022 Spring - [Machine Learning](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php), National Taiwan University
-  * Design homework for adversarial attack
+  * Design homework for adversarial attack [[slide]](https://speech.ee.ntu.edu.tw/~hylee/ml/ml2022-course-data/Machine%20Learning%20HW10%20Adversarial%20Attack.pdf)
 * 2021 Fall - Speech Processing Project, National Taiwan University
   * Role: Teaching Assistant
   * Unsupervised ASR project [[colab]](https://colab.research.google.com/drive/15lFjIFxwtYVuF-SGVIRPaXrT-PkZuyg-?usp=sharing) [[slide]](https://docs.google.com/presentation/d/1tITzQ24q-85RJ25kP0N_VGo3B4fKyXHWvPMdfWL4ivI/edit?usp=sharing)
