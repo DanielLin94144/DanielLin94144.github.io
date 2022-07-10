@@ -15,6 +15,7 @@ My research interest includes:
 
 Recent News
 ======
+* (07/2022) Receive ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
 * (06/2022) My two first-author papers have been accepted at [Interspeech 2022](https://interspeech2022.org/).
 * (04/2022) I will join Amazon AI as Applied Scientist Intern this summer.
 * (03/2022) Submitted three papers to Interspeech 2022.
