@@ -25,7 +25,7 @@ Recent News
 Education
 ======
 * **M.S.** in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University\\
-*[2021 - present]*
+*[2021 - Present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
   * GPA: 4.24/4.3; Ranking: 15/158
 * **Advanced AI Program**, National Tsing Hua University\\
@@ -37,8 +37,8 @@ Education
 
 Publications
 ======
-* **On the Utility of Self-supervised Models for Prosody-related Task**\\
-  <u>Guan-Ting Lin<u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward.\\
+* **On the Utility of Self-supervised Models for Prosody-related Task (SUPERB-prosody)**\\
+  <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward.\\
   *SLT 2022*\\
 
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
@@ -67,15 +67,15 @@ Pre-prints
 
 Intern Experience
 ======
-* Applied Scientist Intern, Amazon Alexa, Cambridge, United States
-  *[2022/7 - present]*
+* **Applied Scientist Intern, Amazon Alexa, Cambridge, United States**\\
+  *[2022/7 - Present]*
   * Manager: Chieh-Chi Kao / Mentor: Qingming Tang
   * Develop Once-for-all Network Architecture Search techniques on audio event classification.
 
-* Summer Intern / Research Assistant, National Center for High-Performance Computing, National Applied Research Laboratories
+* **Summer Intern / Research Assistant, National Center for High-Performance Computing, National Applied Research Laboratories**\\
   *[2019/7 - 2020/7]*
   * Advisor: Nan-You Chen
-  * Low-dose CT, denoising reconstructed images by U-NET based deep neural network.
+  * Low-dose CT image, denoising reconstructed images by U-NET based deep neural network.
 
 Teaching
 ======
