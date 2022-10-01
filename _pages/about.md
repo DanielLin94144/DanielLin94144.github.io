@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am a master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
+Hi, I am a second-year master student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
 My research interest includes: 
 * Deep Learning for Speech Processing
 * Self-supervised Learning
@@ -15,9 +15,11 @@ My research interest includes:
 
 Recent News
 ======
+* (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
+* (09/2022) Attend [Interspeech 2022](https://interspeech2022.org/) in-person in Incheon, Korea. 
 * (07/2022) Receive ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
 * (06/2022) My two first-author papers have been accepted at [Interspeech 2022](https://interspeech2022.org/).
-* (04/2022) I will join Amazon AI as Applied Scientist Intern this summer.
+* (04/2022) I will join Amazon Alexa as Applied Scientist Intern this summer.
 * (03/2022) Submitted three papers to Interspeech 2022.
 
 Education
@@ -25,6 +27,7 @@ Education
 * **M.S.** in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University\\
 *[2021 - present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
+  * GPA: 4.24/4.3; Ranking: 15/158
 * **Advanced AI Program**, National Tsing Hua University\\
 *[2020 - 2021]*
   * GPA: 4.3/4.3
@@ -34,6 +37,10 @@ Education
 
 Publications
 ======
+* **On the Utility of Self-supervised Models for Prosody-related Task**\\
+  <u>Guan-Ting Lin<u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward.\\
+  *SLT 2022*\\
+
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
   *Interspeech 2022*\\
@@ -58,6 +65,18 @@ Pre-prints
   *arXiv preprint arXiv:2110.07174*\\
   [[paper]](https://arxiv.org/pdf/2110.07174)
 
+Intern Experience
+======
+* Applied Scientist Intern, Amazon Alexa, Cambridge, United States
+  *[2022/7 - present]*
+  * Manager: Chieh-Chi Kao / Mentor: Qingming Tang
+  * Develop Once-for-all Network Architecture Search techniques on audio event classification.
+
+* Summer Intern / Research Assistant, National Center for High-Performance Computing, National Applied Research Laboratories
+  *[2019/7 - 2020/7]*
+  * Advisor: Nan-You Chen
+  * Low-dose CT, denoising reconstructed images by U-NET based deep neural network.
+
 Teaching
 ======
 * 2022 Spring - [Machine Learning](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php), National Taiwan University
@@ -73,8 +92,8 @@ Teaching
 Services
 ======
 * Reviewer
-  * Offical: ARR
-  * Unoffical: ICASSP, Computer Speech & Language, IEEE Transactions on Audio, Speech and Language Processing, Speech Communication
+  * Offical: ARR 2022, ISCSLP 2022
+  * Unoffical: ICASSP 2022, Computer Speech & Language, IEEE Transactions on Audio, Speech and Language Processing, Speech Communication
 
 Skills
 ======
