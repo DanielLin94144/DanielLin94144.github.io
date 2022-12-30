@@ -49,11 +49,11 @@ Publications & Preprints
   [[paper]](https://arxiv.org/abs/2210.07185) [code will be released soon]
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
-  *Interspeech 2022*\\
+  *Interspeech 2022 (Oral)*\\
   [[paper]](https://arxiv.org/abs/2203.14222) [[code]](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
 * **DUAL: Discrete Spoken Unit Adaptive Learning for Textless Spoken Question Answering**\\
   <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
-  *Interspeech 2022*\\
+  *Interspeech 2022 (Poster)*\\
   [[paper]](https://arxiv.org/abs/2203.04911) [[code]](https://github.com/DanielLin94144/DUAL-textless-SQA) 
 * **Analyzing the Robustness of Unsupervised Speech Recognition**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
@@ -96,7 +96,7 @@ Teaching
 Services
 ======
 * Reviewer
-  * Offical: ARR 2022, ISCSLP 2022
+  * Offical: ARR 2022, ISCSLP 2022, ICASSP 2023
   * Unoffical: ICASSP 2022, Computer Speech & Language, IEEE Transactions on Audio, Speech and Language Processing, Speech Communication
 
 Skills
