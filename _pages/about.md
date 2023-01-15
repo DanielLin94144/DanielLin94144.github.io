@@ -15,6 +15,7 @@ My research interest includes:
 
 Recent News
 ======
+* (01/2023) **Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!**  
 * (11/2022) Will Attend the [IEEE SLT](https://slt2022.org/) in person, see you in Doha, Qatar!
 * (10/2022) Finished the Applied Scientist Internship with Amazon Alexa Perceptual Technologies team, Cambridge, MA. Submitted the internship project to ICASSP 2023. 
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
@@ -45,8 +46,8 @@ Publications & Preprints
   [paper will be released soon]
 * **On the Utility of Self-supervised Models for Prosody-related Task (SUPERB-prosody)**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward.\\
-  *SLT 2022*\\
-  [[paper]](https://arxiv.org/abs/2210.07185) [code will be released soon]
+  *SLT 2022 (Best Paper Award)*\\
+  [[paper]](https://arxiv.org/abs/2210.07185) [[code]](https://github.com/JSALT-2022-SSL/superb-prosody)
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
   *Interspeech 2022 (Oral)*\\
