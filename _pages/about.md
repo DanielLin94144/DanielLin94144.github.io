@@ -15,6 +15,7 @@ My research interest includes:
 
 Recent News
 ======
+* (02/2023) My internship work with Amazon Alexa titled "Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints" has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) **Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!**  
 * (11/2022) Will Attend the [IEEE SLT](https://slt2022.org/) in person, see you in Doha, Qatar!
 * (10/2022) Finished the Applied Scientist Internship with Amazon Alexa Perceptual Technologies team, Cambridge, MA. Submitted the internship project to ICASSP 2023. 
@@ -42,7 +43,7 @@ Publications & Preprints
 ======
 * **Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints**\\
   <u>Guan-Ting Lin</u>, Qingming Tang, Chieh-Chi Kao, Viktor Rozgic, Chao Wang.\\
-  *Submitted to ICASSP 2023*\\
+  *ICASSP 2023*\\
   [paper will be released soon]
 * **On the Utility of Self-supervised Models for Prosody-related Task (SUPERB-prosody)**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward.\\
@@ -81,6 +82,15 @@ Intern Experience
   *[2019/7 - 2020/7]*
   * Advisor: Nan-You Chen
   * Low-dose CT image, denoising reconstructed images by U-NET based deep neural network.
+
+Award
+======
+* Best paper award @ IEEE SLT 2022
+* ISCA travel grant @ Interspeech 2022
+* Appier top-tier conference scholarship
+* Dean's list * 3 @ NTHU
+* Phi Tau Phi Award @ NTHU
+* The Zhu Shun Yi He Qin Scholarship @ NTHU
 
 Teaching
 ======
