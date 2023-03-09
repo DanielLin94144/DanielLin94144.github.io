@@ -15,6 +15,8 @@ My research interest includes:
 
 Recent News
 ======
+* (03/2023) I will join Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle!  
+* (03/2022) Submitted two papers to Interspeech 2023.
 * (02/2023) My internship work with Amazon Alexa titled "Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints" has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) **Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!**  
 * (11/2022) Will Attend the [IEEE SLT](https://slt2022.org/) in person, see you in Doha, Qatar!
