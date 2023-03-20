@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am a PhD student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
+Hi, I am a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
 My research interest includes: 
 * Deep Learning for Speech Processing
 * Self-supervised Learning
@@ -20,13 +20,10 @@ Recent News
 * (02/2023) My internship work with Amazon Alexa titled "Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints" has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) **Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!**  
 * (11/2022) Will Attend the [IEEE SLT](https://slt2022.org/) in person, see you in Doha, Qatar!
-* (10/2022) Finished the Applied Scientist Internship with Amazon Alexa Perceptual Technologies team, Cambridge, MA. Submitted the internship project to ICASSP 2023. 
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
-* (09/2022) Attend [Interspeech 2022](https://interspeech2022.org/) in-person in Incheon, Korea. 
 * (07/2022) Receive ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
 * (06/2022) My two first-author papers have been accepted at [Interspeech 2022](https://interspeech2022.org/).
 * (04/2022) I will join Amazon Alexa as Applied Scientist Intern this summer.
-* (03/2022) Submitted three papers to Interspeech 2022.
 
 Education
 ======
@@ -73,8 +70,11 @@ Publications & Preprints
   [[paper]](https://arxiv.org/pdf/2110.07174)
 
 
-Intern Experience
+Work Experience
 ======
+* **Applied Scientist Intern, Amazon Alexa, Seattle, United States**\\
+  *[2023/6 - 2023/9]*
+
 * **Applied Scientist Intern, Amazon Alexa, Cambridge, United States**\\
   *[2022/7 - 2022/10]*
   * Manager: Chieh-Chi Kao / Mentor: Qingming Tang
