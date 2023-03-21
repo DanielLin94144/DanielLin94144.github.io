@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
+Hi, I am a first-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).\\
 My research interest includes: 
 * Deep Learning for Speech Processing
 * Self-supervised Learning
@@ -17,7 +17,7 @@ Recent News
 ======
 * (03/2023) I will join Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle!  
 * (03/2022) Submitted two papers to Interspeech 2023.
-* (02/2023) My internship work with Amazon Alexa titled "Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints" has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
+* (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) **Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!**  
 * (11/2022) Will Attend the [IEEE SLT](https://slt2022.org/) in person, see you in Doha, Qatar!
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
@@ -74,6 +74,7 @@ Work Experience
 ======
 * **Applied Scientist Intern, Amazon Alexa, Seattle, United States**\\
   *[2023/6 - 2023/9]*
+  * Speech Recognition Research Team
 
 * **Applied Scientist Intern, Amazon Alexa, Cambridge, United States**\\
   *[2022/7 - 2022/10]*
@@ -94,26 +95,11 @@ Award
 * Phi Tau Phi Award @ NTHU
 * The Zhu Shun Yi He Qin Scholarship @ NTHU
 
-Teaching
-======
-* 2022 Spring - [Machine Learning](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php), National Taiwan University
-  * Design homework for adversarial attack [[slide]](https://speech.ee.ntu.edu.tw/~hylee/ml/ml2022-course-data/Machine%20Learning%20HW10%20Adversarial%20Attack.pdf)
-* 2021 Fall - Speech Processing Project, National Taiwan University
-  * Role: Teaching Assistant
-  * Unsupervised ASR project [[colab]](https://colab.research.google.com/drive/15lFjIFxwtYVuF-SGVIRPaXrT-PkZuyg-?usp=sharing) [[slide]](https://docs.google.com/presentation/d/1tITzQ24q-85RJ25kP0N_VGo3B4fKyXHWvPMdfWL4ivI/edit?usp=sharing)
-* 2021 Fall - Linear Algebra, National Taiwan University
-  * Role: Teaching Assistant
-* [Machine Learning Summer School 2021, Taipei](https://ai.ntu.edu.tw/mlss2021/)
-  * Role: Head Teaching Assistant
-
 Services
 ======
 * Reviewer
   * Offical: ARR 2022, ISCSLP 2022, ICASSP 2023
   * Unoffical: ICASSP 2022, Computer Speech & Language, IEEE Transactions on Audio, Speech and Language Processing, Speech Communication
 
-Skills
-======
-* Programming: Python, C, Matlab
-* Package: Pytorch, Tensorflow, PyTorch Lightning, Pandas
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
