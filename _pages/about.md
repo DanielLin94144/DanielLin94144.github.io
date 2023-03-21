@@ -43,7 +43,7 @@ Publications & Preprints
 * **Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints**\\
   <u>Guan-Ting Lin</u>, Qingming Tang, Chieh-Chi Kao, Viktor Rozgic, Chao Wang.\\
   *ICASSP 2023*\\
-  [paper will be released soon]
+  [[paper]](https://arxiv.org/abs/2303.10351)
 * **On the Utility of Self-supervised Models for Prosody-related Task (SUPERB-prosody)**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward.\\
   *SLT 2022 (Best Paper Award)*\\
