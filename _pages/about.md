@@ -34,18 +34,21 @@ Education
 * **Advanced AI Program**, National Tsing Hua University\\
 *[2020 - 2021]*
   * GPA: 4.3/4.3
-* **B.S.** in Biomedical Engineering and Environmental Science, National Tsing Hua University\\
+* **B.S.** in Biomedical Engineering, National Tsing Hua University\\
 *[2017 - 2021]*
-  * GPA: 4.08/4.3; Ranking: 1/48
+  * GPA: 4.08/4.3; Ranking: 1/45
 
 Publications & Preprints
 ======
 * **Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints**\\
-  <u>Guan-Ting Lin</u>, Qingming Tang, Chieh-Chi Kao, Viktor Rozgic, Chao Wang.\\
+  <u>Guan-Ting Lin</u>, Qingming Tang, Chieh-Chi Kao, Viktor Rozgic, Chao Wang\\
   *ICASSP 2023*\\
   [[paper]](https://arxiv.org/abs/2303.10351)
-* **On the Utility of Self-supervised Models for Prosody-related Task (SUPERB-prosody)**\\
-  <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward.\\
+* **Introducing Semantics into Speech Encoders**\\
+  Derek Xu, Shuyan Dong, Changhan Wang, Suyoun Kim, Zhaojiang Lin, Akshat Shrivastava, Shang-Wen Li, Liang-Hsuan Tseng, Alexei Baevski, <u>Guan-Ting Lin</u>, Hung-yi Lee, Yizhou Sun, Wei Wang\\
+  [[paper]](https://arxiv.org/abs/2211.08402)
+* **On the Utility of Self-supervised Models for Prosody-related Task**\\
+  <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
   *SLT 2022 (Best Paper Award)*\\
   [[paper]](https://arxiv.org/abs/2210.07185) [[code]](https://github.com/JSALT-2022-SSL/superb-prosody)
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
@@ -70,7 +73,7 @@ Publications & Preprints
   [[paper]](https://arxiv.org/pdf/2110.07174)
 
 
-Work Experience
+Experience
 ======
 * **Applied Scientist Intern, Amazon Alexa, Seattle, United States**\\
   *[2023/6 - 2023/9]*
@@ -80,6 +83,10 @@ Work Experience
   *[2022/7 - 2022/10]*
   * Manager: Chieh-Chi Kao / Mentor: Qingming Tang
   * Develop Once-for-all Network Architecture Search techniques on audio event classification.
+
+* **8th JASLT Summer Workshop, Johns Hopkins University, Baltimore, United States**
+  *[2022/6 - 2022/7]*
+  * Work with Prof. [Nigel Ward](https://www.cs.utep.edu/nigel/) on [self-supervised pre-training for prosody](https://arxiv.org/abs/2210.07185). 
 
 * **Summer Intern / Research Assistant, National Center for High-Performance Computing, National Applied Research Laboratories**\\
   *[2019/7 - 2020/7]*
