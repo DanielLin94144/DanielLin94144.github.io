@@ -7,5 +7,5 @@ venue: ""
 date: 2022-10-21
 location: "Cambridge, USA"
 ---
-
-![](http://DanielLin94144.github.io/files/Amazon_internship_slide.pdf).
+Share my internship experience for GICE project discussion course. 
+[Slide](http://DanielLin94144.github.io/files/Amazon_internship_slide.pdf)

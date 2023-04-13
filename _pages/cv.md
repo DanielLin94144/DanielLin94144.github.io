@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 Please see my résumé via [[pdf link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
 
-![](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)
+
 
 <!-- Education
 ======
