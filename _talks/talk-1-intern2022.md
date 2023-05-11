@@ -3,7 +3,7 @@ title: "Amazon research internship experience in the USA"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-10-21-talk-1
-venue: ""
+venue: "NTU GICE"
 date: 2022-10-21
 location: "Cambridge, USA"
 ---
