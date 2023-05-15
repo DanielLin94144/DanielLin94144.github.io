@@ -17,8 +17,7 @@ Recent News
 ======
 * (03/2023) I will join Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle!  
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
-* (01/2023) **Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!**  
-* (11/2022) Will Attend the [IEEE SLT](https://slt2022.org/) in person, see you in Doha, Qatar!
+* (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!* 
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
 * (07/2022) Receive ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
 * (06/2022) My two first-author papers have been accepted at [Interspeech 2022](https://interspeech2022.org/).
@@ -43,7 +42,8 @@ Publications & Preprints
   *ICASSP 2023*\\
   [[paper]](https://arxiv.org/abs/2303.10351)
 * **Introducing Semantics into Speech Encoders**\\
-  Derek Xu, Shuyan Dong, Changhan Wang, Suyoun Kim, Zhaojiang Lin, Akshat Shrivastava, Shang-Wen Li, Liang-Hsuan Tseng, Alexei Baevski, <u>Guan-Ting Lin</u>, Hung-yi Lee, Yizhou Sun, Wei Wang
+  Derek Xu, Shuyan Dong, Changhan Wang, Suyoun Kim, Zhaojiang Lin, Akshat Shrivastava, Shang-Wen Li, Liang-Hsuan Tseng, Alexei Baevski, <u>Guan-Ting Lin</u>, Hung-yi Lee, Yizhou Sun, Wei Wang\\
+  *ACL 2023*
   [[paper]](https://arxiv.org/abs/2211.08402)
 * **On the Utility of Self-supervised Models for Prosody-related Task**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward
@@ -93,6 +93,7 @@ Experience
 
 Award
 ======
+* NTU GICE Elite Doctoral Scholarship with NVIDIA
 * Best paper award @ IEEE SLT 2022
 * ISCA travel grant @ Interspeech 2022
 * Appier top-tier conference scholarship
