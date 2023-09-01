@@ -15,7 +15,7 @@ My research interest includes:
 
 Recent News
 ======
-* (03/2023) I will join Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle!  
+* (03/2023) Join Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!* 
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
@@ -79,7 +79,7 @@ Experience
 ======
 * **Applied Scientist Intern, Amazon Alexa, Seattle, United States**\\
   *[2023/6 - 2023/9]*
-  * Speech Recognition Research Team
+  * Speech Recognition LM Research Team
 
 * **Applied Scientist Intern, Amazon Alexa, Cambridge, United States**\\
   *[2022/7 - 2022/10]*
