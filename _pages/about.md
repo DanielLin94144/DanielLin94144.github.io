@@ -17,7 +17,7 @@ Recent News
 ======
 * (03/2023) Join Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
-* (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!* 
+* (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
 * (07/2022) Receive ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
 * (06/2022) My two first-author papers have been accepted at [Interspeech 2022](https://interspeech2022.org/).
@@ -77,11 +77,12 @@ Publications & Preprints
 
 Experience
 ======
-* **Applied Scientist Intern, Amazon Alexa, Seattle, United States**\\
+* **Applied Scientist II Intern, Amazon Alexa, Seattle, United States**\\
   *[2023/6 - 2023/9]*
   * Speech Recognition LM Research Team
+  * Paralinguistics-enhanced Large Language Model on spoken dialogue.
 
-* **Applied Scientist Intern, Amazon Alexa, Cambridge, United States**\\
+* **Applied Scientist I Intern, Amazon Alexa, Cambridge, United States**\\
   *[2022/7 - 2022/10]*
   * Manager: Chieh-Chi Kao / Mentor: Qingming Tang
   * Develop Once-for-all Network Architecture Search techniques on audio event classification.
@@ -97,7 +98,8 @@ Experience
 
 Award
 ======
-* NTU GICE Elite Doctoral Scholarship with NVIDIA
+* NTU Elite Doctoral Scholarship
+* GICE Elite Doctoral Scholarship with NVIDIA
 * Best paper award @ IEEE SLT 2022
 * ISCA travel grant @ Interspeech 2022
 * Appier top-tier conference scholarship
