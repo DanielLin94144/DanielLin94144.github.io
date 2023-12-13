@@ -15,7 +15,7 @@ My research interest includes:
 
 Recent News
 ======
-* (03/2023) Join Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle. 
+* (03/2023) Joined Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
@@ -37,6 +37,14 @@ Education
 
 Publications & Preprints
 ======
+* **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
+  <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko\\
+  *ICASSP 2024*\\
+  [paper comming soon]
+* **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
+  Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
+  *ICASSP 2024*\\
+  [paper comming soon]
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
