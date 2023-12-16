@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am a first-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). 
+Hi, I am a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). 
 My research interest includes: 
 * Deep Learning for Speech Processing
 * Self-supervised Learning
@@ -15,6 +15,7 @@ My research interest includes:
 
 Recent News
 ======
+* (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
 * (03/2023) Joined Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
@@ -106,9 +107,9 @@ Experience
 
 Award
 ======
+* Best paper award @ IEEE SLT 2022
 * NTU Elite Doctoral Scholarship
 * GICE Elite Doctoral Scholarship with NVIDIA
-* Best paper award @ IEEE SLT 2022
 * ISCA travel grant @ Interspeech 2022
 * Appier top-tier conference scholarship
 * Dean's list * 3 @ NTHU
@@ -118,7 +119,7 @@ Award
 Services
 ======
 * Reviewer
-  * Offical: ARR 2022/2023, ISCSLP 2022, ICASSP 2023/2024, ICLR 2024
+  * Offical: ISCSLP 2022, ARR 2022/2023, ICASSP 2023/2024, ICLR 2024
   * Unoffical: ICASSP 2022, Computer Speech & Language, IEEE Transactions on Audio, Speech and Language Processing, Speech Communication
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
