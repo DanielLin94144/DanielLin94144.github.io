@@ -8,10 +8,13 @@ redirect_from:
   - /about.html
 ---
 Hi, I am a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). 
+
 My research interest includes: 
 * Deep Learning for Speech Processing
 * Self-supervised Learning
 * Real-world Challenges for Speech Technologies
+
+**I am actively seeking 2024 summer PhD research internships in speech, NLP, audio, and multi-modal LLM. If you have opportunities related to those research areas, feel free to reach out!**
 
 Recent News
 ======
