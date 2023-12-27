@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). 
+Hi, I am Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). 
 
 My research interest includes: 
 * Deep Learning for Speech Processing
@@ -44,7 +44,7 @@ Publications & Preprints
 * **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko\\
   *ICASSP 2024*\\
-  [paper comming soon]
+  [paper](https://arxiv.org/abs/2312.15316)
 * **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
   Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *ICASSP 2024*\\
