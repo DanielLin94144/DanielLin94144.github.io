@@ -19,7 +19,7 @@ My research interest includes:
 Recent News
 ======
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
-* (03/2023) Joined Amazon Alexa Speech team as research scientist intern in 2023 summer @ Seattle. 
+* (03/2023) Joined Amazon Alexa Speech team as applied scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
@@ -28,10 +28,11 @@ Recent News
 
 Education
 ======
-* **Direct pursuing Ph.D. from M.S.** in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University
+* **Ph.D.** in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University
 *[2021 - Present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
   * GPA: 4.24/4.3; Ranking: 15/158
+  * Transfered from M.S. program in Feb. 2023. 
 * **Advanced AI Program**, National Tsing Hua University
 *[2020 - 2021]*
   * GPA: 4.3/4.3
@@ -49,6 +50,10 @@ Publications & Preprints
   Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *ICASSP 2024*\\
   [paper comming soon]
+* **Towards ASR Robust Spoken Language Understanding Through In-Context Learning With Word Confusion Networks**\\
+  Kevin Everson, Yile Gu, Huck Yang, Prashanth Gurunath Shivakumar, <u>Guan-Ting Lin</u>, Jari Kolehmainen, Ivan Bulyko, Ankur Gandhe, Shalini Ghosh, Wael Hamza, Hung-yi Lee, Ariya Rastrow, Andreas Stolcke\\
+  *ICASSP 2024*\\
+  [paper](https://arxiv.org/abs/2401.02921)
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
@@ -99,11 +104,11 @@ Experience
   * Manager: Chieh-Chi Kao / Mentor: Qingming Tang
   * Develop Once-for-all Network Architecture Search techniques on audio event classification.
 
-* **8th JASLT Summer Workshop, Johns Hopkins University, Baltimore, United States**\\
+* **Visiting Reseacher, 8th JASLT Summer Workshop, Johns Hopkins University, Baltimore, United States**\\
   *[2022/6 - 2022/7]*
   * Work with Prof. [Nigel Ward](https://www.cs.utep.edu/nigel/) on [self-supervised pre-training for prosody](https://arxiv.org/abs/2210.07185). 
 
-* **Summer Intern & Research Assistant, National Center for High-Performance Computing, National Applied Research Laboratories**\\
+* **Summer Research Intern & Research Assistant, National Center for High-Performance Computing, National Applied Research Laboratories**\\
   *[2019/7 - 2020/7]*
   * Advisor: Nan-You Chen
   * Low-dose CT image, denoising reconstructed images by U-NET based deep neural network.
@@ -122,8 +127,7 @@ Award
 Services
 ======
 * Reviewer
-  * Offical: ISCSLP 2022, ARR 2022/2023, ICASSP 2023/2024, ICLR 2024
-  * Unoffical: ICASSP 2022, Computer Speech & Language, IEEE Transactions on Audio, Speech and Language Processing, Speech Communication
+  * Offical: ISCSLP 2022, ARR 2022/2023/2024, ICASSP 2023/2024, ICLR 2024
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
