@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). 
+Hi, I am Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).
 
 My research interest includes: 
 * Deep Learning for Speech Processing
@@ -18,6 +18,7 @@ My research interest includes:
 
 Recent News
 ======
+* (01/2024) Receive IEEE Signal Processing Society Travel Grant (USD 500) for participating ICASSP 2024! 
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
 * (03/2023) Joined Amazon Alexa Speech team as applied scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
@@ -32,7 +33,7 @@ Education
 *[2021 - Present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
   * GPA: 4.24/4.3; Ranking: 15/158
-  * Transfered from M.S. program in Feb. 2023. 
+  * Transferred from M.S. program in Feb. 2023. 
 * **Advanced AI Program**, National Tsing Hua University
 *[2020 - 2021]*
   * GPA: 4.3/4.3
@@ -49,7 +50,7 @@ Publications & Preprints
 * **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
   Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *ICASSP 2024*\\
-  [paper comming soon]
+  [paper](https://arxiv.org/abs/2401.13463)
 * **Towards ASR Robust Spoken Language Understanding Through In-Context Learning With Word Confusion Networks**\\
   Kevin Everson, Yile Gu, Huck Yang, Prashanth Gurunath Shivakumar, <u>Guan-Ting Lin</u>, Jari Kolehmainen, Ivan Bulyko, Ankur Gandhe, Shalini Ghosh, Wael Hamza, Hung-yi Lee, Ariya Rastrow, Andreas Stolcke\\
   *ICASSP 2024*\\
@@ -115,6 +116,7 @@ Experience
 
 Award
 ======
+* IEEE Signal Processing Society Travel Grant @ ICASSP 2024
 * Best paper award @ IEEE SLT 2022
 * NTU Elite Doctoral Scholarship
 * GICE Elite Doctoral Scholarship with NVIDIA
