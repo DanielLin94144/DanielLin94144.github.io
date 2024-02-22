@@ -7,18 +7,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).
+Hi, I am second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).
 
 My research interest includes: 
 * Deep Learning for Speech Processing
 * Self-supervised Learning
 * Real-world Challenges for Speech Technologies
 
-**I am actively seeking 2024 summer PhD research internships in speech, NLP, audio, and multi-modal LLM. If you have opportunities related to those research areas, feel free to reach out!**
-
 Recent News
 ======
-* (01/2024) Receive IEEE Signal Processing Society Travel Grant (USD 500) for participating ICASSP 2024! 
+* (02/2024) A new pre-print paper [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is released! 
+* (01/2024) Receive IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
 * (03/2023) Joined Amazon Alexa Speech team as applied scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
@@ -43,6 +42,10 @@ Education
 
 Publications & Preprints
 ======
+* **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
+  <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
+  *Arxiv preprint*\\
+  [paper](https://arxiv.org/abs/2402.12786)
 * **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko\\
   *ICASSP 2024*\\
