@@ -42,7 +42,7 @@ Education
 
 Publications & Preprints
 ======
-* **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
+* **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
   *Arxiv preprint*\\
   [paper](https://arxiv.org/abs/2402.12786)
