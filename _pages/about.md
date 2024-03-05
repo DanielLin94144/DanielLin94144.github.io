@@ -7,12 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).
+Hi, I am a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).
 
 My research interest includes: 
 * Deep Learning for Speech Processing
-* Self-supervised Learning
-* Real-world Challenges for Speech Technologies
+* Multi-model Large Languge model for speech and audio
+* Spoken Language Understanding
+
+In my free time, I love singing, photography, and watching MLB games!
 
 Recent News
 ======
@@ -28,7 +30,7 @@ Recent News
 
 Education
 ======
-* **Ph.D.** in Communication Engineering, Data Science and Smart Networking Group, National Taiwan University
+* **Ph.D.** in Communication Engineering, National Taiwan University
 *[2021 - Present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
   * GPA: 4.24/4.3; Ranking: 15/158
@@ -42,6 +44,7 @@ Education
 
 Publications & Preprints
 ======
+**2024** 
 * **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
   *Arxiv preprint*\\
@@ -58,6 +61,8 @@ Publications & Preprints
   Kevin Everson, Yile Gu, Huck Yang, Prashanth Gurunath Shivakumar, <u>Guan-Ting Lin</u>, Jari Kolehmainen, Ivan Bulyko, Ankur Gandhe, Shalini Ghosh, Wael Hamza, Hung-yi Lee, Ariya Rastrow, Andreas Stolcke\\
   *ICASSP 2024*\\
   [paper](https://arxiv.org/abs/2401.02921)
+
+**2023** 
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
@@ -70,6 +75,8 @@ Publications & Preprints
   Derek Xu, Shuyan Dong, Changhan Wang, Suyoun Kim, Zhaojiang Lin, Akshat Shrivastava, Shang-Wen Li, Liang-Hsuan Tseng, Alexei Baevski, <u>Guan-Ting Lin</u>, Hung-yi Lee, Yizhou Sun, Wei Wang\\
   *ACL 2023*\\
   [paper](https://arxiv.org/abs/2211.08402)
+
+**2022** 
 * **On the Utility of Self-supervised Models for Prosody-related Task**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
   *SLT 2022 (**Best Paper Award**)*\\
@@ -86,6 +93,8 @@ Publications & Preprints
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
   *ICASSP 2022*\\
   [paper](https://arxiv.org/pdf/2110.03509.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
+
+**2021** 
 * **SUPERB: Speech processing Universal PERformance Benchmark**\\
   Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, <u>Guan-Ting Lin</u>, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee\\
   *Interspeech 2021*\\
@@ -131,8 +140,7 @@ Award
 
 Services
 ======
-* Reviewer
-  * Offical: ISCSLP 2022, ARR 2022/2023/2024, ICASSP 2023/2024, ICLR 2024
+* Reviewer: ISCSLP 2022, ARR 2022/2023/2024, ICASSP 2023/2024, ICLR 2024
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
