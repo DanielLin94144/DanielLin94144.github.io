@@ -9,10 +9,7 @@ redirect_from:
 ---
 Hi, I am a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).
 
-My research interest includes: 
-* Deep Learning for Speech Processing
-* Multi-model Large Languge model for speech and audio
-* Spoken Language Understanding
+My research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Languge model for speech and audio**, **Spoken Language Understanding**. Please see my résumé via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
 
 In my free time, I love singing, photography, and watching MLB games!
 
@@ -21,7 +18,6 @@ Recent News
 * (02/2024) A new pre-print paper [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is released! 
 * (01/2024) Receive IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
-* (03/2023) Joined Amazon Alexa Speech team as applied scientist intern in 2023 summer @ Seattle. 
 * (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
@@ -30,7 +26,7 @@ Recent News
 
 Education
 ======
-* **Ph.D.** in Communication Engineering, National Taiwan University
+* **Ph.D.** in Communication Engineering, EECS College, National Taiwan University
 *[2021 - Present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
   * GPA: 4.24/4.3; Ranking: 15/158
