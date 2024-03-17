@@ -7,11 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html).
+Guan-Ting is currently a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Languge model for speech and audio**, **Spoken Language Understanding**. For more details, please see the résumé via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
 
-My research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Languge model for speech and audio**, **Spoken Language Understanding**. Please see my résumé via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
+He has published several conference papers at speech-related top conferences (ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer.
 
-In my free time, I love singing, photography, and watching MLB games!
+Beyond academia, Guan-Ting enjoys singing, photography, and watching MLB games.
 
 Recent News
 ======
