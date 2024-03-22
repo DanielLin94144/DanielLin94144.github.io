@@ -7,22 +7,22 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Guan-Ting is currently a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Languge model for speech and audio**, **Spoken Language Understanding**. For more details, please see the résumé via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
+Guan-Ting is currently a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Language model for speech and audio**, **Spoken Language Understanding**. For more details, please see the résumé via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
 
-He has published several conference papers at speech-related top conferences (ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer.
+Guan-Ting has published several conference papers at speech-related top conferences (ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer.
 
-Beyond academia, Guan-Ting enjoys singing, photography, and watching MLB games.
+Beyond academia, he enjoys singing, photography, and watching MLB games.
 
 Recent News
 ======
 * (02/2024) A new pre-print paper [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is released! 
-* (01/2024) Receive IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
+* (01/2024) Received IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
-* (02/2023) My internship work with Amazon Alexa has been accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
+* (02/2023) My internship work with Amazon Alexa is accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
 * (09/2022) *SUPERB-prosody* is accepted by [SLT 2022](https://slt2022.org/).
-* (07/2022) Receive ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
-* (06/2022) My two first-author papers have been accepted at [Interspeech 2022](https://interspeech2022.org/).
+* (07/2022) Received ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
+* (06/2022) Two first-author papers are accepted at [Interspeech 2022](https://interspeech2022.org/).
 
 Education
 ======
