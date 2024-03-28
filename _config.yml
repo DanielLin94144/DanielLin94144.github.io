@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Guan-Ting (Daniel) Lin"
   avatar           : "profile.png"
-  bio              : "Ph.D. Studuent at National Taiwan Univeristy"
-  location         : "Taiwan"
+  bio              : "Ph.D. Student at National Taiwan University"
+  location         : "Taipei, Taiwan"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com.tw/citations?user=gojQWGIAAAAJ&hl=en"
-  email            : daniel094144@gmail.com
+  email            : "daniel094144@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "DanielLin94144"
+  github           : "https://github.com/DanielLin94144"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/guan-ting-lin/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
