@@ -15,6 +15,7 @@ Beyond academia, he enjoys singing, photography, and watching MLB games.
 
 Recent News
 ======
+* (06/2024) New preprints on [Continual TTA](https://arxiv.org/abs/2406.11064) and [Emphasized-Talk](https://arxiv.org/abs/2406.11065).
 * (05/2024) [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is accepted by ACL 2024 as the main conference paper! 
 * (01/2024) Received IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
@@ -41,6 +42,14 @@ Education
 Publications & Preprints
 ======
 **2024** 
+* **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
+  <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
+  *Preprint*
+  [paper](https://arxiv.org/abs/2406.11064)
+* **Can LLMs Understand the Implication of Emphasized Sentences in Dialogue?**\\
+  <u>Guan-Ting Lin</u>, Hung-yi Lee\\
+  *Preprint*
+  [paper](https://arxiv.org/abs/2406.11065)
 * **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
   *ACL 2024 (main conference)*\\
@@ -103,6 +112,10 @@ Publications & Preprints
 
 Experience
 ======
+* **Applied Scientist II Intern, Amazon Alexa, Seattle, United States**\\
+  *[2024/6 - Present]*
+  * AGI-Speech Research Team
+
 * **Applied Scientist II Intern, Amazon Alexa, Seattle, United States**\\
   *[2023/6 - 2023/9]*
   * Speech Recognition LM Research Team
