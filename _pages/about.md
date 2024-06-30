@@ -7,9 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Guan-Ting is currently a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Language model for speech and audio**, **Spoken Language Understanding**. For more details, please see the CV via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
+Guan-Ting is currently a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Language model for speech and audio**, **Spoken Language Understanding**. 
 
-Guan-Ting has published several conference papers at speech/NLP-related top conferences (ACL, ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer.
+For more details, please see the **CV** via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
+
+Guan-Ting has published several conference papers at speech/NLP-related top conferences (ACL, ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer. He is now interning with Amazon AGI-Speech team. 
 
 Beyond academia, he enjoys singing, photography, and watching MLB games.
 
@@ -42,13 +44,13 @@ Education
 Publications & Preprints
 ======
 **2024** 
-* **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
+* **git **\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
-  *Preprint*
+  *Preprint*\\
   [paper](https://arxiv.org/abs/2406.11064)
 * **Can LLMs Understand the Implication of Emphasized Sentences in Dialogue?**\\
   <u>Guan-Ting Lin</u>, Hung-yi Lee\\
-  *Preprint*
+  *Preprint*\\
   [paper](https://arxiv.org/abs/2406.11065)
 * **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
