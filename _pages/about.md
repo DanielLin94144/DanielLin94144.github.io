@@ -51,11 +51,11 @@ Publications & Preprints
 * **Can LLMs Understand the Implication of Emphasized Sentences in Dialogue?**\\
   <u>Guan-Ting Lin</u>, Hung-yi Lee\\
   *Preprint*\\
-  [paper](https://arxiv.org/abs/2406.11065)
+  [paper](https://arxiv.org/abs/2406.11065) / [data](https://github.com/DanielLin94144/Emphasized-Talk)
 * **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
   *ACL 2024 (main conference)*\\
-  [paper](https://arxiv.org/abs/2402.12786)
+  [paper](https://arxiv.org/abs/2402.12786) / [data](https://github.com/DanielLin94144/StyleTalk)
 * **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko\\
   *ICASSP 2024*\\
