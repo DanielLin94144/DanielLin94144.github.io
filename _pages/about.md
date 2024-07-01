@@ -34,17 +34,17 @@ Education
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
   * GPA: 4.24/4.3; Ranking: 15/158
   * Transferred from M.S. program in Feb. 2023. 
-* **Advanced AI Program**, National Tsing Hua University
+<!-- * **Advanced AI Program**, National Tsing Hua University
 *[2020 - 2021]*
   * GPA: 4.3/4.3
 * **B.S.** in Biomedical Engineering, National Tsing Hua University
 *[2017 - 2021]*
-  * GPA: 4.08/4.3; Ranking: 1/45
+  * GPA: 4.08/4.3; Ranking: 1/45 -->
 
 Publications & Preprints
 ======
 **2024** 
-* **git **\\
+* **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
   *Preprint*\\
   [paper](https://arxiv.org/abs/2406.11064)
