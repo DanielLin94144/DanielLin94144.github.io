@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Guan-Ting is currently a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-model Large Language model for speech and audio**, **Spoken Language Understanding**. 
+Guan-Ting is currently a second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-modal LLM for speech and audio**, **Spoken Language Understanding**. 
 
-For more details, please see the **CV** via [[link]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf).
+For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
 Guan-Ting has published several conference papers at speech/NLP-related top conferences (ACL, ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer. He is now interning with Amazon AGI-Speech team. 
 
@@ -108,7 +108,7 @@ Publications & Preprints
 
 Experience
 ======
-* **Applied Scientist II Intern, Amazon Alexa, Seattle, United States**\\
+* **Applied Scientist II Intern, Amazon AGI, Seattle, United States**\\
   *[2024/6 - Present]*
   * AGI-Speech Research Team
 
@@ -143,9 +143,9 @@ Award
 * Phi Tau Phi Award @ NTHU
 * The Zhu Shun Yi He Qin Scholarship @ NTHU
 
-Services
+Academic Services
 ======
-* Reviewer: ISCSLP 2022, ARR 2022/2023/2024, ICASSP 2023/2024, ICLR 2024
+* Official Reviewer: NAACL'23'24, ACL'24, EMNLP'24, ICASSP'23'24, ICLR'24, ISCSLP'22'23'24
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
