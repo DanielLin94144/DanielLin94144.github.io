@@ -145,7 +145,7 @@ Award
 
 Academic Services
 ======
-* Official Reviewer: NAACL'23'24, ACL'24, EMNLP'24, ICASSP'23'24, ICLR'24, ISCSLP'22'23'24
+* **Official Reviewer**: ICLR'24, NeurIPS'24, NAACL'23'24, ACL'24, EMNLP'24, ICASSP'23'24, ISCSLP'22'23'24
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
