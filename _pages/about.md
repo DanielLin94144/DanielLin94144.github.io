@@ -35,17 +35,9 @@ Education
   * GPA: 4.24/4.3; Ranking: 15/158
   * Transferred from M.S. program in Feb. 2023. 
 
-Publications & Preprints
+Selected Publications & Preprints
 ======
-**2024** 
-* **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
-  <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
-  *Preprint*\\
-  [paper](https://arxiv.org/abs/2406.11064)
-* **Can LLMs Understand the Implication of Emphasized Sentences in Dialogue?**\\
-  <u>Guan-Ting Lin</u>, Hung-yi Lee\\
-  *Preprint*\\
-  [paper](https://arxiv.org/abs/2406.11065) / [data](https://github.com/DanielLin94144/Emphasized-Talk)
+**Speech-Text Multi-modal LLM**
 * **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
   *ACL 2024 (main conference)*\\
@@ -54,6 +46,30 @@ Publications & Preprints
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko\\
   *ICASSP 2024*\\
   [paper](https://arxiv.org/abs/2312.15316)
+* **Can LLMs Understand the Implication of Emphasized Sentences in Dialogue?**\\
+  <u>Guan-Ting Lin</u>, Hung-yi Lee\\
+  *arXiv 2024*\\
+  [paper](https://arxiv.org/abs/2406.11065) / [data](https://github.com/DanielLin94144/Emphasized-Talk)
+
+**Self-supervised Speech Model**
+* **On the Utility of Self-supervised Models for Prosody-related Task**\\
+  <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
+  *SLT 2022 (**Best Paper Award**)*\\
+  [paper](https://arxiv.org/abs/2210.07185) / [code](https://github.com/JSALT-2022-SSL/superb-prosody)
+* **Introducing Semantics into Speech Encoders**\\
+  Derek Xu, Shuyan Dong, Changhan Wang, Suyoun Kim, Zhaojiang Lin, Akshat Shrivastava, Shang-Wen Li, Liang-Hsuan Tseng, Alexei Baevski, <u>Guan-Ting Lin</u>, Hung-yi Lee, Yizhou Sun, Wei Wang\\
+  *ACL 2023*\\
+  [paper](https://arxiv.org/abs/2211.08402)
+* **SUPERB: Speech processing Universal PERformance Benchmark**\\
+  Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, <u>Guan-Ting Lin</u>, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee\\
+  *Interspeech 2021*\\
+  [paper](https://arxiv.org/pdf/2105.01051) / [code](https://github.com/s3prl/s3prl)
+* **Analyzing the Robustness of Unsupervised Speech Recognition**\\
+  <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
+  *ICASSP 2022*\\
+  [paper](https://arxiv.org/pdf/2110.03509.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
+
+**Spoken Language Understanding and Spoken Question Answering**
 * **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
   Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *ICASSP 2024*\\
@@ -62,48 +78,31 @@ Publications & Preprints
   Kevin Everson, Yile Gu, Huck Yang, Prashanth Gurunath Shivakumar, <u>Guan-Ting Lin</u>, Jari Kolehmainen, Ivan Bulyko, Ankur Gandhe, Shalini Ghosh, Wael Hamza, Hung-yi Lee, Ariya Rastrow, Andreas Stolcke\\
   *ICASSP 2024*\\
   [paper](https://arxiv.org/abs/2401.02921)
-
-**2023** 
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
   [paper](https://arxiv.org/abs/2305.18096)
-* **Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints**\\
-  <u>Guan-Ting Lin</u>, Qingming Tang, Chieh-Chi Kao, Viktor Rozgic, Chao Wang\\
-  *ICASSP 2023*\\
-  [paper](https://arxiv.org/abs/2303.10351)
-* **Introducing Semantics into Speech Encoders**\\
-  Derek Xu, Shuyan Dong, Changhan Wang, Suyoun Kim, Zhaojiang Lin, Akshat Shrivastava, Shang-Wen Li, Liang-Hsuan Tseng, Alexei Baevski, <u>Guan-Ting Lin</u>, Hung-yi Lee, Yizhou Sun, Wei Wang\\
-  *ACL 2023*\\
-  [paper](https://arxiv.org/abs/2211.08402)
-
-**2022** 
-* **On the Utility of Self-supervised Models for Prosody-related Task**\\
-  <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
-  *SLT 2022 (**Best Paper Award**)*\\
-  [paper](https://arxiv.org/abs/2210.07185) / [code](https://github.com/JSALT-2022-SSL/superb-prosody)
-* **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
-  <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
-  *Interspeech 2022 (Oral)*\\
-  [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
 * **DUAL: Discrete Spoken Unit Adaptive Learning for Textless Spoken Question Answering**\\
   <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *Interspeech 2022 (Poster)*\\
   [paper](https://arxiv.org/abs/2203.04911) / [code](https://github.com/DanielLin94144/DUAL-textless-SQA) 
-* **Analyzing the Robustness of Unsupervised Speech Recognition**\\
-  <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
-  *ICASSP 2022*\\
-  [paper](https://arxiv.org/pdf/2110.03509.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
 
-**2021** 
-* **SUPERB: Speech processing Universal PERformance Benchmark**\\
-  Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, <u>Guan-Ting Lin</u>, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee\\
-  *Interspeech 2021*\\
-  [paper](https://arxiv.org/pdf/2105.01051) / [code](https://github.com/DanielLin94144/DUAL-textless-SQA)
-* **Context-gloss Augmentation for Improving Word Sense Disambiguation**\\
-  <u>Guan-Ting Lin</u>, Manuel Giambi\\
-  *arXiv preprint arXiv:2110.07174*\\
-  [paper](https://arxiv.org/pdf/2110.07174)
+**End-to-end ASR Test-time Adaptation**
+* **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
+  <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
+  *arXiv 2024\\
+  [paper](https://arxiv.org/abs/2406.11064)
+* **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
+  <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
+  *Interspeech 2022 (Oral)*\\
+  [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
+
+
+**Audio Event Classification**
+* **Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints**\\
+  <u>Guan-Ting Lin</u>, Qingming Tang, Chieh-Chi Kao, Viktor Rozgic, Chao Wang\\
+  *ICASSP 2023*\\
+  [paper](https://arxiv.org/abs/2303.10351)
 
 
 Experience
