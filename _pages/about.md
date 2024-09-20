@@ -17,7 +17,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 Recent News
 ======
-* (06/2024) New preprints on [Continual TTA](https://arxiv.org/abs/2406.11064) and [Emphasized-Talk](https://arxiv.org/abs/2406.11065).
+* (09/2024) [Continual TTA](https://arxiv.org/abs/2406.11064) and [Emphasized-Talk](https://arxiv.org/abs/2406.11065) are accepted by EMNLP 2024 (one as main and one as findings). 
 * (05/2024) [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is accepted by ACL 2024 as the main conference paper! 
 * (01/2024) Received IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
@@ -41,7 +41,7 @@ Selected Publications & Preprints
 **Speech-Text Multi-modal LLM**
 * **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
-  *ACL 2024 (main conference)*\\
+  *ACL 2024*\\
   [paper](https://arxiv.org/abs/2402.12786) / [data](https://github.com/DanielLin94144/StyleTalk)
 * **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko\\
@@ -49,7 +49,7 @@ Selected Publications & Preprints
   [paper](https://arxiv.org/abs/2312.15316)
 * **Can LLMs Understand the Implication of Emphasized Sentences in Dialogue?**\\
   <u>Guan-Ting Lin</u>, Hung-yi Lee\\
-  *arXiv 2024*\\
+  *EMNLP 2024 Findings*\\
   [paper](https://arxiv.org/abs/2406.11065) / [data](https://github.com/DanielLin94144/Emphasized-Talk)
 
 **Self-supervised Speech Model**
@@ -91,7 +91,7 @@ Selected Publications & Preprints
 **End-to-end ASR Test-time Adaptation**
 * **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
-  *arXiv 2024\\
+  *EMNLP 2024*\\
   [paper](https://arxiv.org/abs/2406.11064)
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
@@ -109,8 +109,9 @@ Selected Publications & Preprints
 Experience
 ======
 * **Applied Scientist II Intern, Amazon AGI, Seattle, United States**\\
-  *[2024/6 - Present]*
+  *[2024/6 - 2024/9]*
   * AGI-Speech Research Team
+  * End-to-end Spoken Language Models.
 
 * **Applied Scientist II Intern, Amazon Alexa, Seattle, United States**\\
   *[2023/6 - 2023/9]*
