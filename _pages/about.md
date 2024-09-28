@@ -9,7 +9,7 @@ redirect_from:
 ---
 Guan-Ting is currently the second-year Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-modal LLM for Speech**, **Spoken Language Understanding**. 
 
-Guan-Ting has published 10+ conference papers at Speech/NLP-related top conferences (ACL, EMNLP, ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer. He is now interning with Amazon AGI-Speech team. 
+Guan-Ting has published 10+ papers at Speech/NLP-related top conferences (ACL, EMNLP, ICASSP, INTERSPEECH, and IEEE SLT) as the first/co-first author. Notably, he won the Best Paper Award in IEEE SLT 2022, Doha, Qatar. In 2022 summer, Guan-Ting worked with Amazon Alexa for Acoustic Event Classification in Cambridge, USA. He worked with the Alexa Speech Recognition LM team in 2023 summer. He is now interning with Amazon AGI-Speech team. 
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
@@ -146,7 +146,7 @@ Award
 
 Academic Services
 ======
-* **Official Reviewer**: ICLR'24, NeurIPS'24, NAACL'23'24, ACL'24, EMNLP'24, ICASSP'23'24, ISCSLP'22'23'24
+* **Official Reviewer**: ICLR'24'25, NeurIPS'24, ACL'24, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
