@@ -13,7 +13,7 @@ Guan-Ting has published 10+ papers at top Speech/NLP-related conferences (ACL, E
 
 Guan-Ting has several **industrial research experience**. In the summer of 2022, he worked with Amazon Alexa on Acoustic Event Classification in Cambridge, USA. In the summer of 2023, he worked with the Alexa Speech Recognition LM team in Seattle, USA. He interned with Amazon's AGI-Speech team in the summer of 2024 in Seattle, USA, working on a project to enhance end-to-end spoken language models. 
 
-He is an incoming Student Researcher @ Google, NYC, and incoming Research Scientist Intern @ Meta, Menlo Park. 
+He is an incoming Student Researcher @ Google, NYC in 2025 Sping, and an incoming Research Scientist Intern @ Meta, Menlo Park in 2025 Fall. 
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
