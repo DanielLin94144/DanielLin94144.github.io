@@ -7,13 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Guan-Ting is currently a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University](https://www.ntu.edu.tw/), under the supervision of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Deep Learning for Speech Processing**, **Multi-modal LLM for Speech**, **Spoken Language Understanding**. 
+Guan-Ting is currently a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Multi-modal LLM for Speech** and **Spoken Language Understanding and Generation**. 
 
-Guan-Ting has published 10+ papers at top Speech/NLP-related conferences (ACL, EMNLP, ICASSP, INTERSPEECH, and IEEE SLT) as the first or co-first author. Notably, he won the Best Paper Award at IEEE SLT 2022 in Doha, Qatar. Additionally, he serves as an official reviewer for multiple top conferences (ICLR, ACL, EMNLP, ICASSP, etc.).
+Guan-Ting has published 10+ papers at top Speech/NLP-related conferences (ACL, EMNLP, ICASSP, INTERSPEECH, and IEEE SLT) as the first or co-first author. Notably, he won the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. Additionally, he serves as an official reviewer for multiple top conferences (ICLR, ACL, EMNLP, ICASSP, etc.).
 
-Guan-Ting has several **industrial research experience**. In the summer of 2022, he worked with Amazon Alexa on Acoustic Event Classification in Cambridge, USA. In the summer of 2023, he worked with the Alexa Speech Recognition LM team in Seattle, USA. He interned with Amazon's AGI-Speech team in the summer of 2024 in Seattle, USA, working on a project to enhance end-to-end spoken language models. 
+Guan-Ting has several **industrial research experience**. In the summer of 2024, he interned with Amazon's AGI-Speech team in Seattle, USA, working on *Align-SLM*, which enhances end-to-end spoken language models with RL. In the summer of 2023, he worked with the Alexa Speech Recognition LM team on *paralinguisic-enhanced LLM* in Seattle, USA. In the summer of 2022, he collaborated with Amazon Alexa on Acoustic Event Classification in Cambridge, USA.
 
-He is an incoming Student Researcher @ Google, New York in 2025 Spring, and an incoming Research Scientist Intern @ Meta, Menlo Park in 2025 Fall. 
+He is an incoming Student Researcher @ Google Deepmind, New York in 2025 Spring, and an incoming Research Scientist Intern @ Meta, Menlo Park in 2025 Fall. 
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
