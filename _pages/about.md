@@ -11,9 +11,11 @@ Guan-Ting is currently a Ph.D. student at [Speech Processing and Machine Learnin
 
 Guan-Ting has published 10+ papers at top-tier Speech/NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, and IEEE SLT) as the first or co-first author. Notably, he won the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. Additionally, he serves as an official reviewer for multiple top conferences (ICLR, ACL, EMNLP, ICASSP, etc.).
 
-Guan-Ting has several **industrial research experience**. In the summer of 2024, he interned with Amazon's AGI-Speech team in Seattle, USA, working on *Align-SLM*, which enhances end-to-end spoken language models with RL. In the summer of 2023, he worked with the Alexa Speech Recognition LM team on *paralinguisic-enhanced LLM* in Seattle, USA. In the summer of 2022, he collaborated with Amazon Alexa on Acoustic Event Classification in Cambridge, USA.
+Guan-Ting has several **industrial research experience**:
+He is currently an Student Researcher @ Google DeepMind (New York) in 2025 Spring. 
+He is an incoming Research Scientist Intern @ Meta GenAI (Menlo Park) in 2025 Fall. 
 
-He is an incoming Student Researcher @ Google DeepMind (New York) in 2025 Spring, and an incoming Research Scientist Intern @ Meta GenAI (Menlo Park) in 2025 Fall. 
+Previously, in the summer of 2024, he interned with Amazon's AGI-Speech team in Seattle, USA, working on *Align-SLM*, which enhances end-to-end spoken language models with RL. In the summer of 2023, he worked with the Alexa Speech Recognition LM team on *paralinguisic-enhanced LLM* in Seattle, USA. In the summer of 2022, he collaborated with Amazon Alexa on Acoustic Event Classification in Cambridge, USA.
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
@@ -117,6 +119,10 @@ Selected Publications & Preprints
 
 Experience
 ======
+* **Student Researcher, Google DeepMind, New York, United States**\\
+  *[2025/2 - Present]*
+  * Gemini Speech Team.
+
 * **Applied Scientist II Intern, Amazon AGI, Seattle, United States**\\
   *[2024/6 - 2024/9]*
   * AGI-Speech Research Team
@@ -135,11 +141,6 @@ Experience
 * **Visiting Reseacher, 8th JASLT Summer Workshop, Johns Hopkins University, Baltimore, United States**\\
   *[2022/6 - 2022/7]*
   * Work with Prof. [Nigel Ward](https://www.cs.utep.edu/nigel/) on [self-supervised pre-training for prosody](https://arxiv.org/abs/2210.07185). 
-
-* **Summer Research Intern & Research Assistant, National Center for High-Performance Computing, National Applied Research Laboratories**\\
-  *[2019/7 - 2020/7]*
-  * Advisor: Nan-You Chen
-  * Low-dose CT image, denoising reconstructed images by U-NET based deep neural network.
 
 Award
 ======
