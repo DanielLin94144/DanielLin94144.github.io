@@ -22,26 +22,40 @@ For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <figure style="text-align: center;">
-    <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
-    <figcaption>NTU (2021-Present)</figcaption>
-  </figure>
-  <figure style="text-align: center;">
-    <img src="../files/cropped-alexa.png" alt="Image 2" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
-    <figcaption>Alexa AI (2022/2023 Summer)</figcaption>
-  </figure>
-  <figure style="text-align: center;">
-    <img src="../files/cropped-amazon.png" alt="Image 3" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
-    <figcaption>Amazon AGI (2024 Summer)</figcaption>
-  </figure>
-  <figure style="text-align: center;">
-    <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
-    <figcaption>Google DeepMind (2025 Spring)</figcaption>
-  </figure>
-  <figure style="text-align: center;">
-    <img src="../files/cropped-meta.jpg" alt="Image 5" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
-    <figcaption>Meta GenAI (2025 Fall)</figcaption>
-  </figure>
+ <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
+   <div style="width: 50px; height: 50px; overflow: hidden;">
+     <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   </div>
+   <figcaption style="margin-top: 8px;">NTU<br>(2021-Present)</figcaption>
+ </figure>
+ 
+ <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
+   <div style="width: 50px; height: 50px; overflow: hidden;">
+     <img src="../files/cropped-alexa.png" alt="Image 2" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   </div>
+   <figcaption style="margin-top: 8px;">Alexa AI<br>(2022/2023 Summer)</figcaption>
+ </figure>
+ 
+ <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
+   <div style="width: 50px; height: 50px; overflow: hidden;">
+     <img src="../files/cropped-amazon.png" alt="Image 3" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   </div>
+   <figcaption style="margin-top: 8px;">Amazon AGI<br>(2024 Summer)</figcaption>
+ </figure>
+ 
+ <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
+   <div style="width: 50px; height: 50px; overflow: hidden;">
+     <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   </div>
+   <figcaption style="margin-top: 8px;">Google DeepMind<br>(2025 Spring)</figcaption>
+ </figure>
+ 
+ <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
+   <div style="width: 50px; height: 50px; overflow: hidden;">
+     <img src="../files/cropped-meta.jpg" alt="Image 5" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   </div>
+   <figcaption style="margin-top: 8px;">Meta GenAI<br>(2025 Fall)</figcaption>
+ </figure>
 </div>
 
 
