@@ -21,7 +21,45 @@ For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/
 
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
 
-<style>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; max-width: 100%; padding: 10px;">
+  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
+    <div style="width: 100px; height: 100px; overflow: hidden;">
+      <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+    </div>
+    <figcaption style="margin-top: 8px; font-size: 14px;">NTU<br>(2021-Present)</figcaption>
+  </figure>
+  
+  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
+    <div style="width: 100px; height: 100px; overflow: hidden;">
+      <img src="../files/cropped-alexa.png" alt="Image 2" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+    </div>
+    <figcaption style="margin-top: 8px; font-size: 14px;">Alexa AI<br>(2022/2023 Summer)</figcaption>
+  </figure>
+  
+  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
+    <div style="width: 100px; height: 100px; overflow: hidden;">
+      <img src="../files/cropped-amazon.png" alt="Image 3" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+    </div>
+    <figcaption style="margin-top: 8px; font-size: 14px;">Amazon AGI<br>(2024 Summer)</figcaption>
+  </figure>
+  
+  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
+    <div style="width: 100px; height: 100px; overflow: hidden;">
+      <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+    </div>
+    <figcaption style="margin-top: 8px; font-size: 14px;">Google DeepMind<br>(2025 Spring)</figcaption>
+  </figure>
+  
+  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
+    <div style="width: 100px; height: 100px; overflow: hidden;">
+      <img src="../files/cropped-meta.jpg" alt="Image 5" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+    </div>
+    <figcaption style="margin-top: 8px; font-size: 14px;">Meta GenAI<br>(2025 Fall)</figcaption>
+  </figure>
+</div>
+
+<!-- <style>
   .experience-container {
     display: flex;
     justify-content: center;
@@ -40,15 +78,15 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
   }
 
   .image-container {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
   }
 
   .circular-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
     object-fit: cover;
   }
 
@@ -103,7 +141,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
    </div>
    <figcaption style="margin-top: 8px;">Meta GenAI<br>(2025 Fall)</figcaption>
  </figure>
-</div>
+</div> -->
 
 
 
