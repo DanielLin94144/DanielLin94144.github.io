@@ -23,26 +23,27 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <figure style="text-align: center;">
-    <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="100" style="border-radius: 50%;">
+    <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="100" height="100" style="border-radius: 50%; object-fit: cover;">
     <figcaption>NTU 台灣大學 (2021-Present)</figcaption>
   </figure>
   <figure style="text-align: center;">
-    <img src="../files/cropped-alexa.png" alt="Image 2" width="100" style="border-radius: 50%;">
+    <img src="../files/cropped-alexa.png" alt="Image 2" width="100" height="100" style="border-radius: 50%; object-fit: cover;">
     <figcaption>Alexa AI (2022/2023 Summer)</figcaption>
   </figure>
   <figure style="text-align: center;">
-    <img src="../files/cropped-amazon.png" alt="Image 3" width="100" style="border-radius: 50%;">
+    <img src="../files/cropped-amazon.png" alt="Image 3" width="100" height="100" style="border-radius: 50%; object-fit: cover;">
     <figcaption>Amazon AGI (2024 Summer)</figcaption>
   </figure>
   <figure style="text-align: center;">
-    <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="100" style="border-radius: 50%;">
+    <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="100" height="100" style="border-radius: 50%; object-fit: cover;">
     <figcaption>Google DeepMind (2025 Spring)</figcaption>
   </figure>
   <figure style="text-align: center;">
-    <img src="../files/cropped-meta.jpg" alt="Image 5" width="100" style="border-radius: 50%;">
+    <img src="../files/cropped-meta.jpg" alt="Image 5" width="100" height="100" style="border-radius: 50%; object-fit: cover;">
     <figcaption>Meta GenAI (2025 Fall)</figcaption>
   </figure>
 </div>
+
 
 
 Recent News 🚨
