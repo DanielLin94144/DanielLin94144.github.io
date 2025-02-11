@@ -23,36 +23,36 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 <div style="display: flex; justify-content: center; gap: 20px;">
  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
-   <div style="width: 50px; height: 50px; overflow: hidden;">
-     <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   <div style="width: 100px; height: 100px; overflow: hidden;">
+     <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
    </div>
    <figcaption style="margin-top: 8px;">NTU<br>(2021-Present)</figcaption>
  </figure>
  
  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
-   <div style="width: 50px; height: 50px; overflow: hidden;">
-     <img src="../files/cropped-alexa.png" alt="Image 2" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   <div style="width: 100px; height: 100px; overflow: hidden;">
+     <img src="../files/cropped-alexa.png" alt="Image 2" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
    </div>
    <figcaption style="margin-top: 8px;">Alexa AI<br>(2022/2023 Summer)</figcaption>
  </figure>
  
  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
-   <div style="width: 50px; height: 50px; overflow: hidden;">
-     <img src="../files/cropped-amazon.png" alt="Image 3" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   <div style="width: 100px; height: 100px; overflow: hidden;">
+     <img src="../files/cropped-amazon.png" alt="Image 3" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
    </div>
    <figcaption style="margin-top: 8px;">Amazon AGI<br>(2024 Summer)</figcaption>
  </figure>
  
  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
-   <div style="width: 50px; height: 50px; overflow: hidden;">
-     <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   <div style="width: 100px; height: 100px; overflow: hidden;">
+     <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
    </div>
    <figcaption style="margin-top: 8px;">Google DeepMind<br>(2025 Spring)</figcaption>
  </figure>
  
  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
-   <div style="width: 50px; height: 50px; overflow: hidden;">
-     <img src="../files/cropped-meta.jpg" alt="Image 5" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+   <div style="width: 100px; height: 100px; overflow: hidden;">
+     <img src="../files/cropped-meta.jpg" alt="Image 5" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
    </div>
    <figcaption style="margin-top: 8px;">Meta GenAI<br>(2025 Fall)</figcaption>
  </figure>
@@ -118,7 +118,7 @@ Selected Publications & Preprints
 * **Analyzing the Robustness of Unsupervised Speech Recognition**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
   *ICASSP 2022*\\
-  [paper](https://arxiv.org/pdf/2110.03509.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
+  [paper](https://arxiv.org/pdf/2110.031009.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
 
 **Spoken Language Understanding and Spoken Question Answering**
 * **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
