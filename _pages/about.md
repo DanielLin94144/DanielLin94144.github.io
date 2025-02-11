@@ -21,6 +21,53 @@ For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/
 
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
 
+<style>
+  .experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .experience-item {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+  }
+
+  .image-container {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .circular-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .caption {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .experience-container {
+      gap: 30px;
+    }
+    
+    .experience-item {
+      min-width: 100px;
+    }
+  }
+</style>
+
 <div style="display: flex; justify-content: center; gap: 20px;">
  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center;">
    <div style="width: 100px; height: 100px; overflow: hidden;">
