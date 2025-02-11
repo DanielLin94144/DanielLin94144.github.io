@@ -21,6 +21,30 @@ For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/
 
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <figure style="text-align: center;">
+    <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="200" style="border-radius: 50%;">
+    <figcaption>NTU 台灣大學 (2021-Present)</figcaption>
+  </figure>
+  <figure style="text-align: center;">
+    <img src="../files/cropped-alexa.png" alt="Image 2" width="120" style="border-radius: 50%;">
+    <figcaption>Alexa AI (2022/2023 Summer)</figcaption>
+  </figure>
+  <figure style="text-align: center;">
+    <img src="../files/cropped-amazon.png" alt="Image 3" width="120" style="border-radius: 50%;">
+    <figcaption>Amazon AGI (2024 Summer)</figcaption>
+  </figure>
+  <figure style="text-align: center;">
+    <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="120" style="border-radius: 50%;">
+    <figcaption>Google DeepMind (2025 Spring)</figcaption>
+  </figure>
+  <figure style="text-align: center;">
+    <img src="../files/cropped-meta.jpg" alt="Image 5" width="200" style="border-radius: 50%;">
+    <figcaption>Meta GenAI (2025 Fall)</figcaption>
+  </figure>
+</div>
+
+
 Recent News 🚨
 ======
 * (11/2024) The preprint of [Align-SLM](https://arxiv.org/abs/2411.01834) is released, which is the first RLAIF framework for end-to-end textless spoken language models with state-of-the-art performance on SLM benchmarks!  
