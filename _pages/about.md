@@ -60,8 +60,9 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 </div>
 
 
-Recent News 🚨
+Update 🚨
 ======
+* (03/2024) We release the [Full-Duplex-Bench](http://arxiv.org/abs/2503.04721), which is the first benchmark that evaluates the full-duplex spoken dialogue models on turn-taking interaction. 
 * (11/2024) The preprint of [Align-SLM](https://arxiv.org/abs/2411.01834) is released, which is the first RLAIF framework for end-to-end textless spoken language models with state-of-the-art performance on SLM benchmarks!  
 * (09/2024) [Continual TTA](https://arxiv.org/abs/2406.11064) and [Emphasized-Talk](https://arxiv.org/abs/2406.11065) are accepted by EMNLP 2024 (one as main and one as findings). 
 * (05/2024) [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is accepted by ACL 2024 as the main conference paper! 
@@ -85,6 +86,10 @@ Selected Publications & Preprints
 (For full publication list, please see the [Google Scholar](https://scholar.google.com.tw/citations?user=gojQWGIAAAAJ&hl=en)).
 
 **Speech/Text Large Language Models**
+* **Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities**\\
+  <u>Guan-Ting Lin</u>, Jiachen Lian<sub>(co-second)</sub>, Tingle Li<sub>(co-second)</sub>, Qirui Wang<sub>(co-second)</sub>, Gopala Anumanchipalli, Alexander H. Liu, Hung-yi Lee\\
+  *arXiv preprint*\\
+  [paper](http://arxiv.org/abs/2503.04721)
 * **Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Aditya Gourav, Yile Gu, Ankur Gandhe, Hung-yi Lee, Ivan Bulyko\\
   *arXiv preprint*\\
