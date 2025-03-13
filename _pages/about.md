@@ -15,7 +15,7 @@ Guan-Ting has several **industrial research experience**:
 He is currently an Student Researcher @ Google DeepMind (New York) in 2025 Spring. 
 He is an incoming Research Scientist Intern @ Meta GenAI (Menlo Park) in 2025 Fall. 
 
-Previously, in the summer of 2024, he interned with Amazon's AGI-Speech team in Seattle, USA, working on *Align-SLM*, which enhances end-to-end spoken language models with RL. In the summer of 2023, he worked with the Alexa Speech Recognition LM team on *paralinguisic-enhanced LLM* in Seattle, USA. In the summer of 2022, he collaborated with Amazon Alexa on Acoustic Event Classification in Cambridge, USA.
+Previously, in 2024 summer, he interned with Amazon's AGI-Speech team in Seattle, USA, working on *Align-SLM*, which enhances end-to-end spoken language models with RL. In 2023 summer, he worked with the Alexa Speech Recognition LM team on *paralinguisic-enhanced LLM* in Seattle, USA. In 2022 summer, he collaborated with Amazon Alexa on Acoustic Event Classification in Cambridge, USA.
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
@@ -62,7 +62,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 Update 🚨
 ======
-* (03/2024) We release the [Full-Duplex-Bench](http://arxiv.org/abs/2503.04721), which is the first benchmark that evaluates the full-duplex spoken dialogue models on turn-taking interaction. 
+* (03/2025) We release the [Full-Duplex-Bench](http://arxiv.org/abs/2503.04721), which is the first benchmark that evaluates the full-duplex spoken dialogue models on turn-taking interaction. 
 * (11/2024) The preprint of [Align-SLM](https://arxiv.org/abs/2411.01834) is released, which is the first RLAIF framework for end-to-end textless spoken language models with state-of-the-art performance on SLM benchmarks!  
 * (09/2024) [Continual TTA](https://arxiv.org/abs/2406.11064) and [Emphasized-Talk](https://arxiv.org/abs/2406.11065) are accepted by EMNLP 2024 (one as main and one as findings). 
 * (05/2024) [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is accepted by ACL 2024 as the main conference paper! 
