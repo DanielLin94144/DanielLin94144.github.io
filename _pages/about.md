@@ -7,15 +7,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Guan-Ting is currently a Ph.D. student at [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interest includes **Speech LLM** and **Spoken Language Understanding and Generation**. 
 
-Guan-Ting has published 10+ papers at top-tier Speech/NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, and IEEE SLT) as the first or co-first author. Notably, he won the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. Additionally, he serves as an official reviewer for multiple top conferences (ICLR, ACL, EMNLP, ICASSP, etc.).
+Guan-Ting is currently a final-year Ph.D. student (expected to graduate in _December 2025_) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition (ASR)**.
 
-Guan-Ting has several **industrial research experience**:
-He is currently an Student Researcher @ Google DeepMind (New York) in 2025 Spring. 
-He is an incoming Research Scientist Intern @ Meta GenAI (Menlo Park) in 2025 Fall. 
+Guan-Ting has authored more than 10 papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT) as a first or co-first author. Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP.
 
-Previously, in 2024 summer, he interned with Amazon's AGI-Speech team in Seattle, USA, working on *Align-SLM*, which enhances end-to-end spoken language models with RL. In 2023 summer, he worked with the Alexa Speech Recognition LM team on *paralinguisic-enhanced LLM* in Seattle, USA. In 2022 summer, he collaborated with Amazon Alexa on Acoustic Event Classification in Cambridge, USA.
+Guan-Ting has accumulated extensive research experience through various opportunities:
+
+- **2025 Spring:** Student Researcher at Google DeepMind Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home).
+
+- **2024 Summer:** Applied Scientist Intern at Amazon’s AGI-Speech team in Seattle, USA (mentored by [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Ankur Gandhe](https://www.linkedin.com/in/ankur-gandhe-15277a1a/) on *Align-SLM*, the first end-to-end spoken language model with reinforcement learning.
+
+- **2023 Summer:** Applied Scientist Intern at Amazon's Alexa Speech Recognition LM team in Seattle, USA (mentored by [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Andreas Stolcke](https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en) on a *paralinguistics-enhanced LLM*.
+
+- **2022 Summer:** Applied Scientist Intern at Amazon Alexa AI in Cambridge, USA (mentored by [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) on acoustic event classification using neural architecture search.
+
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
@@ -69,7 +75,7 @@ Update 🚨
 * (01/2024) Received IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
 * (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
 * (02/2023) My internship work with Amazon Alexa is accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
-* (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", cooperating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
+* (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", collaborating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
 * (07/2022) Received ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
 * (06/2022) Two first-author papers are accepted at [Interspeech 2022](https://interspeech2022.org/).
 
@@ -78,14 +84,13 @@ Education
 * **Ph.D.** in Communication Engineering, EECS, National Taiwan University
 *[2021 - Present]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
-  * GPA: 4.24/4.3; Ranking: 15/158
   * Transferred from M.S. program in Feb. 2023. 
 
 Selected Publications & Preprints
 ======
 (For full publication list, please see the [Google Scholar](https://scholar.google.com.tw/citations?user=gojQWGIAAAAJ&hl=en)).
 
-**Speech/Text Large Language Models**
+_**Speech/Text Large Language Models**_
 * **Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities**\\
   <u>Guan-Ting Lin</u>, Jiachen Lian<sub>(co-second)</sub>, Tingle Li<sub>(co-second)</sub>, Qirui Wang<sub>(co-second)</sub>, Gopala Anumanchipalli, Alexander H. Liu, Hung-yi Lee\\
   *arXiv preprint*\\
@@ -107,15 +112,11 @@ Selected Publications & Preprints
   *EMNLP 2024 Findings*\\
   [paper](https://arxiv.org/abs/2406.11065) / [data](https://github.com/DanielLin94144/Emphasized-Talk)
 
-**Self-supervised Speech Model**
+_**Self-supervised Speech Model**_
 * **On the Utility of Self-supervised Models for Prosody-related Task**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
   *SLT 2022 (**Best Paper Award**)*\\
   [paper](https://arxiv.org/abs/2210.07185) / [code](https://github.com/JSALT-2022-SSL/superb-prosody)
-* **Introducing Semantics into Speech Encoders**\\
-  Derek Xu, Shuyan Dong, Changhan Wang, Suyoun Kim, Zhaojiang Lin, Akshat Shrivastava, Shang-Wen Li, Liang-Hsuan Tseng, Alexei Baevski, <u>Guan-Ting Lin</u>, Hung-yi Lee, Yizhou Sun, Wei Wang\\
-  *ACL 2023*\\
-  [paper](https://arxiv.org/abs/2211.08402)
 * **SUPERB: Speech processing Universal PERformance Benchmark**\\
   Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, <u>Guan-Ting Lin</u>, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee\\
   *Interspeech 2021*\\
@@ -125,15 +126,7 @@ Selected Publications & Preprints
   *ICASSP 2022*\\
   [paper](https://arxiv.org/pdf/2110.031009.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
 
-**Spoken Language Understanding and Spoken Question Answering**
-* **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
-  Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
-  *ICASSP 2024*\\
-  [paper](https://arxiv.org/abs/2401.13463)
-* **Towards ASR Robust Spoken Language Understanding Through In-Context Learning With Word Confusion Networks**\\
-  Kevin Everson, Yile Gu, Huck Yang, Prashanth Gurunath Shivakumar, <u>Guan-Ting Lin</u>, Jari Kolehmainen, Ivan Bulyko, Ankur Gandhe, Shalini Ghosh, Wael Hamza, Hung-yi Lee, Ariya Rastrow, Andreas Stolcke\\
-  *ICASSP 2024*\\
-  [paper](https://arxiv.org/abs/2401.02921)
+_**Spoken Language Understanding and Spoken Question Answering**_
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
@@ -142,8 +135,12 @@ Selected Publications & Preprints
   <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *Interspeech 2022 (Poster)*\\
   [paper](https://arxiv.org/abs/2203.04911) / [code](https://github.com/DanielLin94144/DUAL-textless-SQA) 
+* **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
+  Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
+  *ICASSP 2024*\\
+  [paper](https://arxiv.org/abs/2401.13463)
 
-**End-to-end ASR Test-time Adaptation**
+_**End-to-end ASR Test-time Adaptation**_
 * **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
   *EMNLP 2024*\\
@@ -152,13 +149,6 @@ Selected Publications & Preprints
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
   *Interspeech 2022 (Oral)*\\
   [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
-
-
-**Audio Event Classification**
-* **Weight-sharing Supernet for Searching Specialized Acoustic Event Classification Networks Across Device Constraints**\\
-  <u>Guan-Ting Lin</u>, Qingming Tang, Chieh-Chi Kao, Viktor Rozgic, Chao Wang\\
-  *ICASSP 2023*\\
-  [paper](https://arxiv.org/abs/2303.10351)
 
 
 Experience
@@ -200,7 +190,7 @@ Award
 
 Academic Services
 ======
-* **Official Reviewer**: ICLR'24'25, NeurIPS'24, ACL'24, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25
+* **Official Reviewer**: ICLR'24'25, NeurIPS'24'25, ACL'24'25, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
