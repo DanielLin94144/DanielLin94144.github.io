@@ -12,15 +12,15 @@ Guan-Ting is currently a final-year Ph.D. student (expected to graduate in _Dece
 
 Guan-Ting has authored more than 10 papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT) as a first or co-first author. Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP.
 
-Guan-Ting has accumulated extensive research experience through various opportunities:
+Guan-Ting has accumulated extensive **research experience** through various opportunities:
 
-- **2025 Spring:** Student Researcher at Google DeepMind Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home).
+- **2025 Spring:** Student Researcher at [Google DeepMind](https://deepmind.google/) Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home).
 
-- **2024 Summer:** Applied Scientist Intern at Amazon’s AGI-Speech team in Seattle, USA (mentored by [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Ankur Gandhe](https://www.linkedin.com/in/ankur-gandhe-15277a1a/) on *Align-SLM*, the first end-to-end spoken language model with reinforcement learning.
+- **2024 Summer:** Applied Scientist Intern at [Amazon AGI](https://www.amazon.science/) Speech team in Seattle, USA (mentored by [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Ankur Gandhe](https://www.linkedin.com/in/ankur-gandhe-15277a1a/) on *Align-SLM*, the first end-to-end spoken language model with reinforcement learning.
 
-- **2023 Summer:** Applied Scientist Intern at Amazon's Alexa Speech Recognition LM team in Seattle, USA (mentored by [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Andreas Stolcke](https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en) on a *paralinguistics-enhanced LLM*.
+- **2023 Summer:** Applied Scientist Intern at [Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) Speech Recognition and LM team in Seattle, USA (mentored by [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Andreas Stolcke](https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en) on a *paralinguistics-enhanced LLM*.
 
-- **2022 Summer:** Applied Scientist Intern at Amazon Alexa AI in Cambridge, USA (mentored by [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) and [Qingming Tang](https://home.ttic.edu/~qmtang/) on acoustic event classification using neural architecture search.
+- **2022 Summer:** Applied Scientist Intern at [Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) in Cambridge, USA (mentored by [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) and [Qingming Tang](https://home.ttic.edu/~qmtang/) on acoustic event classification using neural architecture search.
 
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
@@ -90,7 +90,7 @@ Selected Publications & Preprints
 ======
 (For full publication list, please see the [Google Scholar](https://scholar.google.com.tw/citations?user=gojQWGIAAAAJ&hl=en)).
 
-**[Speech/Text Large Language Models]** 
+**[Speech/Text Large Language Models]**\\
 _Speech understanding and generation toward human-like spoken dialogue_
 * **Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities**\\
   <u>Guan-Ting Lin</u>, Jiachen Lian<sub>(co-second)</sub>, Tingle Li<sub>(co-second)</sub>, Qirui Wang<sub>(co-second)</sub>, Gopala Anumanchipalli, Alexander H. Liu, Hung-yi Lee\\
@@ -113,7 +113,7 @@ _Speech understanding and generation toward human-like spoken dialogue_
   *EMNLP 2024 Findings*\\
   [paper](https://arxiv.org/abs/2406.11065) / [data](https://github.com/DanielLin94144/Emphasized-Talk)
 
-**[Self-supervised Speech Models]**
+**[Self-supervised Speech Models]**\\
 _Explore the utilities of self-supervised speech representations models_
 * **On the Utility of Self-supervised Models for Prosody-related Task**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
@@ -128,7 +128,7 @@ _Explore the utilities of self-supervised speech representations models_
   *ICASSP 2022*\\
   [paper](https://arxiv.org/pdf/2110.031009.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
 
-**[Spoken Language Understanding and Spoken Question Answering]**
+**[Spoken Language Understanding and Spoken Question Answering]**\\
 _End-to-end approaches to understand high-level semantic information in speech signals_
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
@@ -143,7 +143,7 @@ _End-to-end approaches to understand high-level semantic information in speech s
   *ICASSP 2024*\\
   [paper](https://arxiv.org/abs/2401.13463)
 
-**[End-to-end ASR Test-time Adaptation]**
+**[End-to-end ASR Test-time Adaptation]**\\
 _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
 * **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
@@ -154,31 +154,6 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
   *Interspeech 2022 (Oral)*\\
   [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
 
-
-Experience
-======
-* **Student Researcher, Google DeepMind, New York, United States**\\
-  *[2025/2 - Present]*
-  * Gemini Speech Team.
-
-* **Applied Scientist II Intern, Amazon AGI, Seattle, United States**\\
-  *[2024/6 - 2024/9]*
-  * AGI-Speech Research Team
-  * End-to-end Spoken Language Models.
-
-* **Applied Scientist II Intern, Amazon Alexa, Seattle, United States**\\
-  *[2023/6 - 2023/9]*
-  * Speech Recognition LM Research Team
-  * Paralinguistics-enhanced Large Language Model on spoken dialogue.
-
-* **Applied Scientist I Intern, Amazon Alexa, Cambridge, United States**\\
-  *[2022/7 - 2022/10]*
-  * Manager: Chieh-Chi Kao / Mentor: Qingming Tang
-  * Develop Once-for-all Network Architecture Search techniques on audio event classification.
-
-* **Visiting Reseacher, 8th JASLT Summer Workshop, Johns Hopkins University, Baltimore, United States**\\
-  *[2022/6 - 2022/7]*
-  * Work with Prof. [Nigel Ward](https://www.cs.utep.edu/nigel/) on [self-supervised pre-training for prosody](https://arxiv.org/abs/2210.07185). 
 
 Award
 ======
