@@ -10,7 +10,7 @@ redirect_from:
 
 Guan-Ting is currently a final-year Ph.D. student (**expected to graduate in _December 2025_**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
-Guan-Ting has authored more than 10 papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT) as a first or co-first author. Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP.
+Guan-Ting has authored more than 10 papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT) as the **first/co-first** author. Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP.
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
 
@@ -120,10 +120,6 @@ _Explore the utilities of self-supervised speech representations models_
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
   *SLT 2022 (**Best Paper Award**)*\\
   [paper](https://arxiv.org/abs/2210.07185) / [code](https://github.com/JSALT-2022-SSL/superb-prosody)
-* **SUPERB: Speech processing Universal PERformance Benchmark**\\
-  Shu-wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, Xuankai Chang, <u>Guan-Ting Lin</u>, Tzu-Hsien Huang, Wei-Cheng Tseng, Ko-tik Lee, Da-Rong Liu, Zili Huang, Shuyan Dong, Shang-Wen Li, Shinji Watanabe, Abdelrahman Mohamed, Hung-yi Lee\\
-  *Interspeech 2021*\\
-  [paper](https://arxiv.org/pdf/2105.01051) / [code](https://github.com/s3prl/s3prl)
 * **Analyzing the Robustness of Unsupervised Speech Recognition**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
   *ICASSP 2022*\\
@@ -131,14 +127,14 @@ _Explore the utilities of self-supervised speech representations models_
 
 **[Spoken Language Understanding and Spoken Question Answering]**\\
 _End-to-end approaches to understand high-level semantic information in speech signals_
+* **DUAL: Discrete Spoken Unit Adaptive Learning for Textless Spoken Question Answering**\\
+  <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
+  *Interspeech 2022*\\
+  [paper](https://arxiv.org/abs/2203.04911) / [code](https://github.com/DanielLin94144/DUAL-textless-SQA) 
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
   [paper](https://arxiv.org/abs/2305.18096)
-* **DUAL: Discrete Spoken Unit Adaptive Learning for Textless Spoken Question Answering**\\
-  <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
-  *Interspeech 2022 (Poster)*\\
-  [paper](https://arxiv.org/abs/2203.04911) / [code](https://github.com/DanielLin94144/DUAL-textless-SQA) 
 * **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
   Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *ICASSP 2024*\\
@@ -149,7 +145,7 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
 * **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
   *EMNLP 2024*\\
-  [paper](https://arxiv.org/abs/2406.11064)
+  [paper](https://arxiv.org/abs/2406.11064) / [code](https://github.com/hhhaaahhhaa/Dynamic-SUTA)
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
   *Interspeech 2022 (Oral)*\\
