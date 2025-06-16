@@ -39,17 +39,3 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-$global-font-family  : 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-$header-font-family  : 'Fira Sans', 'Noto Sans TC', sans-serif;
-
-/* 色彩與排版微調（可視喜好調整） */
-$link-color          : #1e90ff;   // 統一連結色
-$primary-color       : #0066ff;   // 主要強調色
-$base-font-size      : 18px;      // 預設字級
-$max-width           : 860px;     // 內文欄寬
-
-/* 版面細節：讓圖片有柔和投影、段落行高 */
-img { box-shadow: 0 4px 18px rgba(0,0,0,.05); }
-body { line-height: 1.6; }
-@import "minimal-mistakes";       // ← 一定要在最後
