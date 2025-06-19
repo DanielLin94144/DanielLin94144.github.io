@@ -10,7 +10,7 @@ redirect_from:
 
 Guan-Ting is currently a final-year Ph.D. student (**expected to graduate in _December 2025_**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
-Guan-Ting has authored more than 10 papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT) as the **first/co-first** author. Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP.
+Guan-Ting has authored more than 10 papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT) as the **first/co-first** author. Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
 
