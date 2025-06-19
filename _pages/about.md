@@ -25,6 +25,8 @@ He has been fortunate to gain extensive **research experience** through valuable
 
 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
 
+I’m always open to discussing or collaborating on speech research—feel free to reach out at ```daniel094144[at]gmail[dot]com```.
+
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
 
 
@@ -142,6 +144,12 @@ _End-to-end approaches to understand high-level semantic information in speech s
 
 **[End-to-end ASR Test-time Adaptation]**\\
 _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
+
+* **SUTA-LM: Bridging Test-Time Adaptation and Language Model Rescoring for Robust ASR**\\
+  Wei-Ping Huang<sub>(co-first)</sub>, <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Hung-yi Lee\\
+  *ArXiv 2025*\\
+  [paper](https://arxiv.org/abs/2506.11121) / [code](https://github.com/hhhaaahhhaa/ASR-TTA)
+
 * **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
   *EMNLP 2024*\\
