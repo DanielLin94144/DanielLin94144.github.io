@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 <figure style="display:inline-block;           /* 讓整塊只佔圖片寬度 */
-             width:60px;                       /* 決定圖片＋caption 的寬度 */
+             width:120px;                       /* 決定圖片＋caption 的寬度 */
              margin:0 auto 18px;               /* 置中 + 與下一段落留空 */
              text-align:center;">
   <img src="../files/profile.jpg" alt="Profile photo"
-       style="width:60px !important;          /* 關鍵：指定寬高並加 !important */
-              height:60px !important;
+       style="width:120px !important;          /* 關鍵：指定寬高並加 !important */
+              height:120px !important;
               max-width:none !important;      /* 把主題的 max-width:100% 蓋掉 */
               display:block;
               margin:0 auto;
