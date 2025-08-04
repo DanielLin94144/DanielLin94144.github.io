@@ -8,23 +8,27 @@ redirect_from:
   - /about.html
 ---
 
-<figure style="text-align:center; margin:0;">
+<figure style="display:inline-block;           /* 讓整塊只佔圖片寬度 */
+             width:60px;                       /* 決定圖片＋caption 的寬度 */
+             margin:0 auto 18px;               /* 置中 + 與下一段落留空 */
+             text-align:center;">
   <img src="../files/profile.jpg" alt="Profile photo"
-       width="60" height="60"
-       style="display:block;margin:auto;object-fit:cover;">
-  <figcaption
-      style="margin-top:10px;
-             font-size:15px;
-             font-family:'Consolas',
-                         'Courier New',
-                         'Noto Sans Mono CJK TC', /* 中英混排較齊 */
-                         monospace;
-             font-weight:500;
-             letter-spacing:0.2px;
-             color:#444;">
-      Dumbo, USA (Feb. 2025) <br>
+       style="width:60px !important;          /* 關鍵：指定寬高並加 !important */
+              height:60px !important;
+              max-width:none !important;      /* 把主題的 max-width:100% 蓋掉 */
+              display:block;
+              margin:0 auto;
+              object-fit:cover;">             <!-- 1:1 裁切但不變形 -->
+
+  <figcaption style="margin-top:6px;
+                     font:500 13px/1 'Consolas','Courier New','Noto Sans Mono CJK TC',monospace;
+                     letter-spacing:.2px;
+                     color:#444;
+                     white-space:nowrap;">    <!-- 不自動換行；可移除 -->
+    Dumbo,&nbsp;USA&nbsp;(Feb.&nbsp;2025)
   </figcaption>
 </figure>
+
 
 
 Guan-Ting is currently a **final-year** Ph.D. student (**expected to graduate in _December 2025_, looking for full-time research scientist/engineer roles starting from 2026**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
