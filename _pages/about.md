@@ -12,7 +12,7 @@ redirect_from:
   <img src="../files/profile.jpg" alt="Profile photo"
        style="display:block;margin:auto;
               width:100%;       /* 讓圖片寬度隨容器 */
-              max-width:70px;   /* 最寬 70px，手機再小就再縮 */
+              max-width:120px;   /* 最寬 120px，手機再小就再縮 */
               aspect-ratio:1;   /* 保持 1:1 */
               object-fit:cover;">
 
