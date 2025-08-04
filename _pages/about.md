@@ -8,9 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-Guan-Ting is currently a final-year Ph.D. student (**expected to graduate in _December 2025_**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
+<figure style="text-align:center; margin:0;">
+  <img src="../files/profile.jpg" alt="Profile photo"
+       width="250" height="250"
+       style="display:block;margin:auto;object-fit:cover;">
+  <figcaption
+      style="margin-top:10px;
+             font-size:15px;
+             font-family:'Consolas',
+                         'Courier New',
+                         'Noto Sans Mono CJK TC', /* 中英混排較齊 */
+                         monospace;
+             font-weight:500;
+             letter-spacing:0.2px;
+             color:#444;">
+      Dumbo, USA (Feb. 2025) <br>
+  </figcaption>
+</figure>
 
-Guan-Ting has authored more than 10 papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT) as the **first/co-first** author. Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
+
+Guan-Ting is currently a **final-year** Ph.D. student (**expected to graduate in _December 2025_, looking for full-time research scientist/engineer roles starting from 2026**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
+
+Guan-Ting has authored more than 10 **first/co-first author** papers at top-tier Speech and NLP conferences (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
 
@@ -23,9 +42,12 @@ He has been fortunate to gain extensive **research experience** through valuable
 - **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2022 Summer):** Applied Scientist Intern at in Cambridge, USA (under [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)'s team), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) and [Qingming Tang](https://home.ttic.edu/~qmtang/) on acoustic event classification using neural architecture search.
 
 
-For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)**.
+🔎 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)** and the [Google Scholar](https://scholar.google.com/citations?user=gojQWGIAAAAJ) for the most updated profile.
 
-I’m always open to discussing or collaborating on speech research—feel free to reach out at ```daniel094144[at]gmail[dot]com```.
+<div id="pubs"></div>
+<script src="https://bibbase.org/show?scholar_id=gojQWGIAAAAJ&jsonp=1&hindex_graph=1&sort=cited&container=pubs"></script>
+
+Open to discussing or collaborating on speech research—feel free to reach out at ```daniel094144[at]gmail[dot]com```.
 
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
 
