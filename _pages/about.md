@@ -8,28 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-<figure style="text-align:center; margin:0;">
+<figure style="text-align:center;margin:0;">
   <img src="../files/profile.jpg" alt="Profile photo"
-       width="100" height="100"
-       style="display:block;margin:auto;object-fit:cover;">
-  <figcaption
-      style="margin-top:10px;
-             font-size:15px;
-             font-family:'Consolas',
-                         'Courier New',
-                         'Noto Sans Mono CJK TC', /* 中英混排較齊 */
-                         monospace;
-             font-weight:500;
-             letter-spacing:0.2px;
-             color:#444;">
-      Dumbo, USA (Feb. 2025) <br>
+       style="display:block;margin:auto;
+              width:100%;       /* 讓圖片寬度隨容器 */
+              max-width:70px;   /* 最寬 70px，手機再小就再縮 */
+              aspect-ratio:1;   /* 保持 1:1 */
+              object-fit:cover;">
+
+  <figcaption style="margin-top:6px;font-size:12px;
+                     font-family:'Consolas','Courier New','Noto Sans Mono CJK TC',monospace;
+                     font-weight:500;letter-spacing:.2px;color:#444;">
+    Dumbo,&nbsp;USA&nbsp;(Feb.&nbsp;2025)
   </figcaption>
 </figure>
 
 
+
 Guan-Ting is currently a **final-year** Ph.D. student (**expected to graduate in _December 2025_, looking for full-time research scientist/engineer roles starting from 2026**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
-Guan-Ting has published more than 10 **first/co-first author** top-tier Speech & NLP conferences papers (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
+Guan-Ting has published more than **10 first/co-first author** top-tier Speech & NLP conferences papers (ACL, EMNLP, ICASSP, INTERSPEECH, IEEE SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
 
@@ -43,12 +41,6 @@ He has been fortunate to gain extensive **research experience** through valuable
 
 
 🔎 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)** and the [Google Scholar](https://scholar.google.com/citations?user=gojQWGIAAAAJ) for the most updated profile.
-
-{% raw %}
-<div id="pubs"></div>
-
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fscholar.googleusercontent.com%2Fcitations%3Fuser%3DgojQWGIAAAAJ%26output%3Dbibtex&jsonp=1&hindex_graph=1&sort=cited&theme=simple"></script>
-{% endraw %}
 
 Open to discussing or collaborating on speech research—feel free to reach out at ```daniel094144[at]gmail[dot]com```.
 
