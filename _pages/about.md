@@ -92,9 +92,9 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 </div>
 
 
-Update 🚨
-======
-* (08/2025) Three papers are accepted by [ASRU 2025](https://2025.ieeeasru.org/) (two first-author and one co-author). See you in Hawaii 🏝!
+<!-- Update 🚨
+====== -->
+<!-- * (08/2025) Three papers are accepted by [ASRU 2025](https://2025.ieeeasru.org/) (two first-author and one co-author). See you in Hawaii 🏝!
 * (05/2025) [Align-SLM](https://arxiv.org/abs/2411.01834) is accepted by ACL 2025. See you in Vienna! 
 * (03/2025) We release the [Full-Duplex-Bench](http://arxiv.org/abs/2503.04721), which is the first benchmark that evaluates the full-duplex spoken dialogue models on turn-taking interaction. 
 * (11/2024) The preprint of [Align-SLM](https://arxiv.org/abs/2411.01834) is released, which is the first RLAIF framework for end-to-end textless spoken language models with state-of-the-art performance on SLM benchmarks!  
@@ -105,17 +105,30 @@ Update 🚨
 * (02/2023) My internship work with Amazon Alexa is accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
 * (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", collaborating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
 * (07/2022) Received ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
-* (06/2022) Two first-author papers are accepted at [Interspeech 2022](https://interspeech2022.org/).
+* (06/2022) Two first-author papers are accepted at [Interspeech 2022](https://interspeech2022.org/). -->
 
-Education
-======
+## Update 🚨
+> **2025/08** Three papers accepted by _ASRU 2025_ — see you in Hawaii 🏝 
+> **2025/05** [Align-SLM](https://arxiv.org/abs/2411.01834) accepted by _ACL 2025_ — see you in Vienna!  
+> **2025/03** Released _Full-Duplex-Bench_ — the first benchmark for full-duplex spoken dialogue models.  
+> **2024/11** Preprint of _Align-SLM_ released — first RLAIF framework for end-to-end textless SLMs.  
+> **2024/09** _Continual TTA_ & _Emphasized-Talk_ accepted by EMNLP 2024 (main & findings).  
+> **2024/05** _Advancing LLMs to Capture Speaking Styles_ accepted by _ACL 2024_.  
+> **2024/01** Received IEEE SPS Travel Grant for ICASSP 2024!  
+> **2023/12** Three papers accepted by _ICASSP 2024_ — see you in Seoul!  
+> **2023/02** Internship work with Amazon Alexa accepted by _ICASSP 2023_.  
+> **2023/01** Paper with Prof. Nigel Ward won **Best Paper Award** at IEEE SLT 2022!  
+> **2022/07** Received ISCA Travel Grant for Interspeech 2022.  
+> **2022/06** Two first-author papers accepted at _Interspeech 2022_.  
+
+
+## Education
 * **Ph.D.** in Communication Engineering, EECS, National Taiwan University
 *[2021/9 - 2025/12]*
   * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
   * Transferred from M.S. program in Feb. 2023. 
 
-Selected Publications & Preprints
-======
+## Selected Publications & Preprints
 (For full publication list, please see the [Google Scholar](https://scholar.google.com.tw/citations?user=gojQWGIAAAAJ&hl=en)).
 
 **[Speech/Text Large Language Models]**\\
@@ -188,8 +201,7 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
   [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
 
 
-Award
-======
+## Award
 * IEEE Signal Processing Society Travel Grant @ ICASSP 2024
 * Best paper award @ IEEE SLT 2022
 * NTU Elite Doctoral Scholarship
@@ -200,8 +212,7 @@ Award
 * Phi Tau Phi Award @ NTHU
 * The Zhu Shun Yi He Qin Scholarship @ NTHU
 
-Academic Services
-======
+## Academic Services
 * **Official Reviewer**: ICLR'24'25, NeurIPS'24'25, ACL'24'25, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
