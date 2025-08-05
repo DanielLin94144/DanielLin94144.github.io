@@ -108,7 +108,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 * (06/2022) Two first-author papers are accepted at [Interspeech 2022](https://interspeech2022.org/). -->
 
 ## Update 🚨
-> **2025/08** Three papers accepted by _ASRU 2025_ — see you in Hawaii 🏝 
+> **2025/08** Three papers accepted by _ASRU 2025_ — see you in Hawaii 🏝   
 > **2025/05** [Align-SLM](https://arxiv.org/abs/2411.01834) accepted by _ACL 2025_ — see you in Vienna!  
 > **2025/03** Released _Full-Duplex-Bench_ — the first benchmark for full-duplex spoken dialogue models.  
 > **2024/11** Preprint of _Align-SLM_ released — first RLAIF framework for end-to-end textless SLMs.  
