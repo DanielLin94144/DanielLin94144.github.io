@@ -94,6 +94,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 Update 🚨
 ======
+* (08/2025) Three papers are accepted by [ASRU 2025](https://2025.ieeeasru.org/) (two first-author and one co-author). See you in Hawaii 🏝!
 * (05/2025) [Align-SLM](https://arxiv.org/abs/2411.01834) is accepted by ACL 2025. See you in Vienna! 
 * (03/2025) We release the [Full-Duplex-Bench](http://arxiv.org/abs/2503.04721), which is the first benchmark that evaluates the full-duplex spoken dialogue models on turn-taking interaction. 
 * (11/2024) The preprint of [Align-SLM](https://arxiv.org/abs/2411.01834) is released, which is the first RLAIF framework for end-to-end textless spoken language models with state-of-the-art performance on SLM benchmarks!  
@@ -119,9 +120,13 @@ Selected Publications & Preprints
 
 **[Speech/Text Large Language Models]**\\
 _Speech understanding and generation toward human-like spoken dialogue_
+* **Full-Duplex-Bench v1.5: Evaluating Overlap Handling for Full-Duplex Speech Models**\\
+  <u>Guan-Ting Lin</u>, Shih-Yun Shan Kuan, Qirui Wang, Jiachen Lian, Tingle Li, Hung-yi Lee\\
+  *Arxiv 2025*\\
+  [paper](https://arxiv.org/abs/2507.23159) / [code](https://github.com/DanielLin94144/Full-Duplex-Bench)
 * **Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities**\\
   <u>Guan-Ting Lin</u>, Jiachen Lian<sub>(co-second)</sub>, Tingle Li<sub>(co-second)</sub>, Qirui Wang<sub>(co-second)</sub>, Gopala Anumanchipalli, Alexander H. Liu, Hung-yi Lee\\
-  *arXiv preprint*\\
+  *ASRU 2025*\\
   [paper](http://arxiv.org/abs/2503.04721) / [code](https://github.com/DanielLin94144/Full-Duplex-Bench)
 * **Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Aditya Gourav, Yile Gu, Ankur Gandhe, Hung-yi Lee, Ivan Bulyko\\
@@ -171,9 +176,8 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
 
 * **SUTA-LM: Bridging Test-Time Adaptation and Language Model Rescoring for Robust ASR**\\
   Wei-Ping Huang<sub>(co-first)</sub>, <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Hung-yi Lee\\
-  *ArXiv 2025*\\
+  *ASRU 2025*\\
   [paper](https://arxiv.org/abs/2506.11121) / [code](https://github.com/hhhaaahhhaa/ASR-TTA)
-
 * **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
   *EMNLP 2024*\\
