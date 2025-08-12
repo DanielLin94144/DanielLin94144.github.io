@@ -37,7 +37,7 @@ Guan-Ting has published more than 10 **first/co-first author** top-tier Speech &
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
 
-- **[Google DeepMind](https://deepmind.google/) (2025 Spring):** Student Researcher at Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home).
+- **[Google DeepMind](https://deepmind.google/) (2025 Spring):** Student Researcher at Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home) to develop methods enhancing Gemini speech capabilities in low-resource languages.
 
 - **[Amazon AGI](https://www.amazon.science/) (2024 Summer):** Applied Scientist Intern at Speech team in Seattle, USA (under [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)'s team), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar), [Yile Gu](https://www.linkedin.com/in/yilegu), and [Ankur Gandhe](https://www.linkedin.com/in/ankur-gandhe-15277a1a/) on *Align-SLM*, the first end-to-end spoken language model with reinforcement learning.
 
@@ -91,21 +91,6 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
   </figure>
 </div>
 
-
-<!-- Update 🚨
-====== -->
-<!-- * (08/2025) Three papers are accepted by [ASRU 2025](https://2025.ieeeasru.org/) (two first-author and one co-author). See you in Hawaii 🏝!
-* (05/2025) [Align-SLM](https://arxiv.org/abs/2411.01834) is accepted by ACL 2025. See you in Vienna! 
-* (03/2025) We release the [Full-Duplex-Bench](http://arxiv.org/abs/2503.04721), which is the first benchmark that evaluates the full-duplex spoken dialogue models on turn-taking interaction. 
-* (11/2024) The preprint of [Align-SLM](https://arxiv.org/abs/2411.01834) is released, which is the first RLAIF framework for end-to-end textless spoken language models with state-of-the-art performance on SLM benchmarks!  
-* (09/2024) [Continual TTA](https://arxiv.org/abs/2406.11064) and [Emphasized-Talk](https://arxiv.org/abs/2406.11065) are accepted by EMNLP 2024 (one as main and one as findings). 
-* (05/2024) [Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations](https://arxiv.org/abs/2402.12786) is accepted by ACL 2024 as the main conference paper! 
-* (01/2024) Received IEEE Signal Processing Society Travel Grant for participating ICASSP 2024! 
-* (12/2023) Three papers are accepted by [ICASSP 2024](https://2024.ieeeicassp.org/) (one first-author and two co-author). See you in Seoul! 
-* (02/2023) My internship work with Amazon Alexa is accepted by [ICASSP 2023](https://2023.ieeeicassp.org/)!
-* (01/2023) Our paper "On the Utility of Self-supervised Models for Prosody-related Tasks", collaborating with Prof. Nigel Ward of UTEP, won the [Best Paper Award](https://slt2022.org/best-papers.php) of IEEE SLT 2022!
-* (07/2022) Received ISCA Travel Grants for [Interspeech 2022](https://interspeech2022.org/).
-* (06/2022) Two first-author papers are accepted at [Interspeech 2022](https://interspeech2022.org/). -->
 
 ## Update 🚨
 > **2025/08** Three papers accepted by _ASRU 2025_ — see you in Hawaii 🏝   
@@ -199,6 +184,9 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
   *Interspeech 2022 (Oral)*\\
   [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
+
+## Patents
+* Inventor on a pending U.S. patent application in speech and language processing, filed by Google DeepMind (details confidential until publication)
 
 
 ## Award
