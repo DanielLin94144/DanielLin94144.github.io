@@ -8,26 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-<figure style="display:inline-block;           /* 讓整塊只佔圖片寬度 */
-             width:270px;                       /* 決定圖片＋caption 的寬度 */
-             margin:0 auto 18px;               /* 置中 + 與下一段落留空 */
-             text-align:center;">
+<figure style="display:block;
+               width:270px;
+               margin:0 auto 18px;   /* auto 會讓整塊水平置中 */
+               text-align:center;">
   <img src="../files/profile.jpg" alt="Profile photo"
-       style="width:270px !important;          /* 關鍵：指定寬高並加 !important */
+       style="width:270px !important;
               height:270px !important;
-              max-width:none !important;      /* 把主題的 max-width:100% 蓋掉 */
+              max-width:none !important;
               display:block;
               margin:0 auto;
-              object-fit:cover;">             <!-- 1:1 裁切但不變形 -->
-
+              object-fit:cover;">
   <figcaption style="margin-top:6px;
                      font:500 13px/1 'Consolas','Courier New','Noto Sans Mono CJK TC',monospace;
                      letter-spacing:.2px;
                      color:#444;
-                     white-space:nowrap;">    <!-- 不自動換行；可移除 -->
+                     white-space:nowrap;">
     Dumbo,&nbsp;USA&nbsp;(Feb.&nbsp;2025)
   </figcaption>
 </figure>
+
 
 <table style="width:100%; table-layout:fixed; text-align:center;">
   <tr>
