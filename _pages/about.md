@@ -30,6 +30,7 @@ redirect_from:
 </figure>
 
 
+[ [CV](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf) | [Google Scholar](https://scholar.google.com/citations?user=gojQWGIAAAAJ) | [LinkedIn](https://www.linkedin.com/in/guan-ting-lin/) ]
 
 Guan-Ting is currently a **final-year** Ph.D. student (**expected to graduate in _December 2025_, looking for full-time research scientist/engineer roles starting from 2026**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
@@ -45,8 +46,6 @@ He has been fortunate to gain extensive **research experience** through valuable
 
 - **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2022 Summer):** Applied Scientist Intern at in Cambridge, USA (under [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)'s team), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) and [Qingming Tang](https://home.ttic.edu/~qmtang/) on acoustic event classification using neural architecture search.
 
-
-🔎 For more details, please see the **[[CV]](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf)** and the [Google Scholar](https://scholar.google.com/citations?user=gojQWGIAAAAJ) for the most updated profile.
 
 
 Open to discussing or collaborating on speech research—feel free to reach out at ```daniel094144[at]gmail[dot]com```.
@@ -87,7 +86,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
     <div style="width: 100px; height: 100px; overflow: hidden;">
       <img src="../files/cropped-meta.jpg" alt="Image 5" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
     </div>
-    <figcaption style="margin-top: 8px; font-size: 14px;">Meta GenAI<br>(2025 Fall)</figcaption>
+    <figcaption style="margin-top: 8px; font-size: 14px;">Meta Superintelligence Lab<br>(2025 Fall)</figcaption>
   </figure>
 </div>
 
