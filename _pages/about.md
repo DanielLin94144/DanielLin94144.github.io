@@ -30,7 +30,7 @@ redirect_from:
 </figure>
 
 
-[ [CV](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf) | [Google Scholar](https://scholar.google.com/citations?user=gojQWGIAAAAJ) | [LinkedIn](https://www.linkedin.com/in/guan-ting-lin/) ]
+[CV](http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf) | [Google Scholar](https://scholar.google.com/citations?user=gojQWGIAAAAJ) | [LinkedIn](https://www.linkedin.com/in/guan-ting-lin/) | [Github](https://github.com/DanielLin94144)
 
 Guan-Ting is currently a **final-year** Ph.D. student (**expected to graduate in _December 2025_, looking for full-time research scientist/engineer roles starting from 2026**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
