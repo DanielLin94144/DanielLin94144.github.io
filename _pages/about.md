@@ -42,10 +42,10 @@ redirect_from:
 
 Guan-Ting is currently a **final-year** Ph.D. student (**expected to graduate in _December 2025_, looking for full-time research scientist/engineer roles starting from 2026**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
-Guan-Ting has published **10+ first/co-first author** papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences, including ICLR, NeurIPS, ACL, EMNLP, NAACL, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
+Guan-Ting has published **10+ first/co-first author** papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
-- **[Meta Superintelligence Lab](https://ai.meta.com/) (2025 Fall):** Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with [Naoyuki Kanda](https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en) on speech LLM.
+- **[Meta Superintelligence Lab](https://ai.meta.com/) (2025 Fall):** Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with [Naoyuki Kanda](https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en) on full-duplex speech LLM.
 
 - **[Google DeepMind](https://deepmind.google/) (2025 Spring):** Student Researcher at Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home) to develop methods enhancing Gemini speech capabilities in low-resource languages.
 
@@ -126,6 +126,10 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 **[Speech/Text Large Language Models]**\\
 _Speech understanding and generation toward human-like spoken dialogue_
+* **Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner**\\
+  <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shih-Yun Shan Kuan<sub>(co-first)</sub>, Jiatong Shi, Kai-Wei Chang, Siddhant Arora, Shinji Watanabe, Hung-yi Lee\\
+  *Arxiv 2025*\\
+  [paper](https://arxiv.org/abs/2510.07838) / [code](https://github.com/DanielLin94144/Full-Duplex-Bench)
 * **Full-Duplex-Bench v1.5: Evaluating Overlap Handling for Full-Duplex Speech Models**\\
   <u>Guan-Ting Lin</u>, Shih-Yun Shan Kuan, Qirui Wang, Jiachen Lian, Tingle Li, Hung-yi Lee\\
   *Arxiv 2025*\\
