@@ -46,7 +46,6 @@ redirect_from:
     </div>
   </div>
 </div>
-<p style="margin-top: 0;">Open to discussing or collaborating on speech research—feel free to reach out at <code>daniel094144[at]gmail[dot]com</code>. Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.</p>
 
 <div class="experience-grid">
   <figure>
@@ -85,6 +84,8 @@ redirect_from:
   </figure>
 </div>
 
+<p style="margin-top: 0;">Open to discussing or collaborating on speech research—feel free to reach out at <code>daniel094144[at]gmail[dot]com</code>. 
+Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.</p>
 
 ## Update
 
@@ -104,13 +105,6 @@ redirect_from:
 </ul>
 
 
-
-## Education
-* **Ph.D.** in Communication Engineering, EECS, National Taiwan University
-*[2021/9 - 2025/12]*
-  * Advisor: Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html)
-  * Transferred from M.S. program in Feb. 2023. 
-
 ## Selected Publications & Preprints
 (For full publication list, please see the [Google Scholar](https://scholar.google.com.tw/citations?user=gojQWGIAAAAJ&hl=en)).
 
@@ -127,78 +121,81 @@ _Speech understanding and generation toward human-like spoken dialogue_
 
 <!-- Old inline HTML content removed -->
 
-**[Speech/Text Large Language Models]**\\
-_Speech understanding and generation toward human-like spoken dialogue_
+### Speech/Text Large Language Models
+<p style="margin-top: -0.5em; color: #666; font-style: italic;">Speech understanding and generation toward human-like spoken dialogue</p>
+
 * **Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shih-Yun Shan Kuan<sub>(co-first)</sub>, Jiatong Shi, Kai-Wei Chang, Siddhant Arora, Shinji Watanabe, Hung-yi Lee\\
   *Arxiv 2025*\\
-  [paper](https://arxiv.org/abs/2510.07838) / [code](https://github.com/DanielLin94144/Full-Duplex-Bench)
+  <a href="https://arxiv.org/abs/2510.07838" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/Full-Duplex-Bench" class="btn btn--small">CODE</a>
 * **Full-Duplex-Bench v1.5: Evaluating Overlap Handling for Full-Duplex Speech Models**\\
   <u>Guan-Ting Lin</u>, Shih-Yun Shan Kuan, Qirui Wang, Jiachen Lian, Tingle Li, Hung-yi Lee\\
   *Arxiv 2025*\\
-  [paper](https://arxiv.org/abs/2507.23159) / [code](https://github.com/DanielLin94144/Full-Duplex-Bench)
+  <a href="https://arxiv.org/abs/2507.23159" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/Full-Duplex-Bench" class="btn btn--small">CODE</a>
 * **Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities**\\
   <u>Guan-Ting Lin</u>, Jiachen Lian<sub>(co-second)</sub>, Tingle Li<sub>(co-second)</sub>, Qirui Wang<sub>(co-second)</sub>, Gopala Anumanchipalli, Alexander H. Liu, Hung-yi Lee\\
   *ASRU 2025*\\
-  [paper](http://arxiv.org/abs/2503.04721) / [code](https://github.com/DanielLin94144/Full-Duplex-Bench)
+  <a href="http://arxiv.org/abs/2503.04721" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/Full-Duplex-Bench" class="btn btn--small">CODE</a>
 * **Align-SLM: Textless Spoken Language Models with Reinforcement Learning from AI Feedback**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Aditya Gourav, Yile Gu, Ankur Gandhe, Hung-yi Lee, Ivan Bulyko\\
   *ACL 2025*\\
-  [paper](https://arxiv.org/abs/2411.01834)
+  <a href="https://arxiv.org/abs/2411.01834" class="btn btn--small">ARXIV</a>
 * **Advancing Large Language Models to Capture Varied Speaking Styles and Respond Properly in Spoken Conversations**\\
   <u>Guan-Ting Lin</u>, Cheng-Han Chiang, Hung-yi Lee\\
   *ACL 2024*\\
-  [paper](https://arxiv.org/abs/2402.12786) / [data](https://github.com/DanielLin94144/StyleTalk)
+  <a href="https://arxiv.org/abs/2402.12786" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/StyleTalk" class="btn btn--small">DATA</a>
 * **Paralinguistics-Enhanced Large Language Modeling of Spoken Dialogue**\\
   <u>Guan-Ting Lin</u>, Prashanth Gurunath Shivakumar, Ankur Gandhe, Chao-Han Huck Yang, Yile Gu, Shalini Ghosh, Andreas Stolcke, Hung-yi Lee, Ivan Bulyko\\
   *ICASSP 2024*\\
-  [paper](https://arxiv.org/abs/2312.15316)
+  <a href="https://arxiv.org/abs/2312.15316" class="btn btn--small">ARXIV</a>
 * **Can LLMs Understand the Implication of Emphasized Sentences in Dialogue?**\\
   <u>Guan-Ting Lin</u>, Hung-yi Lee\\
   *EMNLP 2024 Findings*\\
-  [paper](https://arxiv.org/abs/2406.11065) / [data](https://github.com/DanielLin94144/Emphasized-Talk)
+  <a href="https://arxiv.org/abs/2406.11065" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/Emphasized-Talk" class="btn btn--small">DATA</a>
 
-**[Self-supervised Speech Models]**\\
-_Explore the utilities of self-supervised speech representations models_
+### Self-supervised Speech Models
+<p style="margin-top: -0.5em; color: #666; font-style: italic;">Explore the utilities of self-supervised speech representations models</p>
+
 * **On the Utility of Self-supervised Models for Prosody-related Task**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>,  Chi-Luen Feng<sub>(co-first)</sub>, Wei-Ping Huang, Yuan Tseng, Tzu-Han Lin, Chen-An Li, Hung-yi Lee, Nigel G. Ward\\
   *SLT 2022 (**Best Paper Award**)*\\
-  [paper](https://arxiv.org/abs/2210.07185) / [code](https://github.com/JSALT-2022-SSL/superb-prosody)
+  <a href="https://arxiv.org/abs/2210.07185" class="btn btn--small">ARXIV</a> <a href="https://github.com/JSALT-2022-SSL/superb-prosody" class="btn btn--small">CODE</a>
 * **Analyzing the Robustness of Unsupervised Speech Recognition**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Chan-Jan Hsu<sub>(co-first)</sub>, Da-Rong Liu, Hung-Yi Lee, Yu Tsao\\
   *ICASSP 2022*\\
-  [paper](https://arxiv.org/pdf/2110.031009.pdf) / [code](https://github.com/Splend1d/wav2vec-u-patch)
+  <a href="https://arxiv.org/pdf/2110.031009.pdf" class="btn btn--small">ARXIV</a> <a href="https://github.com/Splend1d/wav2vec-u-patch" class="btn btn--small">CODE</a>
 
-**[Spoken Language Understanding and Spoken Question Answering]**\\
-_End-to-end approaches to understand high-level semantic information in speech signals_
+### Spoken Language Understanding and Spoken Question Answering
+<p style="margin-top: -0.5em; color: #666; font-style: italic;">End-to-end approaches to understand high-level semantic information in speech signals</p>
+
 * **DUAL: Discrete Spoken Unit Adaptive Learning for Textless Spoken Question Answering**\\
   <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *Interspeech 2022*\\
-  [paper](https://arxiv.org/abs/2203.04911) / [code](https://github.com/DanielLin94144/DUAL-textless-SQA) 
+  <a href="https://arxiv.org/abs/2203.04911" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/DUAL-textless-SQA" class="btn btn--small">CODE</a>
 * **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
-  [paper](https://arxiv.org/abs/2305.18096)
+  <a href="https://arxiv.org/abs/2305.18096" class="btn btn--small">ARXIV</a>
 * **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
   Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *ICASSP 2024*\\
-  [paper](https://arxiv.org/abs/2401.13463)
+  <a href="https://arxiv.org/abs/2401.13463" class="btn btn--small">ARXIV</a>
 
-**[End-to-end ASR Test-time Adaptation]**\\
-_Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
+### End-to-end ASR Test-time Adaptation
+<p style="margin-top: -0.5em; color: #666; font-style: italic;">Sample-dependent test-time adaptation to improve ASR on out-of-domain speech</p>
 
 * **SUTA-LM: Bridging Test-Time Adaptation and Language Model Rescoring for Robust ASR**\\
   Wei-Ping Huang<sub>(co-first)</sub>, <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Hung-yi Lee\\
   *ASRU 2025*\\
-  [paper](https://arxiv.org/abs/2506.11121) / [code](https://github.com/hhhaaahhhaa/ASR-TTA)
+  <a href="https://arxiv.org/abs/2506.11121" class="btn btn--small">ARXIV</a> <a href="https://github.com/hhhaaahhhaa/ASR-TTA" class="btn btn--small">CODE</a>
 * **Continual Test-time Adaptation for End-to-end Speech Recognition on Noisy Speech**\\
   <u>Guan-Ting Lin<sub>(co-first)</sub></u>, Wei-Ping Huang<sub>(co-first)</sub>, Hung-yi Lee\\
   *EMNLP 2024*\\
-  [paper](https://arxiv.org/abs/2406.11064) / [code](https://github.com/hhhaaahhhaa/Dynamic-SUTA)
+  <a href="https://arxiv.org/abs/2406.11064" class="btn btn--small">ARXIV</a> <a href="https://github.com/hhhaaahhhaa/Dynamic-SUTA" class="btn btn--small">CODE</a>
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
   *Interspeech 2022*\\
-  [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
+  <a href="https://arxiv.org/abs/2203.14222" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA" class="btn btn--small">CODE</a>
 
 ## Patents
 * Inventor on a pending U.S. patent application in speech and language processing, filed by Google DeepMind (details confidential until publication)
