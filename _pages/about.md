@@ -39,10 +39,9 @@ redirect_from:
 </table>
 
 
+Guan-Ting received his Ph.D. from the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml) at [National Taiwan University (NTU)](https://www.ntu.edu.tw/), where he was advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
-Guan-Ting is currently a **final-year** Ph.D. student (**expected to graduate in _December 2025_, looking for full-time research scientist/engineer roles starting from 2026**) at the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml), [National Taiwan University (NTU)](https://www.ntu.edu.tw/), under the guidance of Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
-
-Guan-Ting has published **10+ first/co-first author** papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
+Guan-Ting has published **15+ first/co-first author** papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
 - **[Meta Superintelligence Lab](https://ai.meta.com/) (2025 Fall):** Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with [Naoyuki Kanda](https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en) on full-duplex speech LLM.
