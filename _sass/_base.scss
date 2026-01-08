@@ -11,9 +11,10 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 9em;
+  line-height: 1.75;
   color: $text-color;
-  font-family: $global-font-family;
-  line-height: 1.6;
+  background-color: $background-color;
+  letter-spacing: 0.01em;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */

@@ -3,6 +3,7 @@ permalink: /
 title: "About Guan-Ting (Daniel) Lin"
 excerpt: "About Guan-Ting (Daniel) Lin"
 author_profile: true
+hide_title: true
 redirect_from: 
   - /about/
   - /about.html

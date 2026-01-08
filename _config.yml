@@ -10,7 +10,7 @@ locale                   : "tw-TW"
 title                    : "Guan-Ting (Daniel) Lin"
 title_separator          : "-"
 name                     : &name "Guan-Ting (Daniel) Lin"
-description              : &description "PhD student at National Taiwan University"
+description              : &description "Ph.D. from National Taiwan University"
 url                      : https://daniellin94144.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "DanielLin94144/DanielLin94144.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Guan-Ting (Daniel) Lin"
   avatar           : "profile.png"
-  bio              : "Ph.D. Student at National Taiwan University"
+  bio              : "Ph.D. from National Taiwan University"
   location         : "Taipei, Taiwan"
   employer         :
   pubmed           : 
