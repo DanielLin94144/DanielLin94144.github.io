@@ -21,6 +21,15 @@ He has been fortunate to gain extensive **research experience** through valuable
 - **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2023 Summer):** Applied Scientist Intern at Speech Recognition and LM team in Seattle, USA (under [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)'s team), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Andreas Stolcke](https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en) on a *paralinguistics-enhanced LLM*.
 - **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2022 Summer):** Applied Scientist Intern at in Cambridge, USA (under [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)'s team), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) and [Qingming Tang](https://home.ttic.edu/~qmtang/) on acoustic event classification using neural architecture search.
 
+
+<figure style="display:block; width:100%; margin: 2em auto; text-align:center;">
+  <img src="../files/profile.jpg" alt="Profile photo"
+       style="width:250px; height:250px; object-fit:cover; border-radius:12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <figcaption style="margin-top:10px; font-family:'Outfit', sans-serif; color:#777; font-size:0.9em;">
+    Dumbo,&nbsp;USA&nbsp;(Feb.&nbsp;2025)
+  </figcaption>
+</figure>
+
 Open to discussing or collaborating on speech research—feel free to reach out at `daniel094144[at]gmail[dot]com`.
 
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
