@@ -10,15 +10,8 @@ redirect_from:
 ---
 
 <div class="profile-header">
-  <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div>
-      <h1 class="profile-name">Guan-Ting (Daniel) Lin</h1>
-      <p class="profile-location">Taipei, Taiwan</p>
-    </div>
-    <button id="theme-toggle" class="btn btn--light-outline" style="border: 1px solid #ccc; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; padding: 0;">
-      <i class="fas fa-moon"></i>
-    </button>
-  </div>
+  <h1 class="profile-name">Guan-Ting (Daniel) Lin</h1>
+  <p class="profile-location">Taipei, Taiwan</p>
 </div>
 
 <div class="profile-grid">
@@ -45,7 +38,7 @@ redirect_from:
     <div class="hero__social" style="display: flex; justify-content: center; gap: 1.5em; margin-top: 1.5em;">
       <a href="mailto:daniel094144@gmail.com" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fas fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/guan-ting-lin/" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fab fa-linkedin"></i></a>
-      <a href="https://x.com/" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://x.com/GTL094144" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fab fa-x-twitter"></i></a>
       <a href="https://github.com/DanielLin94144" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fab fa-github"></i></a>
       <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fas fa-graduation-cap"></i></a>
     </div>
@@ -97,18 +90,18 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 ## Update
 
 <ul class="news-list" id="news-list">
-  <li><strong>2025/08</strong> Three papers accepted by <em>ASRU 2025</em> — see you in Hawaii 🏝</li>
-  <li><strong>2025/05</strong> <a href="https://arxiv.org/abs/2411.01834">Align-SLM</a> accepted by <em>ACL 2025</em> — see you in Vienna!</li>
-  <li><strong>2025/03</strong> Released <em>Full-Duplex-Bench</em> — the first benchmark for full-duplex spoken dialogue models.</li>
-  <li><strong>2024/11</strong> Preprint of <em>Align-SLM</em> released — first RLAIF framework for end-to-end textless SLMs.</li>
-  <li><strong>2024/09</strong> <em>Continual TTA</em> & <em>Emphasized-Talk</em> accepted by EMNLP 2024 (main & findings).</li>
-  <li><strong>2024/05</strong> <em>Advancing LLMs to Capture Speaking Styles</em> accepted by <em>ACL 2024</em>.</li>
+  <li><strong>2025/08</strong> Three papers accepted by ASRU 2025 — see you in Hawaii 🏝</li>
+  <li><strong>2025/05</strong> <a href="https://arxiv.org/abs/2411.01834">Align-SLM</a> accepted by ACL 2025 — see you in Vienna!</li>
+  <li><strong>2025/03</strong> Released Full-Duplex-Bench — the first benchmark for full-duplex spoken dialogue models.</li>
+  <li><strong>2024/11</strong> Preprint of Align-SLM released — first RLAIF framework for end-to-end textless SLMs.</li>
+  <li><strong>2024/09</strong> Continual TTA & Emphasized-Talk accepted by EMNLP 2024 (main & findings).</li>
+  <li><strong>2024/05</strong> Advancing LLMs to Capture Speaking Styles accepted by ACL 2024.</li>
   <li><strong>2024/01</strong> Received IEEE SPS Travel Grant for ICASSP 2024!</li>
-  <li><strong>2023/12</strong> Three papers accepted by <em>ICASSP 2024</em> — see you in Seoul!</li>
-  <li><strong>2023/02</strong> Internship work with Amazon Alexa accepted by <em>ICASSP 2023</em>.</li>
+  <li><strong>2023/12</strong> Three papers accepted by ICASSP 2024 — see you in Seoul!</li>
+  <li><strong>2023/02</strong> Internship work with Amazon Alexa accepted by ICASSP 2023.</li>
   <li><strong>2023/01</strong> Paper with Prof. Nigel Ward won <strong>Best Paper Award</strong> at IEEE SLT 2022!</li>
   <li><strong>2022/07</strong> Received ISCA Travel Grant for Interspeech 2022.</li>
-  <li><strong>2022/06</strong> Two first-author papers accepted at <em>Interspeech 2022</em>.</li>
+  <li><strong>2022/06</strong> Two first-author papers accepted at Interspeech 2022.</li>
 </ul>
 
 
@@ -205,7 +198,7 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
   [paper](https://arxiv.org/abs/2406.11064) / [code](https://github.com/hhhaaahhhaa/Dynamic-SUTA)
 * **Listen, Adapt, Better WER: Source-free Single-utterance Test-time Adaptation for Automatic Speech Recognition**\\
   <u>Guan-Ting Lin</u>, Shang-Wen Li, Hung-Yi Lee\\
-  *Interspeech 2022 (Oral)*\\
+  *Interspeech 2022*\\
   [paper](https://arxiv.org/abs/2203.14222) / [code](https://github.com/DanielLin94144/Test-time-adaptation-ASR-SUTA)
 
 ## Patents
@@ -230,7 +223,7 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 </div>
 
-{% include dark-mode.html %}
+
 
 
 

@@ -12,7 +12,7 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 1400px;
+    max-width: 80%;
   }
 }
 
@@ -636,7 +636,7 @@
   }
 
   .profile-bio {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.6;
 
     p {
