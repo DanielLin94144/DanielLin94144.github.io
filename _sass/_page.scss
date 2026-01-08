@@ -520,17 +520,30 @@
   }
 }
 
-/* News List */
+/* News List - scrollable */
 .news-list {
   list-style: none;
-  padding: 0;
+  padding: 1em;
   margin: 0;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #fafafa;
 
   li {
     position: relative;
     padding-left: 1.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.6em;
     font-size: 0.9em;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
 
     &:before {
       content: "•";
@@ -618,7 +631,7 @@
 
 /* Conference/venue name styling in publications */
 .page__content li em {
-  color: #b71c1c;
+  color: #0d47a1;
   font-style: italic;
 }
 

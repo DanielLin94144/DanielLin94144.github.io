@@ -26,7 +26,7 @@ redirect_from:
     <ul>
       <li><strong><a href="https://ai.meta.com/">Meta Superintelligence Lab</a> (2025 Fall):</strong> Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with <a href="https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en">Naoyuki Kanda</a> on full-duplex speech LLM.</li>
       <li><strong><a href="https://deepmind.google/">Google DeepMind</a> (2025 Spring):</strong> Student Researcher at Gemini Speech team (New York City), collaborating with <a href="https://research.google/people/kartikaudhkhasi/">Kartik Audhkhasi</a>, <a href="https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en">Soheil Khorram</a>, and <a href="https://sites.google.com/view/bhuvana-ramabhadran/home">Bhuvana Ramabhadran</a> on Gemini low-resource speech.</li>
-      <li><strong><a href="https://www.amazon.science/">Amazon AGI</a> (2024 Summer):</strong> Applied Scientist Intern at Speech team in Seattle, USA (under <a href="https://www.linkedin.com/in/ivan-bulyko-4641392/">Ivan Bulyko</a>'s team), working with <a href="https://www.amazon.science/author/prashanth-gurunath-shivakumar">Prashanth Gurunath Shivakumar</a>, <a href="https://www.linkedin.com/in/yilegu">Yile Gu</a>, and <a href="https://www.linkedin.com/in/ankur-gandhe-15277a1a/">Ankur Gandhe</a> on <em>Align-SLM</em> (RLAIF for end-to-end SLMs).</li>
+      <li><strong><a href="https://www.amazon.science/">Amazon AGI</a> (2024 Summer):</strong> Applied Scientist Intern at Speech team in Seattle, USA (under <a href="https://www.linkedin.com/in/ivan-bulyko-4641392/">Ivan Bulyko</a>'s team), working with <a href="https://www.amazon.science/author/prashanth-gurunath-shivakumar">Prashanth Gurunath Shivakumar</a>, <a href="https://www.linkedin.com/in/yilegu">Yile Gu</a>, and <a href="https://www.linkedin.com/in/ankur-gandhe-15277a1a/">Ankur Gandhe</a> on Align-SLM (RL for end-to-end SLMs).</li>
       <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2023 Summer):</strong> Applied Scientist Intern at Speech Recognition and LM team in Seattle, USA (under <a href="https://www.linkedin.com/in/ivan-bulyko-4641392/">Ivan Bulyko</a>'s team), working with <a href="https://www.amazon.science/author/prashanth-gurunath-shivakumar">Prashanth Gurunath Shivakumar</a> and <a href="https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en">Andreas Stolcke</a> on paralinguistics-enhanced LLM.</li>
       <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2022 Summer):</strong> Applied Scientist Intern in Cambridge, USA (under <a href="https://www.linkedin.com/in/chao-wang-0414968/">Chao Wang</a>'s team), working with <a href="https://www.linkedin.com/in/chieh-chi-kao/">Chieh-Chi Kao</a> and <a href="https://home.ttic.edu/~qmtang/">Qingming Tang</a> on neural architecture search for audio.</li>
     </ul>
@@ -91,14 +91,14 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 <ul class="news-list" id="news-list">
   <li><strong>2025/12</strong> Successfully defended my Ph.D. dissertation! 🎓</li>
-  <li><strong>2025/08</strong> Three papers accepted by ASRU 2025 — see you in Hawaii 🏝</li>
-  <li><strong>2025/05</strong> <a href="https://arxiv.org/abs/2411.01834">Align-SLM</a> accepted by ACL 2025 — see you in Vienna!</li>
+  <li><strong>2025/08</strong> Three papers accepted by ASRU 2025. See you in Hawaii 🏝</li>
+  <li><strong>2025/05</strong> Align-SLM accepted by ACL 2025. See you in Vienna!</li>
   <li><strong>2025/03</strong> Released Full-Duplex-Bench — the first benchmark for full-duplex spoken dialogue models.</li>
   <li><strong>2024/11</strong> Preprint of Align-SLM released — first RLAIF framework for end-to-end textless SLMs.</li>
   <li><strong>2024/09</strong> Continual TTA & Emphasized-Talk accepted by EMNLP 2024 (main & findings).</li>
-  <li><strong>2024/05</strong> Advancing LLMs to Capture Speaking Styles accepted by ACL 2024.</li>
+  <li><strong>2024/05</strong> Spoken-LLM and StyleTalk accepted by ACL 2024.</li>
   <li><strong>2024/01</strong> Received IEEE SPS Travel Grant for ICASSP 2024!</li>
-  <li><strong>2023/12</strong> Three papers accepted by ICASSP 2024 — see you in Seoul!</li>
+  <li><strong>2023/12</strong> Three papers accepted by ICASSP 2024. See you in Seoul!</li>
   <li><strong>2023/02</strong> Internship work with Amazon Alexa accepted by ICASSP 2023.</li>
   <li><strong>2023/01</strong> Paper with Prof. Nigel Ward won <strong>Best Paper Award</strong> at IEEE SLT 2022!</li>
   <li><strong>2022/07</strong> Received ISCA Travel Grant for Interspeech 2022.</li>
