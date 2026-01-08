@@ -176,10 +176,6 @@ _Speech understanding and generation toward human-like spoken dialogue_
   Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
   *Interspeech 2023*\\
   <a href="https://arxiv.org/abs/2305.18096" class="btn btn--small">ARXIV</a>
-* **SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering**\\
-  Chyi-Jiunn Lin, <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Wei-Lun Wu, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
-  *ICASSP 2024*\\
-  <a href="https://arxiv.org/abs/2401.13463" class="btn btn--small">ARXIV</a>
 
 ### End-to-end ASR Test-time Adaptation
 <p style="margin-top: -0.5em; color: #666; font-style: italic;">Sample-dependent test-time adaptation to improve ASR on out-of-domain speech</p>
