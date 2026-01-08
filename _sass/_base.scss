@@ -20,6 +20,73 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+
+  &.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+
+    .profile-name,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong {
+      color: #ffffff;
+    }
+
+    a {
+      color: #82b1ff;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .profile-location,
+    figcaption,
+    .page__meta {
+      color: #aaa;
+    }
+
+    .profile-image-container img {
+      border-color: #333;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    }
+
+    /* Footer & Header adjustments if needed */
+    footer {
+      background-color: #1e1e1e;
+      border-top-color: #333;
+    }
+
+    .btn--light-outline {
+      border-color: #555 !important;
+      color: #fff !important;
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+
+    /* Invert Experience logos slightly if they have white backgrounds? 
+       Actually they are images with white bg. Maybe add a white bg style to their container. */
+    .experience-grid figure div {
+      background-color: #fff;
+      /* Keep logos on white */
+      border-color: #444;
+    }
+
+    /* Button overrides for dark mode */
+    .btn--primary,
+    .btn--google-plus,
+    .btn--linkedin,
+    .btn--github {
+      /* Keep original colors but maybe desaturate? 
+           Actually standard brand colors are fine on dark. */
+    }
+  }
 }
 
 h1,
