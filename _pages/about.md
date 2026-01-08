@@ -1,34 +1,39 @@
 ---
 permalink: /
-title: "About Guan-Ting (Daniel) Lin"
-excerpt: "About Guan-Ting (Daniel) Lin"
-author_profile: true
-hide_title: true
+title: "Guan-Ting (Daniel) Lin"
+excerpt: "Ph.D. from National Taiwan University"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-{% include author-hero.html %}
-Guan-Ting received his Ph.D. from the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml) at [National Taiwan University (NTU)](https://www.ntu.edu.tw/), where he was advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
+<div class="profile-header">
+  <h1 class="profile-name">Guan-Ting (Daniel) Lin</h1>
+  <p class="profile-location">Taipei, Taiwan</p>
+</div>
 
-Guan-Ting has published **15+ first/co-first author** papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
+<div class="profile-grid">
+  <div class="profile-bio">
+    <p>
+      Guan-Ting received his Ph.D. from the <a href="https://twitter.com/ntu_spml">Speech Processing and Machine Learning Lab</a> at <a href="https://www.ntu.edu.tw/">National Taiwan University (NTU)</a>, where he was advised by Prof. <a href="https://speech.ee.ntu.edu.tw/~hylee/index.html">Hung-yi Lee</a>. His research interests include <strong>Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition</strong>.
+    </p>
+    <p>
+      Guan-Ting has published <strong>15+ first/co-first author</strong> papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the <strong>Best Paper Award</strong> at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as <a href="https://iclr.cc/Conferences/2025/Reviewers">ICLR 2025 Notable Reviewer</a>.
+    </p>
+    <div class="hero__social" style="justify-content: flex-start; margin-top: 1em;">
+        <a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf" class="btn btn--primary"><i class="fas fa-file-alt"></i> CV</a>
+        <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" class="btn btn--google-plus"><i class="fab fa-google-scholar"></i> Scholar</a>
+        <a href="https://www.linkedin.com/in/guan-ting-lin/" class="btn btn--linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/DanielLin94144" class="btn btn--github"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
 
-He has been fortunate to gain extensive **research experience** through valuable opportunities:
-- **[Meta Superintelligence Lab](https://ai.meta.com/) (2025 Fall):** Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with [Naoyuki Kanda](https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en) on full-duplex speech LLM.
-- **[Google DeepMind](https://deepmind.google/) (2025 Spring):** Student Researcher at Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home) to develop methods enhancing Gemini speech capabilities in low-resource languages.
-- **[Amazon AGI](https://www.amazon.science/) (2024 Summer):** Applied Scientist Intern at Speech team in Seattle, USA (under [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)'s team), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar), [Yile Gu](https://www.linkedin.com/in/yilegu), and [Ankur Gandhe](https://www.linkedin.com/in/ankur-gandhe-15277a1a/) on *Align-SLM*, the first end-to-end spoken language model with reinforcement learning.
-- **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2023 Summer):** Applied Scientist Intern at Speech Recognition and LM team in Seattle, USA (under [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)'s team), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Andreas Stolcke](https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en) on a *paralinguistics-enhanced LLM*.
-- **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2022 Summer):** Applied Scientist Intern at in Cambridge, USA (under [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)'s team), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) and [Qingming Tang](https://home.ttic.edu/~qmtang/) on acoustic event classification using neural architecture search.
-
-
-<figure style="display:block; width:100%; margin: 2em auto; text-align:center;">
-  <img src="../files/profile.jpg" alt="Profile photo"
-       style="width:250px; height:250px; object-fit:cover; border-radius:12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  <figcaption style="margin-top:10px; font-family:'Outfit', sans-serif; color:#777; font-size:0.9em;">
-    Dumbo,&nbsp;USA&nbsp;(Feb.&nbsp;2025)
-  </figcaption>
-</figure>
+  <div class="profile-image-container">
+    <img src="../files/profile.jpg" alt="Guan-Ting (Daniel) Lin">
+    <figcaption>Dumbo, USA (Feb. 2025)</figcaption>
+  </div>
+</div>
 
 Open to discussing or collaborating on speech research—feel free to reach out at `daniel094144[at]gmail[dot]com`.
 
