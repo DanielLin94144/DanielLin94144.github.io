@@ -17,38 +17,39 @@ redirect_from:
 <div class="profile-grid">
   <div class="profile-bio">
     <p>
-      Guan-Ting received his Ph.D. from the <a href="https://twitter.com/ntu_spml">Speech Processing and Machine Learning Lab</a> at <a href="https://www.ntu.edu.tw/">National Taiwan University (NTU)</a>, where he was advised by Prof. <a href="https://speech.ee.ntu.edu.tw/~hylee/index.html">Hung-yi Lee</a>. His research interests include <strong>Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition</strong>.
+      Guan-Ting received his Ph.D. from the <a href="https://twitter.com/ntu_spml">Speech Processing and Machine Learning Lab</a> at <a href="https://www.ntu.edu.tw/">National Taiwan University (NTU)</a>, advised by Prof. <a href="https://speech.ee.ntu.edu.tw/~hylee/index.html">Hung-yi Lee</a>. His research focuses on <strong>Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding/Generation, and Test-Time Adaptation for ASR</strong>.
     </p>
     <p>
-      Guan-Ting has published <strong>15+ first/co-first author</strong> papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the <strong>Best Paper Award</strong> at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as <a href="https://iclr.cc/Conferences/2025/Reviewers">ICLR 2025 Notable Reviewer</a>.
+      He has published <strong>15+ first/co-first author</strong> papers at top-tier conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT) and received the <strong>Best Paper Award</strong> at IEEE SLT 2022. He serves as a reviewer for ICLR, NeurIPS, ACL, EMNLP, and is recognized as <a href="https://iclr.cc/Conferences/2025/Reviewers">ICLR 2025 Notable Reviewer</a>.
     </p>
-    <p>He has been fortunate to gain extensive <strong>research experience</strong> through valuable opportunities:</p>
+    <p><strong>Research Experience:</strong></p>
     <ul>
-      <li><strong><a href="https://ai.meta.com/">Meta Superintelligence Lab</a> (2025 Fall):</strong> Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with <a href="https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en">Naoyuki Kanda</a> on full-duplex speech LLM.</li>
-      <li><strong><a href="https://deepmind.google/">Google DeepMind</a> (2025 Spring):</strong> Student Researcher at Gemini Speech team (New York City), collaborating with <a href="https://research.google/people/kartikaudhkhasi/">Kartik Audhkhasi</a>, <a href="https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en">Soheil Khorram</a>, and <a href="https://sites.google.com/view/bhuvana-ramabhadran/home">Bhuvana Ramabhadran</a> to develop methods enhancing Gemini speech capabilities in low-resource languages.</li>
-      <li><strong><a href="https://www.amazon.science/">Amazon AGI</a> (2024 Summer):</strong> Applied Scientist Intern at Speech team in Seattle, USA (under <a href="https://www.linkedin.com/in/ivan-bulyko-4641392/">Ivan Bulyko</a>'s team), working with <a href="https://www.amazon.science/author/prashanth-gurunath-shivakumar">Prashanth Gurunath Shivakumar</a>, <a href="https://www.linkedin.com/in/yilegu">Yile Gu</a>, and <a href="https://www.linkedin.com/in/ankur-gandhe-15277a1a/">Ankur Gandhe</a> on <em>Align-SLM</em>, the first end-to-end spoken language model with reinforcement learning.</li>
-      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2023 Summer):</strong> Applied Scientist Intern at Speech Recognition and LM team in Seattle, USA (under <a href="https://www.linkedin.com/in/ivan-bulyko-4641392/">Ivan Bulyko</a>'s team), working with <a href="https://www.amazon.science/author/prashanth-gurunath-shivakumar">Prashanth Gurunath Shivakumar</a> and <a href="https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en">Andreas Stolcke</a> on <em>paralinguistics-enhanced LLM</em>.</li>
-      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2022 Summer):</strong> Applied Scientist Intern at in Cambridge, USA (under <a href="https://www.linkedin.com/in/chao-wang-0414968/">Chao Wang</a>'s team), working with <a href="https://www.linkedin.com/in/chieh-chi-kao/">Chieh-Chi Kao</a> and <a href="https://home.ttic.edu/~qmtang/">Qingming Tang</a> on acoustic event classification using neural architecture search.</li>
+      <li><strong><a href="https://ai.meta.com/">Meta Superintelligence Lab</a> (2025 Fall):</strong> Research Scientist Intern, Menlo Park — full-duplex speech LLM.</li>
+      <li><strong><a href="https://deepmind.google/">Google DeepMind</a> (2025 Spring):</strong> Student Researcher, NYC — Gemini low-resource speech.</li>
+      <li><strong><a href="https://www.amazon.science/">Amazon AGI</a> (2024 Summer):</strong> Applied Scientist Intern, Seattle — Align-SLM (RLAIF for SLMs).</li>
+      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2023 Summer):</strong> Applied Scientist Intern, Seattle — paralinguistics-enhanced LLM.</li>
+      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2022 Summer):</strong> Applied Scientist Intern, Cambridge — neural architecture search for audio.</li>
     </ul>
+    
+    <div class="hero__social" style="display: flex; gap: 1.2em; margin-top: 1.5em; flex-wrap: wrap;">
+      <a href="mailto:daniel094144@gmail.com" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/guan-ting-lin/" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/GTL094144" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="X (Twitter)"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/DanielLin94144" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="CV"><i class="fas fa-file-alt"></i></a>
+    </div>
   </div>
 
   <div class="profile-image-container">
     <img src="../files/profile.jpg" alt="Guan-Ting (Daniel) Lin">
     <figcaption>Dumbo, USA (Feb. 2025)</figcaption>
-    <div class="hero__social" style="display: flex; justify-content: center; gap: 1.5em; margin-top: 1.5em; flex-wrap: wrap;">
-      <a href="mailto:daniel094144@gmail.com" style="color: inherit; font-size: 2em; text-decoration: none;" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/guan-ting-lin/" style="color: inherit; font-size: 2em; text-decoration: none;" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://x.com/GTL094144" style="color: inherit; font-size: 2em; text-decoration: none;" title="X (Twitter)"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/DanielLin94144" style="color: inherit; font-size: 2em; text-decoration: none;" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" style="color: inherit; font-size: 2em; text-decoration: none;" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-      <a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf" style="color: inherit; font-size: 2em; text-decoration: none;" title="CV"><i class="fas fa-file-alt"></i></a>
-    </div>
   </div>
 </div>
 
-Open to discussing or collaborating on speech research—feel free to reach out at `daniel094144[at]gmail[dot]com`.
+<p style="margin-top: 0;">Open to discussing or collaborating on speech research—feel free to reach out at <code>daniel094144[at]gmail[dot]com</code>.</p>
 
-Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
+<p>Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.</p>
 
 <div class="experience-grid">
   <figure>
@@ -62,28 +63,28 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
     <div>
       <img src="../files/cropped-alexa.png" alt="Alexa AI">
     </div>
-    <figcaption>Alexa AI<br>(2022/2023 Summer)</figcaption>
+    <figcaption>Alexa AI<br>(2022/2023)</figcaption>
   </figure>
   
   <figure>
     <div>
       <img src="../files/cropped-amazon.png" alt="Amazon AGI">
     </div>
-    <figcaption>Amazon AGI<br>(2024 Summer)</figcaption>
+    <figcaption>Amazon AGI<br>(2024)</figcaption>
   </figure>
   
   <figure>
     <div>
       <img src="../files/cropped-deepmind.jpg" alt="Google DeepMind">
     </div>
-    <figcaption>Google DeepMind<br>(2025 Spring)</figcaption>
+    <figcaption>DeepMind<br>(2025)</figcaption>
   </figure>
   
   <figure>
     <div>
-      <img src="../files/cropped-meta.jpg" alt="Meta Superintelligence Lab">
+      <img src="../files/cropped-meta.jpg" alt="Meta">
     </div>
-    <figcaption>Meta Superintelligence Lab<br>(2025 Fall)</figcaption>
+    <figcaption>Meta<br>(2025)</figcaption>
   </figure>
 </div>
 
