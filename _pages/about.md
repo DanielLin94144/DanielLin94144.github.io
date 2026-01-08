@@ -46,45 +46,42 @@ redirect_from:
     </div>
   </div>
 </div>
-
-<p style="margin-top: 0;">Open to discussing or collaborating on speech research—feel free to reach out at <code>daniel094144[at]gmail[dot]com</code>.</p>
-
-<p>Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.</p>
+<p style="margin-top: 0;">Open to discussing or collaborating on speech research—feel free to reach out at <code>daniel094144[at]gmail[dot]com</code>. Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.</p>
 
 <div class="experience-grid">
   <figure>
     <div>
       <img src="../files/cropped-ntu_logo.png" alt="NTU">
     </div>
-    <figcaption>NTU<br>(2021-Present)</figcaption>
+    <!-- <figcaption>NTU<br>(2021-Present)</figcaption> -->
   </figure>
   
   <figure>
     <div>
       <img src="../files/cropped-alexa.png" alt="Alexa AI">
     </div>
-    <figcaption>Alexa AI<br>(2022/2023)</figcaption>
+    <!-- <figcaption>Alexa AI<br>(2022/2023)</figcaption> -->
   </figure>
   
   <figure>
     <div>
       <img src="../files/cropped-amazon.png" alt="Amazon AGI">
     </div>
-    <figcaption>Amazon AGI<br>(2024)</figcaption>
+    <!-- <figcaption>Amazon AGI<br>(2024)</figcaption> -->
   </figure>
   
   <figure>
     <div>
       <img src="../files/cropped-deepmind.jpg" alt="Google DeepMind">
     </div>
-    <figcaption>Google DeepMind<br>(2025 Spring)</figcaption>
+    <!-- <figcaption>Google DeepMind<br>(2025 Spring)</figcaption> -->
   </figure>
   
   <figure>
     <div>
       <img src="../files/cropped-meta.jpg" alt="Meta">
     </div>
-    <figcaption>Meta<br>(2025 Fall)</figcaption>
+    <!-- <figcaption>Meta<br>(2025 Fall)</figcaption> -->
   </figure>
 </div>
 
