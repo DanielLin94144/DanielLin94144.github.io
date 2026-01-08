@@ -3,6 +3,7 @@ permalink: /
 title: "Guan-Ting (Daniel) Lin"
 excerpt: "Ph.D. from National Taiwan University"
 author_profile: false
+hide_title: true
 redirect_from: 
   - /about/
   - /about.html
@@ -21,17 +22,17 @@ redirect_from:
     <p>
       Guan-Ting has published <strong>15+ first/co-first author</strong> papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the <strong>Best Paper Award</strong> at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as <a href="https://iclr.cc/Conferences/2025/Reviewers">ICLR 2025 Notable Reviewer</a>.
     </p>
-    <div class="hero__social" style="justify-content: flex-start; margin-top: 1em;">
-        <a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf" class="btn btn--primary"><i class="fas fa-file-alt"></i> CV</a>
-        <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" class="btn btn--google-plus"><i class="fab fa-google-scholar"></i> Scholar</a>
-        <a href="https://www.linkedin.com/in/guan-ting-lin/" class="btn btn--linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://github.com/DanielLin94144" class="btn btn--github"><i class="fab fa-github"></i> GitHub</a>
-    </div>
   </div>
 
   <div class="profile-image-container">
     <img src="../files/profile.jpg" alt="Guan-Ting (Daniel) Lin">
     <figcaption>Dumbo, USA (Feb. 2025)</figcaption>
+    <div class="hero__social" style="justify-content: center; margin-top: 1em; display: flex; flex-wrap: wrap; gap: 0.5em;">
+        <a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf" class="btn btn--primary"><i class="fas fa-file-alt"></i> CV</a>
+        <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" class="btn btn--google-plus"><i class="fab fa-google-scholar"></i> Scholar</a>
+        <a href="https://www.linkedin.com/in/guan-ting-lin/" class="btn btn--linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/DanielLin94144" class="btn btn--github"><i class="fab fa-github"></i> GitHub</a>
+    </div>
   </div>
 </div>
 
