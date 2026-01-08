@@ -90,6 +90,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 ## Update
 
 <ul class="news-list" id="news-list">
+  <li><strong>2025/12</strong> Successfully defended my Ph.D. dissertation! 🎓</li>
   <li><strong>2025/08</strong> Three papers accepted by ASRU 2025 — see you in Hawaii 🏝</li>
   <li><strong>2025/05</strong> <a href="https://arxiv.org/abs/2411.01834">Align-SLM</a> accepted by ACL 2025 — see you in Vienna!</li>
   <li><strong>2025/03</strong> Released Full-Duplex-Bench — the first benchmark for full-duplex spoken dialogue models.</li>
