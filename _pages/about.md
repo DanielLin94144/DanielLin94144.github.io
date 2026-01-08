@@ -24,14 +24,19 @@ redirect_from:
     </p>
     <p><strong>Research Experience:</strong></p>
     <ul>
-      <li><strong><a href="https://ai.meta.com/">Meta Superintelligence Lab</a> (2025 Fall):</strong> Research Scientist Intern, Menlo Park — full-duplex speech LLM.</li>
-      <li><strong><a href="https://deepmind.google/">Google DeepMind</a> (2025 Spring):</strong> Student Researcher, NYC — Gemini low-resource speech.</li>
-      <li><strong><a href="https://www.amazon.science/">Amazon AGI</a> (2024 Summer):</strong> Applied Scientist Intern, Seattle — Align-SLM (RLAIF for SLMs).</li>
-      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2023 Summer):</strong> Applied Scientist Intern, Seattle — paralinguistics-enhanced LLM.</li>
-      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2022 Summer):</strong> Applied Scientist Intern, Cambridge — neural architecture search for audio.</li>
+      <li><strong><a href="https://ai.meta.com/">Meta Superintelligence Lab</a> (2025 Fall):</strong> Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with <a href="https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en">Naoyuki Kanda</a> on full-duplex speech LLM.</li>
+      <li><strong><a href="https://deepmind.google/">Google DeepMind</a> (2025 Spring):</strong> Student Researcher at Gemini Speech team (New York City), collaborating with <a href="https://research.google/people/kartikaudhkhasi/">Kartik Audhkhasi</a>, <a href="https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en">Soheil Khorram</a>, and <a href="https://sites.google.com/view/bhuvana-ramabhadran/home">Bhuvana Ramabhadran</a> on Gemini low-resource speech.</li>
+      <li><strong><a href="https://www.amazon.science/">Amazon AGI</a> (2024 Summer):</strong> Applied Scientist Intern at Speech team in Seattle, USA (under <a href="https://www.linkedin.com/in/ivan-bulyko-4641392/">Ivan Bulyko</a>'s team), working with <a href="https://www.amazon.science/author/prashanth-gurunath-shivakumar">Prashanth Gurunath Shivakumar</a>, <a href="https://www.linkedin.com/in/yilegu">Yile Gu</a>, and <a href="https://www.linkedin.com/in/ankur-gandhe-15277a1a/">Ankur Gandhe</a> on <em>Align-SLM</em> (RLAIF for end-to-end SLMs).</li>
+      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2023 Summer):</strong> Applied Scientist Intern at Speech Recognition and LM team in Seattle, USA (under <a href="https://www.linkedin.com/in/ivan-bulyko-4641392/">Ivan Bulyko</a>'s team), working with <a href="https://www.amazon.science/author/prashanth-gurunath-shivakumar">Prashanth Gurunath Shivakumar</a> and <a href="https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en">Andreas Stolcke</a> on paralinguistics-enhanced LLM.</li>
+      <li><strong><a href="https://developer.amazon.com/en-US/alexa">Amazon Alexa AI</a> (2022 Summer):</strong> Applied Scientist Intern in Cambridge, USA (under <a href="https://www.linkedin.com/in/chao-wang-0414968/">Chao Wang</a>'s team), working with <a href="https://www.linkedin.com/in/chieh-chi-kao/">Chieh-Chi Kao</a> and <a href="https://home.ttic.edu/~qmtang/">Qingming Tang</a> on neural architecture search for audio.</li>
     </ul>
+  </div>
+
+  <div class="profile-image-container">
+    <img src="../files/profile.jpg" alt="Guan-Ting (Daniel) Lin">
+    <figcaption>Dumbo, USA (Feb. 2025)</figcaption>
     
-    <div class="hero__social" style="display: flex; gap: 1.2em; margin-top: 1.5em; flex-wrap: wrap;">
+    <div class="hero__social" style="display: flex; justify-content: center; gap: 1.2em; margin-top: 1.5em; flex-wrap: wrap;">
       <a href="mailto:daniel094144@gmail.com" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="Email"><i class="fas fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/guan-ting-lin/" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       <a href="https://x.com/GTL094144" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="X (Twitter)"><i class="fab fa-twitter"></i></a>
@@ -39,11 +44,6 @@ redirect_from:
       <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
       <a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf" style="color: inherit; font-size: 1.8em; text-decoration: none;" title="CV"><i class="fas fa-file-alt"></i></a>
     </div>
-  </div>
-
-  <div class="profile-image-container">
-    <img src="../files/profile.jpg" alt="Guan-Ting (Daniel) Lin">
-    <figcaption>Dumbo, USA (Feb. 2025)</figcaption>
   </div>
 </div>
 
@@ -77,14 +77,14 @@ redirect_from:
     <div>
       <img src="../files/cropped-deepmind.jpg" alt="Google DeepMind">
     </div>
-    <figcaption>DeepMind<br>(2025)</figcaption>
+    <figcaption>Google DeepMind<br>(2025 Spring)</figcaption>
   </figure>
   
   <figure>
     <div>
       <img src="../files/cropped-meta.jpg" alt="Meta">
     </div>
-    <figcaption>Meta<br>(2025)</figcaption>
+    <figcaption>Meta<br>(2025 Fall)</figcaption>
   </figure>
 </div>
 
