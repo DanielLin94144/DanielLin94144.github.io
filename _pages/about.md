@@ -88,7 +88,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
   <li><strong>2022/07</strong> Received ISCA Travel Grant for Interspeech 2022.</li>
   <li><strong>2022/06</strong> Two first-author papers accepted at <em>Interspeech 2022</em>.</li>
 </ul>
-<button id="load-more-btn" class="btn btn--primary btn--centered" style="margin-top: 1em;">Show More</button>
+
 
 
 ## Education
@@ -206,37 +206,5 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var list = document.getElementById('news-list');
-  if (!list) return;
-  
-  var items = list.querySelectorAll('li');
-  var btn = document.getElementById('load-more-btn');
-  var limit = 5;
-  
-  // Hide items beyond limit
-  if (items.length > limit) {
-    for (var i = limit; i < items.length; i++) {
-      items[i].style.display = 'none';
-      items[i].style.opacity = '0';
-      items[i].style.transition = 'opacity 0.5s ease';
-    }
-  } else {
-    if (btn) btn.style.display = 'none';
-  }
-  
-  if (btn) {
-    btn.addEventListener('click', function() {
-      for (var i = limit; i < items.length; i++) {
-        items[i].style.display = 'block'; // Or list-item
-        // Trigger reflow
-        void items[i].offsetWidth;
-        items[i].style.opacity = '1';
-      }
-      this.style.display = 'none';
-    });
-  }
-});
-</script>
+
 
