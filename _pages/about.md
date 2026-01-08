@@ -10,7 +10,6 @@ redirect_from:
 ---
 
 {% include author-hero.html %}
-
 Guan-Ting received his Ph.D. from the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml) at [National Taiwan University (NTU)](https://www.ntu.edu.tw/), where he was advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
 Guan-Ting has published **15+ first/co-first author** papers at top-tier Speech & NLP conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT). Notably, he received the **Best Paper Award** at IEEE SLT 2022 in Doha, Qatar. He also regularly serves as an official reviewer for prestigious conferences/journals, including ICLR, NeurIPS, ACL, EMNLP, NAACL, TASLP, and ICASSP. He is recognized as [ICLR 2025 Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers).
@@ -64,9 +63,9 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 </div>
 
 
-## Update 🚨
+## Update
 
-<ul class="news-list">
+<ul class="news-list" id="news-list">
   <li><strong>2025/08</strong> Three papers accepted by <em>ASRU 2025</em> — see you in Hawaii 🏝</li>
   <li><strong>2025/05</strong> <a href="https://arxiv.org/abs/2411.01834">Align-SLM</a> accepted by <em>ACL 2025</em> — see you in Vienna!</li>
   <li><strong>2025/03</strong> Released <em>Full-Duplex-Bench</em> — the first benchmark for full-duplex spoken dialogue models.</li>
@@ -80,6 +79,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
   <li><strong>2022/07</strong> Received ISCA Travel Grant for Interspeech 2022.</li>
   <li><strong>2022/06</strong> Two first-author papers accepted at <em>Interspeech 2022</em>.</li>
 </ul>
+<button id="load-more-btn" class="btn btn--primary btn--centered" style="margin-top: 1em;">Show More</button>
 
 
 ## Education
@@ -196,4 +196,38 @@ _Sample-dependent test-time adaptation to improve ASR on out-of-domain speech_
 * **Official Reviewer**: ICLR'24'25, NeurIPS'24'25, ACL'24'25, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var list = document.getElementById('news-list');
+  if (!list) return;
+  
+  var items = list.querySelectorAll('li');
+  var btn = document.getElementById('load-more-btn');
+  var limit = 5;
+  
+  // Hide items beyond limit
+  if (items.length > limit) {
+    for (var i = limit; i < items.length; i++) {
+      items[i].style.display = 'none';
+      items[i].style.opacity = '0';
+      items[i].style.transition = 'opacity 0.5s ease';
+    }
+  } else {
+    if (btn) btn.style.display = 'none';
+  }
+  
+  if (btn) {
+    btn.addEventListener('click', function() {
+      for (var i = limit; i < items.length; i++) {
+        items[i].style.display = 'block'; // Or list-item
+        // Trigger reflow
+        void items[i].offsetWidth;
+        items[i].style.opacity = '1';
+      }
+      this.style.display = 'none';
+    });
+  }
+});
+</script>
 
