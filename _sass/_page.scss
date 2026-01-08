@@ -402,3 +402,197 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid $border-color;
+  animation: fadeInUp 1s ease both;
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+  }
+
+  /* When sidebar is active */
+  &--with-sidebar {
+    @include breakpoint($large) {
+
+      /* Hide hero avatar on large screens because sidebar has one */
+      .hero__avatar {
+        display: none;
+      }
+
+      /* Ensure text allows full width */
+      .hero__content {
+        padding-left: 0;
+      }
+    }
+  }
+
+  &__avatar {
+    margin-bottom: 1.5em;
+
+    @include breakpoint($medium) {
+      margin-bottom: 0;
+      margin-right: 2.5em;
+    }
+
+    img {
+      width: 150px;
+      /* Smaller on mobile */
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border: 4px solid #fff;
+
+      @include breakpoint($medium) {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+
+  &__content {
+    flex: 1;
+    width: 100%;
+    /* Ensure content takes width on mobile */
+  }
+
+  &__name {
+    margin: 0 0 0.25em;
+    font-size: 1.75em;
+    /* Responsive font size */
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: $primary-color;
+
+    @include breakpoint($medium) {
+      font-size: 2.5em;
+    }
+  }
+
+  &__bio {
+    margin: 0 0 1.5em;
+    font-size: 1.1em;
+    color: $gray;
+    font-family: $serif;
+    font-style: italic;
+
+    @include breakpoint($medium) {
+      font-size: 1.25em;
+    }
+  }
+
+  &__social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+
+    @include breakpoint($medium) {
+      justify-content: flex-start;
+    }
+
+    .btn {
+      margin-right: 0;
+      /* Use gap instead */
+      margin-bottom: 0;
+      font-size: 0.85em;
+      padding: 0.5em 1em;
+      flex: 1 1 auto;
+      /* Grow to fill on mobile */
+      min-width: 100px;
+      /* Min width for touch target */
+      max-width: 150px;
+      /* Don't get too wide */
+
+      @include breakpoint($medium) {
+        flex: 0 1 auto;
+        max-width: none;
+      }
+    }
+  }
+}
+
+/* News List */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+    font-size: 0.95em;
+
+    &:before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: $info-color;
+      font-weight: bold;
+    }
+
+    strong {
+      color: $dark-gray;
+      display: inline-block;
+      margin-right: 0.5em;
+      min-width: 80px;
+    }
+  }
+}
+
+/* Experience Grid */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2em;
+  margin: 2em 0;
+  justify-items: center;
+
+  figure {
+    margin: 0;
+    text-align: center;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      margin: 0 auto;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      border: 1px solid $border-color;
+      background: #fff;
+      padding: 5px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 50%;
+      }
+    }
+
+    figcaption {
+      margin-top: 0.75em;
+      font-size: 0.85em;
+      font-weight: 600;
+      line-height: 1.4;
+      color: $dark-gray;
+    }
+  }
+}

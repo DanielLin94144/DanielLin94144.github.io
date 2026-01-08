@@ -8,36 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<figure style="display:block;
-               width:270px;
-               margin:0 auto 18px;   /* auto 會讓整塊水平置中 */
-               text-align:center;">
-  <img src="../files/profile.jpg" alt="Profile photo"
-       style="width:270px !important;
-              height:270px !important;
-              max-width:none !important;
-              display:block;
-              margin:0 auto;
-              object-fit:cover;">
-  <figcaption style="margin-top:6px;
-                     font:500 13px/1 'Consolas','Courier New','Noto Sans Mono CJK TC',monospace;
-                     letter-spacing:.2px;
-                     color:#444;
-                     white-space:nowrap;">
-    Dumbo,&nbsp;USA&nbsp;(Feb.&nbsp;2025)
-  </figcaption>
-</figure>
-
-
-<table style="width:100%; table-layout:fixed; text-align:center;">
-  <tr>
-    <td><a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf">CV</a></td>
-    <td><a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ">Google Scholar</a></td>
-    <td><a href="https://www.linkedin.com/in/guan-ting-lin/">LinkedIn</a></td>
-    <td><a href="https://github.com/DanielLin94144">Github</a></td>
-  </tr>
-</table>
-
+{% include author-hero.html %}
 
 Guan-Ting received his Ph.D. from the [Speech Processing and Machine Learning Lab](https://twitter.com/ntu_spml) at [National Taiwan University (NTU)](https://www.ntu.edu.tw/), where he was advised by Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.html). His research interests include **Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding / Generation, and Test-Time Adaptation for Automatic Speech Recognition**.
 
@@ -45,73 +16,69 @@ Guan-Ting has published **15+ first/co-first author** papers at top-tier Speech 
 
 He has been fortunate to gain extensive **research experience** through valuable opportunities:
 - **[Meta Superintelligence Lab](https://ai.meta.com/) (2025 Fall):** Research Scientist Intern at the Voice Modeling Team in Menlo Park, USA, working with [Naoyuki Kanda](https://scholar.google.com/citations?user=j7q6qbAAAAAJ&hl=en) on full-duplex speech LLM.
-
 - **[Google DeepMind](https://deepmind.google/) (2025 Spring):** Student Researcher at Gemini Speech team (New York City), collaborating with [Kartik Audhkhasi](https://research.google/people/kartikaudhkhasi/), [Soheil Khorram](https://scholar.google.com/citations?user=gdKu-GIAAAAJ&hl=en), and [Bhuvana Ramabhadran](https://sites.google.com/view/bhuvana-ramabhadran/home) to develop methods enhancing Gemini speech capabilities in low-resource languages.
-
 - **[Amazon AGI](https://www.amazon.science/) (2024 Summer):** Applied Scientist Intern at Speech team in Seattle, USA (under [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)'s team), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar), [Yile Gu](https://www.linkedin.com/in/yilegu), and [Ankur Gandhe](https://www.linkedin.com/in/ankur-gandhe-15277a1a/) on *Align-SLM*, the first end-to-end spoken language model with reinforcement learning.
-
 - **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2023 Summer):** Applied Scientist Intern at Speech Recognition and LM team in Seattle, USA (under [Ivan Bulyko](https://www.linkedin.com/in/ivan-bulyko-4641392/)'s team), working with [Prashanth Gurunath Shivakumar](https://www.amazon.science/author/prashanth-gurunath-shivakumar) and [Andreas Stolcke](https://scholar.google.com/citations?user=NK36Tw0AAAAJ&hl=en) on a *paralinguistics-enhanced LLM*.
-
 - **[Amazon Alexa AI](https://developer.amazon.com/en-US/alexa) (2022 Summer):** Applied Scientist Intern at in Cambridge, USA (under [Chao Wang](https://www.linkedin.com/in/chao-wang-0414968/)'s team), working with [Chieh-Chi Kao](https://www.linkedin.com/in/chieh-chi-kao/) and [Qingming Tang](https://home.ttic.edu/~qmtang/) on acoustic event classification using neural architecture search.
 
-
-
-Open to discussing or collaborating on speech research—feel free to reach out at ```daniel094144[at]gmail[dot]com```.
+Open to discussing or collaborating on speech research—feel free to reach out at `daniel094144[at]gmail[dot]com`.
 
 Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB games ⚾️.
 
-
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; max-width: 100%; padding: 10px;">
-  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
-    <div style="width: 100px; height: 100px; overflow: hidden;">
-      <img src="../files/cropped-ntu_logo.png" alt="Image 1" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+<div class="experience-grid">
+  <figure>
+    <div>
+      <img src="../files/cropped-ntu_logo.png" alt="NTU">
     </div>
-    <figcaption style="margin-top: 8px; font-size: 14px;">NTU<br>(2021-Present)</figcaption>
+    <figcaption>NTU<br>(2021-Present)</figcaption>
   </figure>
   
-  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
-    <div style="width: 100px; height: 100px; overflow: hidden;">
-      <img src="../files/cropped-alexa.png" alt="Image 2" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+  <figure>
+    <div>
+      <img src="../files/cropped-alexa.png" alt="Alexa AI">
     </div>
-    <figcaption style="margin-top: 8px; font-size: 14px;">Alexa AI<br>(2022/2023 Summer)</figcaption>
+    <figcaption>Alexa AI<br>(2022/2023 Summer)</figcaption>
   </figure>
   
-  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
-    <div style="width: 100px; height: 100px; overflow: hidden;">
-      <img src="../files/cropped-amazon.png" alt="Image 3" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+  <figure>
+    <div>
+      <img src="../files/cropped-amazon.png" alt="Amazon AGI">
     </div>
-    <figcaption style="margin-top: 8px; font-size: 14px;">Amazon AGI<br>(2024 Summer)</figcaption>
+    <figcaption>Amazon AGI<br>(2024 Summer)</figcaption>
   </figure>
   
-  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
-    <div style="width: 100px; height: 100px; overflow: hidden;">
-      <img src="../files/cropped-deepmind.jpg" alt="Image 4" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+  <figure>
+    <div>
+      <img src="../files/cropped-deepmind.jpg" alt="Google DeepMind">
     </div>
-    <figcaption style="margin-top: 8px; font-size: 14px;">Google DeepMind<br>(2025 Spring)</figcaption>
+    <figcaption>Google DeepMind<br>(2025 Spring)</figcaption>
   </figure>
   
-  <figure style="text-align: center; margin: 0; display: flex; flex-direction: column; align-items: center; width: 120px;">
-    <div style="width: 100px; height: 100px; overflow: hidden;">
-      <img src="../files/cropped-meta.jpg" alt="Image 5" width="100" height="100" style="border-radius: 100%; object-fit: cover;">
+  <figure>
+    <div>
+      <img src="../files/cropped-meta.jpg" alt="Meta Superintelligence Lab">
     </div>
-    <figcaption style="margin-top: 8px; font-size: 14px;">Meta Superintelligence Lab<br>(2025 Fall)</figcaption>
+    <figcaption>Meta Superintelligence Lab<br>(2025 Fall)</figcaption>
   </figure>
 </div>
 
 
 ## Update 🚨
-> **2025/08** Three papers accepted by _ASRU 2025_ — see you in Hawaii 🏝   
-> **2025/05** [Align-SLM](https://arxiv.org/abs/2411.01834) accepted by _ACL 2025_ — see you in Vienna!  
-> **2025/03** Released _Full-Duplex-Bench_ — the first benchmark for full-duplex spoken dialogue models.  
-> **2024/11** Preprint of _Align-SLM_ released — first RLAIF framework for end-to-end textless SLMs.  
-> **2024/09** _Continual TTA_ & _Emphasized-Talk_ accepted by EMNLP 2024 (main & findings).  
-> **2024/05** _Advancing LLMs to Capture Speaking Styles_ accepted by _ACL 2024_.  
-> **2024/01** Received IEEE SPS Travel Grant for ICASSP 2024!  
-> **2023/12** Three papers accepted by _ICASSP 2024_ — see you in Seoul!  
-> **2023/02** Internship work with Amazon Alexa accepted by _ICASSP 2023_.  
-> **2023/01** Paper with Prof. Nigel Ward won **Best Paper Award** at IEEE SLT 2022!  
-> **2022/07** Received ISCA Travel Grant for Interspeech 2022.  
-> **2022/06** Two first-author papers accepted at _Interspeech 2022_.  
+
+<ul class="news-list">
+  <li><strong>2025/08</strong> Three papers accepted by <em>ASRU 2025</em> — see you in Hawaii 🏝</li>
+  <li><strong>2025/05</strong> <a href="https://arxiv.org/abs/2411.01834">Align-SLM</a> accepted by <em>ACL 2025</em> — see you in Vienna!</li>
+  <li><strong>2025/03</strong> Released <em>Full-Duplex-Bench</em> — the first benchmark for full-duplex spoken dialogue models.</li>
+  <li><strong>2024/11</strong> Preprint of <em>Align-SLM</em> released — first RLAIF framework for end-to-end textless SLMs.</li>
+  <li><strong>2024/09</strong> <em>Continual TTA</em> & <em>Emphasized-Talk</em> accepted by EMNLP 2024 (main & findings).</li>
+  <li><strong>2024/05</strong> <em>Advancing LLMs to Capture Speaking Styles</em> accepted by <em>ACL 2024</em>.</li>
+  <li><strong>2024/01</strong> Received IEEE SPS Travel Grant for ICASSP 2024!</li>
+  <li><strong>2023/12</strong> Three papers accepted by <em>ICASSP 2024</em> — see you in Seoul!</li>
+  <li><strong>2023/02</strong> Internship work with Amazon Alexa accepted by <em>ICASSP 2023</em>.</li>
+  <li><strong>2023/01</strong> Paper with Prof. Nigel Ward won <strong>Best Paper Award</strong> at IEEE SLT 2022!</li>
+  <li><strong>2022/07</strong> Received ISCA Travel Grant for Interspeech 2022.</li>
+  <li><strong>2022/06</strong> Two first-author papers accepted at <em>Interspeech 2022</em>.</li>
+</ul>
 
 
 ## Education
@@ -122,6 +89,19 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 
 ## Selected Publications & Preprints
 (For full publication list, please see the [Google Scholar](https://scholar.google.com.tw/citations?user=gojQWGIAAAAJ&hl=en)).
+
+<!-- Automated list removed to avoid duplication with manual list -->
+
+<!-- Original List Backup
+**[Speech/Text Large Language Models]**\\
+_Speech understanding and generation toward human-like spoken dialogue_
+* **Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner**\\
+  <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shih-Yun Shan Kuan<sub>(co-first)</sub>, Jiatong Shi, Kai-Wei Chang, Siddhant Arora, Shinji Watanabe, Hung-yi Lee\\
+  *Arxiv 2025*\\
+  [paper](https://arxiv.org/abs/2510.07838) / [code](https://github.com/DanielLin94144/Full-Duplex-Bench)
+... (rest of the manual list) -->
+
+<!-- Old inline HTML content removed -->
 
 **[Speech/Text Large Language Models]**\\
 _Speech understanding and generation toward human-like spoken dialogue_
