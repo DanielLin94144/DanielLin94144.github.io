@@ -19,19 +19,26 @@
   text-decoration: none;
   background-color: $primary-color;
   border: 0 !important;
-  border-radius: $border-radius;
+  border-radius: 50px;
   cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: $type-size-7;
 
   &:hover {
     background-color: mix(white, #000, 20%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   }
 
   .icon {
     margin-right: 0.5em;
   }
 
-  .icon + .hidden {
-    margin-left: -0.5em; /* override for hidden text*/
+  .icon+.hidden {
+    margin-left: -0.5em;
+    /* override for hidden text*/
   }
 
   /* fills width of parent container */
@@ -40,7 +47,7 @@
     display: block;
     width: 100%;
 
-    + .btn--block {
+    +.btn--block {
       margin-top: 0.25em;
     }
   }
@@ -49,7 +56,8 @@
 
   &--inverse {
     color: $gray !important;
-    border: 1px solid $light-gray !important; /* override*/
+    border: 1px solid $light-gray !important;
+    /* override*/
     background-color: #fff;
 
     &:hover {
@@ -61,7 +69,8 @@
   /* light outline */
 
   &--light-outline {
-    border: 1px solid #fff !important; /* override*/
+    border: 1px solid #fff !important;
+    /* override*/
     background-color: transparent;
   }
 
@@ -117,37 +126,39 @@
 
   /* social buttons */
 
-  $social:
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (google-plus, $google-plus-color),
-  (linkedin, $linkedin-color);
+  $social: (
+    facebook,
+    $facebook-color),
+    (twitter, $twitter-color),
+    (google-plus, $google-plus-color),
+    (linkedin, $linkedin-color
+  );
 
-  @each $socialnetwork, $color in $social {
-    &--#{$socialnetwork} {
-      background-color: $color;
+@each $socialnetwork, $color in $social {
+  &--#{$socialnetwork} {
+    background-color: $color;
 
-      &:hover {
-        background-color: mix(#000, $color, 20%);
-      }
+    &:hover {
+      background-color: mix(#000, $color, 20%);
     }
   }
+}
 
-  /* extra large button */
+/* extra large button */
 
-  &--x-large {
-    font-size: $type-size-4;
-  }
+&--x-large {
+  font-size: $type-size-4;
+}
 
-  /* large button */
+/* large button */
 
-  &--large {
-    font-size: $type-size-5;
-  }
+&--large {
+  font-size: $type-size-5;
+}
 
-  /* small button */
+/* small button */
 
-  &--small {
-    font-size: $type-size-7;
-  }
+&--small {
+  font-size: $type-size-7;
+}
 }
