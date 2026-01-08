@@ -12,7 +12,7 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 80%;
+    max-width: 90%;
   }
 }
 
@@ -608,18 +608,31 @@
 /* Profile Layout (No Sidebar) */
 .profile-header {
   margin-bottom: 2em;
+  text-align: center;
+
+  @include breakpoint($medium) {
+    text-align: left;
+  }
 
   .profile-name {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
     margin-bottom: 0.1em;
     color: $primary-color;
+
+    @include breakpoint($medium) {
+      font-size: 2.5em;
+    }
   }
 
   .profile-location {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: $gray;
     margin: 0;
+
+    @include breakpoint($medium) {
+      font-size: 1.2em;
+    }
   }
 }
 
@@ -656,17 +669,27 @@
 
     img {
       width: 100%;
-      max-width: 300px;
+      max-width: 280px;
       height: auto;
       border-radius: 12px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
       border: 4px solid #fff;
+
+      @include breakpoint($medium) {
+        max-width: 300px;
+      }
     }
 
     figcaption {
       margin-top: 0.5em;
       font-size: 0.9em;
       color: $gray;
+    }
+
+    /* Social Icons - ensure proper wrapping on mobile */
+    .hero__social {
+      flex-wrap: wrap;
+      gap: 1em;
     }
   }
 }

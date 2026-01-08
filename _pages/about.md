@@ -35,12 +35,13 @@ redirect_from:
   <div class="profile-image-container">
     <img src="../files/profile.jpg" alt="Guan-Ting (Daniel) Lin">
     <figcaption>Dumbo, USA (Feb. 2025)</figcaption>
-    <div class="hero__social" style="display: flex; justify-content: center; gap: 1.5em; margin-top: 1.5em;">
-      <a href="mailto:daniel094144@gmail.com" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/guan-ting-lin/" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fab fa-linkedin"></i></a>
-      <a href="https://x.com/GTL094144" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fab fa-x-twitter"></i></a>
-      <a href="https://github.com/DanielLin94144" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fab fa-github"></i></a>
-      <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" style="color: inherit; font-size: 2em; text-decoration: none;"><i class="fas fa-graduation-cap"></i></a>
+    <div class="hero__social" style="display: flex; justify-content: center; gap: 1.5em; margin-top: 1.5em; flex-wrap: wrap;">
+      <a href="mailto:daniel094144@gmail.com" style="color: inherit; font-size: 2em; text-decoration: none;" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/guan-ting-lin/" style="color: inherit; font-size: 2em; text-decoration: none;" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/GTL094144" style="color: inherit; font-size: 2em; text-decoration: none;" title="X (Twitter)"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/DanielLin94144" style="color: inherit; font-size: 2em; text-decoration: none;" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=gojQWGIAAAAJ" style="color: inherit; font-size: 2em; text-decoration: none;" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a href="http://DanielLin94144.github.io/files/Guan_Ting_Lin_CV.pdf" style="color: inherit; font-size: 2em; text-decoration: none;" title="CV"><i class="fas fa-file-alt"></i></a>
     </div>
   </div>
 </div>
