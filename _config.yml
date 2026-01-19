@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "tw-TW"
-title                    : "Guan-Ting (Daniel) Lin"
+title                    : "Guan-Ting's Website"
 title_separator          : "-"
 name                     : &name "Guan-Ting (Daniel) Lin"
 description              : &description "Ph.D. from National Taiwan University"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Guan-Ting (Daniel) Lin"
-  avatar           : "/files/profile.jpg"
+  avatar           : "profile.jpg"
   bio              : "Ph.D. from National Taiwan University"
   location         : "Taipei, Taiwan"
   employer         :

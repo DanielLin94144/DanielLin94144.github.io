@@ -1,0 +1,48 @@
+// Custom styles for blog listing
+.archive {
+    h2.archive__subtitle {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 0.5rem;
+        color: #666;
+    }
+
+    .archive__item-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+
+        a {
+            text-decoration: none;
+            color: #333;
+
+            &:hover {
+                color: #0366d6;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .page__meta {
+        margin-top: 0;
+        font-size: 0.85rem;
+        color: #888;
+    }
+
+    .archive__item-excerpt {
+        margin-top: 0.5rem;
+        font-size: 0.95rem;
+    }
+}
+
+// Side bar fix
+.sidebar {
+    .author__avatar {
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+    }
+}
