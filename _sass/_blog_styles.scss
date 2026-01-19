@@ -36,11 +36,12 @@
     }
 }
 
-// Robust layout fix for sidebar overlap using Flexbox
+// Sidebar layout fix - ONLY for pages with sidebar
+// Uses :has() selector to detect if sidebar exists
 @media (min-width: 1200px) {
 
-    // Make #main a flex container
-    #main {
+    // Only apply flex layout when #main has a sidebar
+    #main:has(.sidebar) {
         display: flex !important;
         flex-wrap: nowrap !important;
         align-items: flex-start !important;
@@ -48,7 +49,7 @@
 
     // Sidebar: fixed width, sticky positioning
     .sidebar {
-        flex: 0 0 250px !important; // Fixed 250px width
+        flex: 0 0 250px !important;
         width: 250px !important;
         max-width: 250px !important;
         position: sticky !important;
@@ -56,17 +57,24 @@
         align-self: flex-start;
     }
 
-    // Main content: take remaining space
-    .page,
-    .archive {
+    // Main content next to sidebar
+    .sidebar~.page,
+    .sidebar~.archive {
         flex: 1 1 auto !important;
-        min-width: 0; // Prevent overflow
-        margin-left: 2rem !important; // Gap between sidebar and content
-        max-width: calc(100% - 300px) !important; // Ensure it doesn't overlap
+        min-width: 0;
+        margin-left: 2rem !important;
+        max-width: calc(100% - 300px) !important;
+    }
+
+    // Pages WITHOUT sidebar should be full width
+    #main:not(:has(.sidebar)) .page {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin-left: 0 !important;
     }
 }
 
-// Additional fix for smaller screens
+// Smaller screens - stack vertically
 @media (max-width: 1199px) {
     .sidebar {
         position: relative !important;
@@ -78,5 +86,6 @@
     .archive {
         width: 100% !important;
         margin-left: 0 !important;
+        max-width: 100% !important;
     }
 }
