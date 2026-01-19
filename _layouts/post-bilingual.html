@@ -28,9 +28,6 @@ layout: default
         {% if page.date %}
         <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">
         {% endif %}
-        {% if page.modified %}
-        <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">
-        {% endif %}
 
         <div class="page__inner-wrap">
             {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -51,16 +48,17 @@ layout: default
             </header>
             {% endunless %}
 
-            <!-- Language Toggle -->
-            <div class="language-toggle">
-                <button class="lang-btn active" id="btn-zh" type="button">繁體中文</button>
-                <button class="lang-btn" id="btn-en" type="button">English</button>
+            <!-- Language Toggle Buttons -->
+            <div class="language-toggle"
+                style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; padding: 0.5rem 0; border-bottom: 1px solid #e1e4e8;">
+                <button id="lang-zh-btn"
+                    style="padding: 0.5rem 1rem; border: 1px solid #d1d5da; border-radius: 6px; background: #0366d6; color: #fff; font-size: 0.875rem; cursor: pointer;">繁體中文</button>
+                <button id="lang-en-btn"
+                    style="padding: 0.5rem 1rem; border: 1px solid #d1d5da; border-radius: 6px; background: #f6f8fa; color: #24292e; font-size: 0.875rem; cursor: pointer;">English</button>
             </div>
 
             <section class="page__content" itemprop="text">
                 {{ content }}
-                {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{
-                        site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
             </section>
 
             <footer class="page__meta">
@@ -71,7 +69,6 @@ layout: default
             </footer>
 
             {% if page.share %}{% include social-share.html %}{% endif %}
-
             {% include post_pagination.html %}
         </div>
 
@@ -81,92 +78,30 @@ layout: default
     </article>
 </div>
 
-<script type="text/javascript">
-    (function () {
-        // Wait for DOM to be ready
-        function ready(fn) {
-            if (document.readyState !== 'loading') {
-                fn();
-            } else {
-                document.addEventListener('DOMContentLoaded', fn);
-            }
-        }
+<script>
+    // Simple language toggle - vanilla JS, no dependencies
+    var zhBtn = document.getElementById('lang-zh-btn');
+    var enBtn = document.getElementById('lang-en-btn');
+    var zhContent = document.querySelector('.content-zh');
+    var enContent = document.querySelector('.content-en');
 
-        function switchLanguage(lang) {
-            console.log('Switching to:', lang);
+    function showChinese() {
+        if (zhContent) zhContent.style.display = 'block';
+        if (enContent) enContent.style.display = 'none';
+        if (zhBtn) { zhBtn.style.background = '#0366d6'; zhBtn.style.color = '#fff'; }
+        if (enBtn) { enBtn.style.background = '#f6f8fa'; enBtn.style.color = '#24292e'; }
+    }
 
-            // Get elements
-            var btnZh = document.getElementById('btn-zh');
-            var btnEn = document.getElementById('btn-en');
-            var zhContent = document.querySelector('.content-zh');
-            var enContent = document.querySelector('.content-en');
+    function showEnglish() {
+        if (zhContent) zhContent.style.display = 'none';
+        if (enContent) enContent.style.display = 'block';
+        if (zhBtn) { zhBtn.style.background = '#f6f8fa'; zhBtn.style.color = '#24292e'; }
+        if (enBtn) { enBtn.style.background = '#0366d6'; enBtn.style.color = '#fff'; }
+    }
 
-            console.log('Elements found:', {
-                btnZh: !!btnZh,
-                btnEn: !!btnEn,
-                zhContent: !!zhContent,
-                enContent: !!enContent
-            });
+    if (zhBtn) zhBtn.onclick = showChinese;
+    if (enBtn) enBtn.onclick = showEnglish;
 
-            // Update button states
-            if (btnZh && btnEn) {
-                if (lang === 'zh') {
-                    btnZh.classList.add('active');
-                    btnEn.classList.remove('active');
-                } else {
-                    btnZh.classList.remove('active');
-                    btnEn.classList.add('active');
-                }
-            }
-
-            // Toggle content visibility
-            if (zhContent && enContent) {
-                if (lang === 'zh') {
-                    zhContent.style.display = 'block';
-                    enContent.style.display = 'none';
-                } else {
-                    zhContent.style.display = 'none';
-                    enContent.style.display = 'block';
-                }
-            } else {
-                console.warn('Content divs not found!');
-            }
-
-            // Save preference
-            try {
-                localStorage.setItem('preferredLanguage', lang);
-            } catch (e) {
-                console.log('localStorage not available');
-            }
-        }
-
-        ready(function () {
-            console.log('DOM ready, setting up language toggle');
-
-            var btnZh = document.getElementById('btn-zh');
-            var btnEn = document.getElementById('btn-en');
-
-            if (btnZh) {
-                btnZh.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    switchLanguage('zh');
-                });
-            }
-
-            if (btnEn) {
-                btnEn.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    switchLanguage('en');
-                });
-            }
-
-            // Apply saved preference or default to Chinese
-            var savedLang = 'zh';
-            try {
-                savedLang = localStorage.getItem('preferredLanguage') || 'zh';
-            } catch (e) { }
-
-            switchLanguage(savedLang);
-        });
-    })();
+    // Default: show Chinese, hide English
+    if (enContent) enContent.style.display = 'none';
 </script>

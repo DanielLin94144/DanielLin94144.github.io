@@ -36,49 +36,35 @@
     }
 }
 
-// Sidebar layout fix - ONLY for pages with sidebar
-// Uses :has() selector to detect if sidebar exists
+// Safari-compatible sidebar layout (no :has() selector)
 @media (min-width: 1200px) {
 
-    // Only apply flex layout when #main has a sidebar
-    #main:has(.sidebar) {
-        display: flex !important;
-        flex-wrap: nowrap !important;
-        align-items: flex-start !important;
-    }
-
-    // Sidebar: fixed width, sticky positioning
+    // Sidebar: fixed width on left
     .sidebar {
-        flex: 0 0 250px !important;
-        width: 250px !important;
-        max-width: 250px !important;
+        float: left !important;
+        width: 220px !important;
+        max-width: 220px !important;
         position: sticky !important;
         top: 2rem;
-        align-self: flex-start;
     }
 
-    // Main content next to sidebar
+    // Content next to sidebar: use margin-left to avoid overlap
     .sidebar~.page,
     .sidebar~.archive {
-        flex: 1 1 auto !important;
-        min-width: 0;
-        margin-left: 2rem !important;
-        max-width: calc(100% - 300px) !important;
-    }
-
-    // Pages WITHOUT sidebar should be full width
-    #main:not(:has(.sidebar)) .page {
-        max-width: 100% !important;
-        width: 100% !important;
-        margin-left: 0 !important;
+        margin-left: 260px !important; // 220px sidebar + 40px gap
+        width: auto !important;
+        max-width: none !important;
+        float: none !important;
     }
 }
 
 // Smaller screens - stack vertically
 @media (max-width: 1199px) {
     .sidebar {
+        float: none !important;
         position: relative !important;
         width: 100% !important;
+        max-width: 100% !important;
         margin-bottom: 2rem;
     }
 
@@ -87,5 +73,13 @@
         width: 100% !important;
         margin-left: 0 !important;
         max-width: 100% !important;
+        float: none !important;
     }
+}
+
+// Clear floats in #main
+#main::after {
+    content: "";
+    display: table;
+    clear: both;
 }
