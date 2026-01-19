@@ -1,0 +1,75 @@
+// Bilingual post styles
+
+.language-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.lang-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    background: #f6f8fa;
+    color: #24292e;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background: #e1e4e8;
+    }
+
+    &.active {
+        background: #0366d6;
+        border-color: #0366d6;
+        color: #fff;
+    }
+}
+
+// Content sections
+.content-zh,
+.content-en {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.content-en {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+    .language-toggle {
+        border-bottom-color: #30363d;
+    }
+
+    .lang-btn {
+        background: #21262d;
+        border-color: #30363d;
+        color: #c9d1d9;
+
+        &:hover {
+            background: #30363d;
+        }
+
+        &.active {
+            background: #238636;
+            border-color: #238636;
+            color: #fff;
+        }
+    }
+}
