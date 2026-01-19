@@ -4,38 +4,85 @@ layout: default
 
 {% include base_path %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-{% include page__hero.html %}
-{% endif %}
+<style>
+    /* Inline styles for Safari compatibility */
+    .bilingual-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
 
-{% if page.url != "/" and site.breadcrumbs %}
-{% unless paginator %}
-{% include breadcrumbs.html %}
-{% endunless %}
-{% endif %}
+    .bilingual-sidebar {
+        width: 250px;
+        flex-shrink: 0;
+        padding-right: 2rem;
+    }
 
-<div id="main" role="main">
-    {% include sidebar.html %}
+    .bilingual-content {
+        flex: 1;
+        min-width: 300px;
+    }
 
-    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}
-        <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
-        {% endif %}
-        {% if page.excerpt %}
-        <meta itemprop="description"
-            content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
-        {% endif %}
-        {% if page.date %}
-        <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">
-        {% endif %}
+    @media (max-width: 768px) {
+        .bilingual-sidebar {
+            width: 100%;
+            padding-right: 0;
+            margin-bottom: 2rem;
+        }
 
-        <div class="page__inner-wrap">
-            {% unless page.header.overlay_color or page.header.overlay_image %}
+        .bilingual-content {
+            width: 100%;
+        }
+    }
+
+    .lang-toggle {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #e1e4e8;
+    }
+
+    .lang-toggle button {
+        padding: 0.5rem 1rem;
+        border: 1px solid #d1d5da;
+        border-radius: 6px;
+        font-size: 0.875rem;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    .lang-toggle .btn-zh {
+        background: #28a745;
+        color: white;
+        border-color: #28a745;
+    }
+
+    .lang-toggle .btn-en {
+        background: #343a40;
+        color: white;
+        border-color: #343a40;
+    }
+
+    .lang-toggle .btn-inactive {
+        background: #f6f8fa;
+        color: #24292e;
+        border-color: #d1d5da;
+    }
+</style>
+
+<div class="bilingual-container">
+    <aside class="bilingual-sidebar">
+        {% include author-profile.html %}
+    </aside>
+
+    <main class="bilingual-content">
+        <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
             <header>
-                {% unless page.hide_title %}
                 {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "
                     <p>" | remove: "</p>" }}</h1>{% endif %}
-                {% endunless %}
                 {% if page.read_time %}
                 <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
                 {% endif %}
@@ -46,15 +93,11 @@ layout: default
                         %d, %Y" }}</time></p>
                 {% endif %}
             </header>
-            {% endunless %}
 
-            <!-- Language Toggle Buttons -->
-            <div class="language-toggle"
-                style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; padding: 0.5rem 0; border-bottom: 1px solid #e1e4e8;">
-                <button id="lang-zh-btn"
-                    style="padding: 0.5rem 1rem; border: 1px solid #d1d5da; border-radius: 6px; background: #0366d6; color: #fff; font-size: 0.875rem; cursor: pointer;">繁體中文</button>
-                <button id="lang-en-btn"
-                    style="padding: 0.5rem 1rem; border: 1px solid #d1d5da; border-radius: 6px; background: #f6f8fa; color: #24292e; font-size: 0.875rem; cursor: pointer;">English</button>
+            <!-- Language Toggle -->
+            <div class="lang-toggle">
+                <button type="button" class="btn-zh" id="btnZh">繁體中文</button>
+                <button type="button" class="btn-inactive" id="btnEn">English</button>
             </div>
 
             <section class="page__content" itemprop="text">
@@ -62,46 +105,38 @@ layout: default
             </section>
 
             <footer class="page__meta">
-                {% if site.data.ui-text[site.locale].meta_label %}
-                <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-                {% endif %}
                 {% include page__taxonomy.html %}
             </footer>
-
-            {% if page.share %}{% include social-share.html %}{% endif %}
-            {% include post_pagination.html %}
-        </div>
-
-        {% if site.comments.provider and page.comments %}
-        {% include comments.html %}
-        {% endif %}
-    </article>
+        </article>
+    </main>
 </div>
 
 <script>
-    // Simple language toggle - vanilla JS, no dependencies
-    var zhBtn = document.getElementById('lang-zh-btn');
-    var enBtn = document.getElementById('lang-en-btn');
-    var zhContent = document.querySelector('.content-zh');
-    var enContent = document.querySelector('.content-en');
+    // Ultra-simple language toggle
+    (function () {
+        var btnZh = document.getElementById('btnZh');
+        var btnEn = document.getElementById('btnEn');
+        var contentZh = document.getElementsByClassName('content-zh')[0];
+        var contentEn = document.getElementsByClassName('content-en')[0];
 
-    function showChinese() {
-        if (zhContent) zhContent.style.display = 'block';
-        if (enContent) enContent.style.display = 'none';
-        if (zhBtn) { zhBtn.style.background = '#0366d6'; zhBtn.style.color = '#fff'; }
-        if (enBtn) { enBtn.style.background = '#f6f8fa'; enBtn.style.color = '#24292e'; }
-    }
+        function showZh() {
+            if (contentZh) contentZh.style.display = 'block';
+            if (contentEn) contentEn.style.display = 'none';
+            if (btnZh) { btnZh.className = 'btn-zh'; }
+            if (btnEn) { btnEn.className = 'btn-inactive'; }
+        }
 
-    function showEnglish() {
-        if (zhContent) zhContent.style.display = 'none';
-        if (enContent) enContent.style.display = 'block';
-        if (zhBtn) { zhBtn.style.background = '#f6f8fa'; zhBtn.style.color = '#24292e'; }
-        if (enBtn) { enBtn.style.background = '#0366d6'; enBtn.style.color = '#fff'; }
-    }
+        function showEn() {
+            if (contentZh) contentZh.style.display = 'none';
+            if (contentEn) contentEn.style.display = 'block';
+            if (btnZh) { btnZh.className = 'btn-inactive'; }
+            if (btnEn) { btnEn.className = 'btn-en'; }
+        }
 
-    if (zhBtn) zhBtn.onclick = showChinese;
-    if (enBtn) enBtn.onclick = showEnglish;
+        if (btnZh) btnZh.onclick = showZh;
+        if (btnEn) btnEn.onclick = showEn;
 
-    // Default: show Chinese, hide English
-    if (enContent) enContent.style.display = 'none';
+        // Default: show Chinese
+        showZh();
+    })();
 </script>
