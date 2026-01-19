@@ -36,29 +36,47 @@
     }
 }
 
-// Side bar fix
-.sidebar {
-    .author__avatar {
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 50%;
-        }
+// Robust layout fix for sidebar overlap using Flexbox
+@media (min-width: 1200px) {
+
+    // Make #main a flex container
+    #main {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        align-items: flex-start !important;
+    }
+
+    // Sidebar: fixed width, sticky positioning
+    .sidebar {
+        flex: 0 0 250px !important; // Fixed 250px width
+        width: 250px !important;
+        max-width: 250px !important;
+        position: sticky !important;
+        top: 2rem;
+        align-self: flex-start;
+    }
+
+    // Main content: take remaining space
+    .page,
+    .archive {
+        flex: 1 1 auto !important;
+        min-width: 0; // Prevent overflow
+        margin-left: 2rem !important; // Gap between sidebar and content
+        max-width: calc(100% - 300px) !important; // Ensure it doesn't overlap
     }
 }
 
-// Layout fix for sidebar overlap
-@media (min-width: 1200px) {
+// Additional fix for smaller screens
+@media (max-width: 1199px) {
     .sidebar {
-        width: 20%;
-        float: left;
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: 2rem;
     }
 
-    .sidebar+.archive,
-    .sidebar+.page {
-        width: 75%;
-        float: right;
-        padding-left: 3rem;
-        margin-right: 0;
+    .page,
+    .archive {
+        width: 100% !important;
+        margin-left: 0 !important;
     }
 }
