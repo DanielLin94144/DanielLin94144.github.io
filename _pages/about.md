@@ -90,6 +90,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 ## Update
 
 <ul class="news-list" id="news-list">
+  <li><strong>2026/01</strong> Full-Duplex-Bench v1.5 accepted by ICASSP 2026!</li>
   <li><strong>2025/12</strong> Successfully defended my Ph.D. dissertation! 🎓</li>
   <li><strong>2025/08</strong> Three papers accepted by ASRU 2025. See you in Hawaii 🏝</li>
   <li><strong>2025/05</strong> Align-SLM accepted by ACL 2025. See you in Vienna!</li>
@@ -131,7 +132,7 @@ _Speech understanding and generation toward human-like spoken dialogue_
   <a href="https://arxiv.org/abs/2510.07838" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/Full-Duplex-Bench" class="btn btn--small">CODE</a>
 * **Full-Duplex-Bench v1.5: Evaluating Overlap Handling for Full-Duplex Speech Models**\\
   <u>Guan-Ting Lin</u>, Shih-Yun Shan Kuan, Qirui Wang, Jiachen Lian, Tingle Li, Hung-yi Lee\\
-  *Arxiv 2025*\\
+  *ICASSP 2026*\\
   <a href="https://arxiv.org/abs/2507.23159" class="btn btn--small">ARXIV</a> <a href="https://github.com/DanielLin94144/Full-Duplex-Bench" class="btn btn--small">CODE</a>
 * **Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities**\\
   <u>Guan-Ting Lin</u>, Jiachen Lian<sub>(co-second)</sub>, Tingle Li<sub>(co-second)</sub>, Qirui Wang<sub>(co-second)</sub>, Gopala Anumanchipalli, Alexander H. Liu, Hung-yi Lee\\

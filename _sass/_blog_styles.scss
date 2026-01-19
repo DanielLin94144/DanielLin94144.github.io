@@ -46,3 +46,19 @@
         }
     }
 }
+
+// Layout fix for sidebar overlap
+@media (min-width: 1200px) {
+    .sidebar {
+        width: 20%;
+        float: left;
+    }
+
+    .sidebar+.archive,
+    .sidebar+.page {
+        width: 75%;
+        float: right;
+        padding-left: 3rem;
+        margin-right: 0;
+    }
+}
