@@ -9,32 +9,36 @@ tags:
   - thoughts
 ---
 
-<div class="content-zh" markdown="1">
+<div class="content-zh">
 
-## 歡迎來到我的 Blog！
+<h2>歡迎來到我的 Blog！</h2>
 
-這是我的第一篇 Blog 文章。在這裡，我會分享一些個人的心得、研究筆記、以及生活中的觀察。
+<p>這是我的第一篇 Blog 文章。在這裡，我會分享一些個人的心得、研究筆記、以及生活中的觀察。</p>
 
-### 關於這個 Blog
+<h3>關於這個 Blog</h3>
 
-我會在這裡寫一些：
+<p>我會在這裡寫一些：</p>
 
-- 🔬 **研究心得**：分享我在語音處理和機器學習領域的研究經驗
-- 💡 **技術筆記**：記錄一些有用的技術技巧和工具使用心得
+<ul>
+<li>🔬 <strong>研究心得</strong>：分享我在語音處理和機器學習領域的研究經驗</li>
+<li>💡 <strong>技術筆記</strong>：記錄一些有用的技術技巧和工具使用心得</li>
+</ul>
 
 </div>
 
-<div class="content-en" markdown="1">
+<div class="content-en">
 
-## Welcome to My Blog!
+<h2>Welcome to My Blog!</h2>
 
-This is my first blog post. Here, I'll be sharing personal insights, research notes, and observations from daily life.
+<p>This is my first blog post. Here, I'll be sharing personal insights, research notes, and observations from daily life.</p>
 
-### About This Blog
+<h3>About This Blog</h3>
 
-I'll be writing about:
+<p>I'll be writing about:</p>
 
-- 🔬 **Research Insights**: Sharing my experiences in speech processing and machine learning research
-- 💡 **Technical Notes**: Documenting useful tips and tool usage experiences
+<ul>
+<li>🔬 <strong>Research Insights</strong>: Sharing my experiences in speech processing and machine learning research</li>
+<li>💡 <strong>Technical Notes</strong>: Documenting useful tips and tool usage experiences</li>
+</ul>
 
 </div>
