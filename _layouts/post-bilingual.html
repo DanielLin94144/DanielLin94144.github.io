@@ -20,24 +20,24 @@ layout: default
     <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}
         <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
-        {%
-        endif %}
+        {% endif %}
         {% if page.excerpt %}
         <meta itemprop="description"
             content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
         {% endif %}
         {% if page.date %}
-        <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">{% endif %}
+        <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">
+        {% endif %}
         {% if page.modified %}
-        <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">{% endif %}
+        <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">
+        {% endif %}
 
         <div class="page__inner-wrap">
             {% unless page.header.overlay_color or page.header.overlay_image %}
             <header>
                 {% unless page.hide_title %}
                 {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "
-                    <p>" |
-                        remove: "</p>" }}</h1>{% endif %}
+                    <p>" | remove: "</p>" }}</h1>{% endif %}
                 {% endunless %}
                 {% if page.read_time %}
                 <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -46,23 +46,21 @@ layout: default
                 <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{
                         site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
                         datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B
-                        %d, %Y"
-                        }}</time></p>
+                        %d, %Y" }}</time></p>
                 {% endif %}
             </header>
             {% endunless %}
 
             <!-- Language Toggle -->
             <div class="language-toggle">
-                <button class="lang-btn active" data-lang="zh" onclick="switchLanguage('zh')">繁體中文</button>
-                <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')">English</button>
+                <button class="lang-btn active" id="btn-zh" type="button">繁體中文</button>
+                <button class="lang-btn" id="btn-en" type="button">English</button>
             </div>
 
             <section class="page__content" itemprop="text">
                 {{ content }}
                 {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{
-                        site.data.ui-text[site.locale].ext_link_label |
-                        default: "Direct Link" }}</a></div>{% endif %}
+                        site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
             </section>
 
             <footer class="page__meta">
@@ -83,37 +81,92 @@ layout: default
     </article>
 </div>
 
-<script>
-    function switchLanguage(lang) {
-        // Update button states
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.classList.remove('active');
-            if (btn.dataset.lang === lang) {
-                btn.classList.add('active');
-            }
-        });
-
-        // Toggle content visibility
-        const zhContent = document.querySelector('.content-zh');
-        const enContent = document.querySelector('.content-en');
-
-        if (zhContent && enContent) {
-            if (lang === 'zh') {
-                zhContent.style.display = 'block';
-                enContent.style.display = 'none';
+<script type="text/javascript">
+    (function () {
+        // Wait for DOM to be ready
+        function ready(fn) {
+            if (document.readyState !== 'loading') {
+                fn();
             } else {
-                zhContent.style.display = 'none';
-                enContent.style.display = 'block';
+                document.addEventListener('DOMContentLoaded', fn);
             }
         }
 
-        // Save preference to localStorage
-        localStorage.setItem('preferredLanguage', lang);
-    }
+        function switchLanguage(lang) {
+            console.log('Switching to:', lang);
 
-    // On page load, check for saved preference
-    document.addEventListener('DOMContentLoaded', function () {
-        const savedLang = localStorage.getItem('preferredLanguage') || 'zh';
-        switchLanguage(savedLang);
-    });
+            // Get elements
+            var btnZh = document.getElementById('btn-zh');
+            var btnEn = document.getElementById('btn-en');
+            var zhContent = document.querySelector('.content-zh');
+            var enContent = document.querySelector('.content-en');
+
+            console.log('Elements found:', {
+                btnZh: !!btnZh,
+                btnEn: !!btnEn,
+                zhContent: !!zhContent,
+                enContent: !!enContent
+            });
+
+            // Update button states
+            if (btnZh && btnEn) {
+                if (lang === 'zh') {
+                    btnZh.classList.add('active');
+                    btnEn.classList.remove('active');
+                } else {
+                    btnZh.classList.remove('active');
+                    btnEn.classList.add('active');
+                }
+            }
+
+            // Toggle content visibility
+            if (zhContent && enContent) {
+                if (lang === 'zh') {
+                    zhContent.style.display = 'block';
+                    enContent.style.display = 'none';
+                } else {
+                    zhContent.style.display = 'none';
+                    enContent.style.display = 'block';
+                }
+            } else {
+                console.warn('Content divs not found!');
+            }
+
+            // Save preference
+            try {
+                localStorage.setItem('preferredLanguage', lang);
+            } catch (e) {
+                console.log('localStorage not available');
+            }
+        }
+
+        ready(function () {
+            console.log('DOM ready, setting up language toggle');
+
+            var btnZh = document.getElementById('btn-zh');
+            var btnEn = document.getElementById('btn-en');
+
+            if (btnZh) {
+                btnZh.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    switchLanguage('zh');
+                });
+            }
+
+            if (btnEn) {
+                btnEn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    switchLanguage('en');
+                });
+            }
+
+            // Apply saved preference or default to Chinese
+            var savedLang = 'zh';
+            try {
+                savedLang = localStorage.getItem('preferredLanguage') || 'zh';
+            } catch (e) { }
+
+            switchLanguage(savedLang);
+        });
+    })();
 </script>
