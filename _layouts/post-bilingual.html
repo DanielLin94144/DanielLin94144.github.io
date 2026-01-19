@@ -5,7 +5,6 @@ layout: default
 {% include base_path %}
 
 <style>
-    /* Inline styles for Safari compatibility */
     .bilingual-container {
         display: flex;
         flex-wrap: wrap;
@@ -51,22 +50,21 @@ layout: default
         border-radius: 6px;
         font-size: 0.875rem;
         cursor: pointer;
-        transition: all 0.2s;
     }
 
-    .lang-toggle .btn-zh {
-        background: #28a745;
-        color: white;
-        border-color: #28a745;
+    .lang-active-zh {
+        background: #28a745 !important;
+        color: white !important;
+        border-color: #28a745 !important;
     }
 
-    .lang-toggle .btn-en {
-        background: #343a40;
-        color: white;
-        border-color: #343a40;
+    .lang-active-en {
+        background: #343a40 !important;
+        color: white !important;
+        border-color: #343a40 !important;
     }
 
-    .lang-toggle .btn-inactive {
+    .lang-inactive {
         background: #f6f8fa;
         color: #24292e;
         border-color: #d1d5da;
@@ -79,28 +77,22 @@ layout: default
     </aside>
 
     <main class="bilingual-content">
-        <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        <article class="page">
             <header>
-                {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "
-                    <p>" | remove: "</p>" }}</h1>{% endif %}
-                {% if page.read_time %}
-                <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-                {% endif %}
-                {% if page.date %}
-                <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{
-                        site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
-                        datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B
-                        %d, %Y" }}</time></p>
-                {% endif %}
+                {% if page.title %}<h1 class="page__title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>"
+                    }}</h1>{% endif %}
+                {% if page.read_time %}<p class="page__meta"><i class="fa fa-clock-o"></i> {% include read-time.html %}
+                </p>{% endif %}
+                {% if page.date %}<p class="page__date"><strong><i class="fa fa-fw fa-calendar"></i> Published:</strong>
+                    <time>{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
             </header>
 
-            <!-- Language Toggle -->
             <div class="lang-toggle">
-                <button type="button" class="btn-zh" id="btnZh">繁體中文</button>
-                <button type="button" class="btn-inactive" id="btnEn">English</button>
+                <button type="button" id="btnZh" class="lang-active-zh" onclick="showChinese()">繁體中文</button>
+                <button type="button" id="btnEn" class="lang-inactive" onclick="showEnglish()">English</button>
             </div>
 
-            <section class="page__content" itemprop="text">
+            <section class="page__content">
                 {{ content }}
             </section>
 
@@ -111,32 +103,28 @@ layout: default
     </main>
 </div>
 
-<script>
-    // Ultra-simple language toggle
-    (function () {
+<script type="text/javascript">
+    function showChinese() {
+        var zh = document.getElementById('content-zh');
+        var en = document.getElementById('content-en');
         var btnZh = document.getElementById('btnZh');
         var btnEn = document.getElementById('btnEn');
-        var contentZh = document.getElementsByClassName('content-zh')[0];
-        var contentEn = document.getElementsByClassName('content-en')[0];
 
-        function showZh() {
-            if (contentZh) contentZh.style.display = 'block';
-            if (contentEn) contentEn.style.display = 'none';
-            if (btnZh) { btnZh.className = 'btn-zh'; }
-            if (btnEn) { btnEn.className = 'btn-inactive'; }
-        }
+        if (zh) zh.style.display = 'block';
+        if (en) en.style.display = 'none';
+        if (btnZh) { btnZh.className = 'lang-active-zh'; }
+        if (btnEn) { btnEn.className = 'lang-inactive'; }
+    }
 
-        function showEn() {
-            if (contentZh) contentZh.style.display = 'none';
-            if (contentEn) contentEn.style.display = 'block';
-            if (btnZh) { btnZh.className = 'btn-inactive'; }
-            if (btnEn) { btnEn.className = 'btn-en'; }
-        }
+    function showEnglish() {
+        var zh = document.getElementById('content-zh');
+        var en = document.getElementById('content-en');
+        var btnZh = document.getElementById('btnZh');
+        var btnEn = document.getElementById('btnEn');
 
-        if (btnZh) btnZh.onclick = showZh;
-        if (btnEn) btnEn.onclick = showEn;
-
-        // Default: show Chinese
-        showZh();
-    })();
+        if (zh) zh.style.display = 'none';
+        if (en) en.style.display = 'block';
+        if (btnZh) { btnZh.className = 'lang-inactive'; }
+        if (btnEn) { btnEn.className = 'lang-active-en'; }
+    }
 </script>
