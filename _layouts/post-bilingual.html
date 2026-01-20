@@ -84,12 +84,13 @@ layout: default
                 {% if page.read_time %}<p class="page__meta"><i class="fa fa-clock-o"></i> {% include read-time.html %}
                 </p>{% endif %}
                 {% if page.date %}<p class="page__date"><strong><i class="fa fa-fw fa-calendar"></i> Published:</strong>
-                    <time>{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+                    <time>{{ page.date | date: "%B %d, %Y" }}</time>
+                </p>{% endif %}
             </header>
 
             <div class="lang-toggle">
-                <button type="button" id="btnZh" class="lang-active-zh" onclick="showChinese()">繁體中文</button>
-                <button type="button" id="btnEn" class="lang-inactive" onclick="showEnglish()">English</button>
+                <button type="button" id="btnZh" class="lang-active-zh" onclick="switchLang('zh')">繁體中文</button>
+                <button type="button" id="btnEn" class="lang-inactive" onclick="switchLang('en')">English</button>
             </div>
 
             <section class="page__content">
@@ -104,27 +105,45 @@ layout: default
 </div>
 
 <script type="text/javascript">
-    function showChinese() {
+    // Get URL parameter
+    function getUrlParam(param) {
+        var urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    // Update URL without reloading page
+    function updateUrl(lang) {
+        var url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+    }
+
+    // Switch language
+    function switchLang(lang) {
         var zh = document.getElementById('content-zh');
         var en = document.getElementById('content-en');
         var btnZh = document.getElementById('btnZh');
         var btnEn = document.getElementById('btnEn');
 
-        if (zh) zh.style.display = 'block';
-        if (en) en.style.display = 'none';
-        if (btnZh) { btnZh.className = 'lang-active-zh'; }
-        if (btnEn) { btnEn.className = 'lang-inactive'; }
+        if (lang === 'en') {
+            if (zh) zh.style.display = 'none';
+            if (en) en.style.display = 'block';
+            if (btnZh) btnZh.className = 'lang-inactive';
+            if (btnEn) btnEn.className = 'lang-active-en';
+        } else {
+            if (zh) zh.style.display = 'block';
+            if (en) en.style.display = 'none';
+            if (btnZh) btnZh.className = 'lang-active-zh';
+            if (btnEn) btnEn.className = 'lang-inactive';
+        }
+
+        // Update URL
+        updateUrl(lang);
     }
 
-    function showEnglish() {
-        var zh = document.getElementById('content-zh');
-        var en = document.getElementById('content-en');
-        var btnZh = document.getElementById('btnZh');
-        var btnEn = document.getElementById('btnEn');
-
-        if (zh) zh.style.display = 'none';
-        if (en) en.style.display = 'block';
-        if (btnZh) { btnZh.className = 'lang-inactive'; }
-        if (btnEn) { btnEn.className = 'lang-active-en'; }
-    }
+    // On page load: check URL parameter
+    (function () {
+        var lang = getUrlParam('lang') || 'zh'; // Default to Chinese
+        switchLang(lang);
+    })();
 </script>
