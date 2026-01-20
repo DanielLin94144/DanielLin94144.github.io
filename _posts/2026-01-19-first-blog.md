@@ -9,7 +9,7 @@ tags:
   - thoughts
 ---
 
-<div id="content-zh">
+<div id="content-zh" style="display:none;">
 
 <h2>歡迎來到我的 Blog！</h2>
 
@@ -26,7 +26,7 @@ tags:
 
 </div>
 
-<div id="content-en" style="display:none;">
+<div id="content-en">
 
 <h2>Welcome to My Blog!</h2>
 

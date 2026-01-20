@@ -89,8 +89,8 @@ layout: default
             </header>
 
             <div class="lang-toggle">
-                <button type="button" id="btnZh" class="lang-active-zh" onclick="switchLang('zh')">繁體中文</button>
-                <button type="button" id="btnEn" class="lang-inactive" onclick="switchLang('en')">English</button>
+                <button type="button" id="btnZh" class="lang-inactive" onclick="switchLang('zh')">繁體中文</button>
+                <button type="button" id="btnEn" class="lang-active-en" onclick="switchLang('en')">English</button>
             </div>
 
             <section class="page__content">
@@ -143,7 +143,7 @@ layout: default
 
     // On page load: check URL parameter
     (function () {
-        var lang = getUrlParam('lang') || 'zh'; // Default to Chinese
+        var lang = getUrlParam('lang') || 'en'; // Default to English
         switchLang(lang);
     })();
 </script>

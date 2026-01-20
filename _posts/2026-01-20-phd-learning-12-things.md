@@ -11,7 +11,7 @@ tags:
   - Thoughts
 ---
 
-<div id="content-zh">
+<div id="content-zh" style="display:none;">
 
     <h2>不只是學術：以「生活研究員」的眼光，我學到的 12 個底層邏輯</h2>
 
@@ -86,7 +86,7 @@ tags:
 
 </div>
 
-<div id="content-en" style="display:none;">
+<div id="content-en">
 
     <h2>Not Just Academia: 12 Life Logics Learned as a "Life Researcher"</h2>
 
