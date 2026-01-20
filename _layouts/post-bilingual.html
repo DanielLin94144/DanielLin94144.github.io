@@ -44,12 +44,16 @@ layout: default
         border-bottom: 1px solid #e1e4e8;
     }
 
-    .lang-toggle button {
+    .lang-toggle a {
         padding: 0.5rem 1rem;
         border: 1px solid #d1d5da;
         border-radius: 6px;
         font-size: 0.875rem;
         cursor: pointer;
+        text-decoration: none;
+        /* Remove underline */
+        display: inline-block;
+        /* Ensure padding works */
     }
 
     .lang-active-zh {
@@ -89,8 +93,8 @@ layout: default
             </header>
 
             <div class="lang-toggle">
-                <button type="button" id="btnZh" class="lang-inactive" onclick="switchLang('zh')">繁體中文</button>
-                <button type="button" id="btnEn" class="lang-active-en" onclick="switchLang('en')">English</button>
+                <a href="?lang=zh" id="btnZh" class="lang-inactive">繁體中文</a>
+                <a href="?lang=en" id="btnEn" class="lang-active-en">English</a>
             </div>
 
             <section class="page__content">
@@ -105,11 +109,9 @@ layout: default
 </div>
 
 <script type="text/javascript">
-    (function() {
-        // Logging helper
-        function log(msg) {
-            console.log('[Bilingual]: ' + msg);
-        }
+    (function () {
+        // Simple log
+        function log(msg) { console.log('[Bilingual]: ' + msg); }
 
         // Get URL parameter
         function getUrlParam(param) {
@@ -117,79 +119,38 @@ layout: default
                 var urlParams = new URLSearchParams(window.location.search);
                 return urlParams.get(param);
             } catch (e) {
-                log('Error getting URL param: ' + e);
                 return null;
             }
         }
 
-        // Update URL without reloading page
-        function updateUrl(lang) {
-            try {
-                if (window.history && window.history.replaceState) {
-                    var url = new URL(window.location.href);
-                    url.searchParams.set('lang', lang);
-                    window.history.replaceState({}, '', url);
-                }
-            } catch (e) {
-                log('Error updating URL: ' + e);
-            }
-        }
-
-        // Switch language function - Attached to window so onclick works
-        window.switchLang = function(lang) {
-            log('Switching to: ' + lang);
+        // Apply language state based on URL
+        function applyLanguageState() {
+            var lang = getUrlParam('lang') || 'en'; // Default to English
+            log('Applying language: ' + lang);
 
             var zh = document.getElementById('content-zh');
             var en = document.getElementById('content-en');
             var btnZh = document.getElementById('btnZh');
             var btnEn = document.getElementById('btnEn');
 
-            if (!zh || !en) {
-                log('Critical: Content elements not found!');
-                // Try to find by class if ID fails (fallback)
-                if (!zh) zh = document.querySelector('.content-zh');
-                if (!en) en = document.querySelector('.content-en');
-            }
-
             if (lang === 'en') {
                 if (zh) zh.style.display = 'none';
                 if (en) en.style.display = 'block';
-                if (btnZh) {
-                    btnZh.className = ''; 
-                    btnZh.classList.add('lang-inactive');
-                }
-                if (btnEn) {
-                    btnEn.className = '';
-                    btnEn.classList.add('lang-active-en');
-                }
+                if (btnZh) btnZh.className = 'lang-inactive';
+                if (btnEn) btnEn.className = 'lang-active-en';
             } else {
                 if (zh) zh.style.display = 'block';
                 if (en) en.style.display = 'none';
-                if (btnZh) {
-                    btnZh.className = '';
-                    btnZh.classList.add('lang-active-zh');
-                }
-                if (btnEn) {
-                    btnEn.className = '';
-                    btnEn.classList.add('lang-inactive');
-                }
+                if (btnZh) btnZh.className = 'lang-active-zh';
+                if (btnEn) btnEn.className = 'lang-inactive';
             }
-
-            // Update URL
-            updateUrl(lang);
-        };
-
-        // Initialize on load
-        function init() {
-            log('Initializing...');
-            var lang = getUrlParam('lang') || 'en'; // Default to English
-            window.switchLang(lang);
         }
 
+        // Run on load
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', init);
+            document.addEventListener('DOMContentLoaded', applyLanguageState);
         } else {
-            init();
+            applyLanguageState();
         }
     })();
 </script>
