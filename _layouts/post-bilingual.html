@@ -5,6 +5,26 @@ layout: default
 {% include base_path %}
 
 <style>
+    /* CSS-driven visibility - ROBUST */
+    /* Default: Show English, Hide Chinese */
+    #content-en {
+        display: block !important;
+    }
+
+    #content-zh {
+        display: none !important;
+    }
+
+    /* If body has lang-zh class: Show Chinese, Hide English */
+    body.lang-zh #content-en {
+        display: none !important;
+    }
+
+    body.lang-zh #content-zh {
+        display: block !important;
+    }
+
+    /* Button Styling */
     .bilingual-container {
         display: flex;
         flex-wrap: wrap;
@@ -51,29 +71,41 @@ layout: default
         font-size: 0.875rem;
         cursor: pointer;
         text-decoration: none;
-        /* Remove underline */
         display: inline-block;
-        /* Ensure padding works */
+        color: #24292e;
+        background: #f6f8fa;
     }
 
-    .lang-active-zh {
-        background: #28a745 !important;
-        color: white !important;
-        border-color: #28a745 !important;
-    }
-
-    .lang-active-en {
+    /* Active States controlled by body class */
+    /* English Mode (Default) */
+    body:not(.lang-zh) #btnEn {
         background: #343a40 !important;
         color: white !important;
         border-color: #343a40 !important;
     }
 
-    .lang-inactive {
-        background: #f6f8fa;
-        color: #24292e;
-        border-color: #d1d5da;
+    /* Chinese Mode */
+    body.lang-zh #btnZh {
+        background: #28a745 !important;
+        color: white !important;
+        border-color: #28a745 !important;
     }
 </style>
+
+<!-- IMMEDIATE SCRIPT TO SET CLASS BEFORE RENDER -->
+<script>
+    (function () {
+        try {
+            var url = window.location.href;
+            var hasLangZh = url.indexOf('lang=zh') > -1;
+            if (hasLangZh) {
+                document.body.classList.add('lang-zh');
+            } else {
+                document.body.classList.remove('lang-zh');
+            }
+        } catch (e) { console.error(e); }
+    })();
+</script>
 
 <div class="bilingual-container">
     <aside class="bilingual-sidebar">
@@ -93,8 +125,8 @@ layout: default
             </header>
 
             <div class="lang-toggle">
-                <a href="?lang=zh" id="btnZh" class="lang-inactive">繁體中文</a>
-                <a href="?lang=en" id="btnEn" class="lang-active-en">English</a>
+                <a href="?lang=zh" id="btnZh">繁體中文</a>
+                <a href="?lang=en" id="btnEn">English</a>
             </div>
 
             <section class="page__content">
@@ -109,81 +141,12 @@ layout: default
 </div>
 
 <script type="text/javascript">
-    (function () {
-        function log(msg) { console.log('[Bilingual]: ' + msg); }
-
-        function getLangFromUrl() {
-            // Priority 1: URLSearchParams
-            try {
-                var params = new URLSearchParams(window.location.search);
-                if (params.has('lang')) {
-                    return params.get('lang');
-                }
-            } catch (e) {
-                log('URLSearchParams failed: ' + e);
-            }
-
-            // Priority 2: Simple string check
-            if (window.location.href.indexOf('lang=zh') > -1) return 'zh';
-            if (window.location.href.indexOf('lang=en') > -1) return 'en';
-
-            return 'en'; // Default
-        }
-
-        function applyLanguageState() {
-            var lang = getLangFromUrl();
-            log('Applying language: ' + lang);
-
-            var zh = document.getElementById('content-zh');
-            var en = document.getElementById('content-en');
-            var btnZh = document.getElementById('btnZh');
-            var btnEn = document.getElementById('btnEn');
-
-            if (!zh || !en) {
-                log('Content elements missing!');
-                return;
-            }
-
-            if (lang === 'zh') {
-                // Show Chinese
-                zh.style.setProperty('display', 'block', 'important');
-                en.style.setProperty('display', 'none', 'important');
-
-                if (btnZh) {
-                    btnZh.className = '';
-                    btnZh.classList.add('lang-active-zh');
-                }
-                if (btnEn) {
-                    btnEn.className = '';
-                    btnEn.classList.add('lang-inactive');
-                }
-            } else {
-                // Show English (Default)
-                zh.style.setProperty('display', 'none', 'important');
-                en.style.setProperty('display', 'block', 'important');
-
-                if (btnZh) {
-                    btnZh.className = '';
-                    btnZh.classList.add('lang-inactive');
-                }
-                if (btnEn) {
-                    btnEn.className = '';
-                    btnEn.classList.add('lang-active-en');
-                }
-            }
-        }
-
-        // Multiple triggers to ensure it runs
-        if (document.readyState !== 'loading') {
-            applyLanguageState();
+    // Fallback script to ensure class is set if initial run missed (e.g. turbolinks)
+    document.addEventListener("DOMContentLoaded", function () {
+        if (window.location.href.indexOf('lang=zh') > -1) {
+            document.body.classList.add('lang-zh');
         } else {
-            document.addEventListener('DOMContentLoaded', applyLanguageState);
+            document.body.classList.remove('lang-zh');
         }
-
-        // Handle Safari back/forward cache
-        window.addEventListener('pageshow', applyLanguageState);
-
-        // Handle Turbolinks/Turbo if present in theme
-        document.addEventListener('turbolinks:load', applyLanguageState);
-    })();
+    });
 </script>
