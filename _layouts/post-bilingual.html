@@ -110,22 +110,28 @@ layout: default
 
 <script type="text/javascript">
     (function () {
-        // Simple log
         function log(msg) { console.log('[Bilingual]: ' + msg); }
 
-        // Get URL parameter
-        function getUrlParam(param) {
+        function getLangFromUrl() {
+            // Priority 1: URLSearchParams
             try {
-                var urlParams = new URLSearchParams(window.location.search);
-                return urlParams.get(param);
+                var params = new URLSearchParams(window.location.search);
+                if (params.has('lang')) {
+                    return params.get('lang');
+                }
             } catch (e) {
-                return null;
+                log('URLSearchParams failed: ' + e);
             }
+
+            // Priority 2: Simple string check
+            if (window.location.href.indexOf('lang=zh') > -1) return 'zh';
+            if (window.location.href.indexOf('lang=en') > -1) return 'en';
+
+            return 'en'; // Default
         }
 
-        // Apply language state based on URL
         function applyLanguageState() {
-            var lang = getUrlParam('lang') || 'en'; // Default to English
+            var lang = getLangFromUrl();
             log('Applying language: ' + lang);
 
             var zh = document.getElementById('content-zh');
@@ -133,24 +139,51 @@ layout: default
             var btnZh = document.getElementById('btnZh');
             var btnEn = document.getElementById('btnEn');
 
-            if (lang === 'en') {
-                if (zh) zh.style.display = 'none';
-                if (en) en.style.display = 'block';
-                if (btnZh) btnZh.className = 'lang-inactive';
-                if (btnEn) btnEn.className = 'lang-active-en';
+            if (!zh || !en) {
+                log('Content elements missing!');
+                return;
+            }
+
+            if (lang === 'zh') {
+                // Show Chinese
+                zh.style.setProperty('display', 'block', 'important');
+                en.style.setProperty('display', 'none', 'important');
+
+                if (btnZh) {
+                    btnZh.className = '';
+                    btnZh.classList.add('lang-active-zh');
+                }
+                if (btnEn) {
+                    btnEn.className = '';
+                    btnEn.classList.add('lang-inactive');
+                }
             } else {
-                if (zh) zh.style.display = 'block';
-                if (en) en.style.display = 'none';
-                if (btnZh) btnZh.className = 'lang-active-zh';
-                if (btnEn) btnEn.className = 'lang-inactive';
+                // Show English (Default)
+                zh.style.setProperty('display', 'none', 'important');
+                en.style.setProperty('display', 'block', 'important');
+
+                if (btnZh) {
+                    btnZh.className = '';
+                    btnZh.classList.add('lang-inactive');
+                }
+                if (btnEn) {
+                    btnEn.className = '';
+                    btnEn.classList.add('lang-active-en');
+                }
             }
         }
 
-        // Run on load
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', applyLanguageState);
-        } else {
+        // Multiple triggers to ensure it runs
+        if (document.readyState !== 'loading') {
             applyLanguageState();
+        } else {
+            document.addEventListener('DOMContentLoaded', applyLanguageState);
         }
+
+        // Handle Safari back/forward cache
+        window.addEventListener('pageshow', applyLanguageState);
+
+        // Handle Turbolinks/Turbo if present in theme
+        document.addEventListener('turbolinks:load', applyLanguageState);
     })();
 </script>
