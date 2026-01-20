@@ -9,10 +9,12 @@ layout: default
     /* Default: Show English, Hide Chinese */
     #content-en {
         display: block !important;
+        overflow: visible !important;
     }
 
     #content-zh {
         display: none !important;
+        overflow: visible !important;
     }
 
     /* If body has lang-zh class: Show Chinese, Hide English */
@@ -22,6 +24,21 @@ layout: default
 
     body.lang-zh #content-zh {
         display: block !important;
+        overflow: visible !important;
+    }
+
+    /* Ensure page content is fully visible */
+    .page__content {
+        overflow: visible !important;
+        max-height: none !important;
+    }
+
+    /* Clearfix for content sections */
+    #content-zh::after,
+    #content-en::after {
+        content: "";
+        display: table;
+        clear: both;
     }
 
     /* Button Styling */
