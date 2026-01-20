@@ -10,9 +10,7 @@
   width: 100%;
   clear: both;
   /* sticky footer fix start */
-  position: absolute;
-  bottom: 0em;
-  height: auto;
+  position: relative;
   /* sticky footer fix end */
   margin-top: 4em;
   color: mix(#fff, $gray, 25%);
