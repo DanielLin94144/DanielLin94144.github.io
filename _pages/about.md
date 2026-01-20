@@ -213,9 +213,7 @@ _Speech understanding and generation toward human-like spoken dialogue_
 ## Academic Services
 * **Official Reviewer**: ICLR'24'25, NeurIPS'24'25, ACL'24'25, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25
 
-<div style="width: 250px; margin: 2em auto; display: block;">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=7Qw12O7m4eZyJ9EztFY7V_gZbGDuLrM-MTmcSbviX2w&cl=ffffff&w=a"></script>
-</div>
+
 
 
 
