@@ -20,7 +20,6 @@ tags:
 
 <p>以下是這段旅程中，透過無數次試錯與修正，我學到的 10 個體悟，希望對你有所幫助（盡量用一些生活化的舉例來幫助理解）：</p>
 
-<hr>
 
 <h2>1. 看事情看本質：深入，是為了淺出</h2>
 <p>這個世界是一個充滿雜訊的複雜系統。做研究教會我最重要的一課，就是不要被表面的現象迷惑，必須不斷追問「為什麼」，直到觸及事物的核心。</p>
@@ -85,7 +84,6 @@ tags:
 
 <p>Here are the 10 realizations I learned through countless trials and errors on this journey. I hope they are helpful to you (I will use everyday examples to help explain them):</p>
 
-<hr>
 
 <h2>1. See the Essence: Dive Deep to Explain Simply</h2>
 <p>The world is a complex system full of noise. The most important lesson research taught me is not to be misled by surface phenomena; one must constantly ask "why" until reaching the core of the matter.</p>
