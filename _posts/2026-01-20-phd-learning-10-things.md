@@ -53,7 +53,7 @@ tags:
 <li><strong>自大</strong>：是膨脹了自我，信心超過了實力，往往源於無知。</li>
 <li><strong>自卑</strong>：是拿自己的短處去比別人的長處，導致自我設限。</li>
 </ul>
-<p>誠實地知道自己現在的實力在哪，然後對外的展現的與實力相稱，並且努力累積實力提升自信。自大會錯失學習的機會，自卑會導致沒辦法展示真實的實力。提醒自己維持一種「樂觀的自信」。相信自己有能力解決未知的問題，但同時保持謙卑，不忽視現實的挑戰與他人的智慧。</p>
+<p>誠實地知道自己現在的實力在哪，然後對外的展現的與實力相稱，並且努力累積實力提升自信。自大會錯失學習的機會，自卑會導致沒辦法展示真實的實力。提醒自己維持一種「適當的自信」。相信自己有能力解決未知的問題，但同時保持謙卑，不忽視現實的挑戰與他人的智慧。</p>
 
 <h2>8. 懂得問問題，是極高深的境界</h2>
 <p>我們從小被教育「問問題」似乎代表不懂或沒做功課。相反的，在高等研究中，問出一個好問題是一門藝術，也是一種貢獻。</p>
@@ -85,7 +85,7 @@ tags:
 <p>Here are the 10 realizations I learned through countless trials and errors on this journey. I hope they are helpful to you (I will use everyday examples to help explain them):</p>
 
 
-<h2>1. See the Essence: Dive Deep to Explain Simply</h2>
+<h2>1. See the Essence</h2>
 <p>The world is a complex system full of noise. The most important lesson research taught me is not to be misled by surface phenomena; one must constantly ask "why" until reaching the core of the matter.</p>
 <p>However, I discovered that people who truly grasp the essence aren't just good at solving problems; they possess a special ability: <strong>to "reduce the dimensions" of complex concepts and explain them in plain language.</strong></p>
 <p>Many people mistakenly believe that speaking obscurely makes them look professional. The opposite is true. When you understand something deeply enough, you can "abstract" it—stripping away technical details, understanding how time affects the issue, keeping the core structure, and then using a sharp "metaphor" to connect it to life experiences everyone understands. Just like a great doctor won't throw medical jargon at a patient but might say, "Your blood vessels are like the pipes in your house; there's a bit of grease stuck there, we just need to clear it out." Being able to explain dissertation-level concepts to your grandmother—that is truly seeing through the essence. Explaining a concept is great practice: if others don't understand, it’s likely because we haven't found the right metaphor yet.</p>
@@ -94,7 +94,7 @@ tags:
 <p>In a highly competitive environment, it's easy to fall into the anxiety of comparison. But later, looking at it from a scientific research perspective, I realized something: everyone's "Initial Conditions" and "Boundary Conditions" are different. Using someone else's progress to measure yourself is neither scientific nor fair.</p>
 <p>We envy others for having many papers or high citations, but we rarely see the failures and hard work they went through to succeed. Everyone is moving forward in their own time zone. Once I stepped out of the loop of comparison, I found the only control group is "myself yesterday." A sense of achievement shouldn't come from superiority, but from self-iteration and optimization. The trend lines of "comparing" and "knowing yourself" are inversely related; the more you know yourself and realize the uniqueness of individuals, the more you can find your own value instead of defining yourself as being "better than _____."</p>
 
-<h2>3. Seek Stability: Slow is Fast</h2>
+<h2>3. Slow is Fast</h2>
 <p>I used to be impatient, thinking that "fast" meant efficient. But research taught me a hard lesson: things done in a rush are often full of holes, and the time spent debugging afterwards is often several times longer than the original work.</p>
 <p>It's like assembling complex furniture. If you rush to tighten the screws, you might find later that a part was installed backward. Taking it apart and starting over consumes time and energy, and makes you frustrated. Now, I believe that "Slow is smooth, smooth is fast." Do things steadily, verify a few more times, and don't push yourself to the edge of a deadline. that kind of calm "margin" keeps the brain clear, producing higher quality results.</p>
 
@@ -106,18 +106,18 @@ tags:
 <p>Everyone has great ideas, but the real value lies with those who actually build things. Ideas are cheap; executing them into results is precious.</p>
 <p>You've surely heard someone say, "Hey, I thought of doing a method like _____ years ago!" But the truth is, only the person who actually wrote the code, handled the mess, and solved the problems truly owns that idea. Only in actual action do you encounter unexpected difficulties, and the "process of overcoming these difficulties" is the real contribution and the thing worth bragging about.</p>
 
-<h2>6. Respect Diversity, for Truth Often Has Many Facets</h2>
+<h2>6. Respect Diversity: Truth Often Has Many Facets</h2>
 <p>Late in my research, I deeply realized that often there is no absolute right or wrong in an idea; it is an open system. Everyone's viewpoint is based on where they stand and their perspective.</p>
 <p>It's like observing a cylinder: from the side, it's a rectangle; from the top, it's a circle. If you insist the other person is wrong, it's often just because you aren't standing at their angle. Even if viewpoints differ, it doesn't mean the other person is wrong—it might just be a difference in "interpretation." Often, getting closer to the truth requires listening, tolerance, and integrating different viewpoints to truly understand the full picture.</p>
 
-<h2>7. The Dynamic Balance of Confidence: Neither Arrogant nor Insecure</h2>
+<h2>7. The Dynamic Balance of Confidence</h2>
 <p>The grind of a PhD program taught me to find a dynamic balance in my mindset. Let's define them first:</p>
 <ul>
 <li><strong>Confidence</strong>: A sense of certainty in one's effort and accumulation.</li>
 <li><strong>Arrogance</strong>: An inflated self where confidence exceeds ability, often stemming from ignorance.</li>
-<li><strong>Insecurity</strong>: Comparing one's own weaknesses to others' strengths, leading to self-limitation.</li>
+<li><strong>Inferiority Complex</strong>: Comparing one's own weaknesses to others' strengths, leading to self-limitation.</li>
 </ul>
-<p>Honestly know where your current ability lies, exhibit a demeanor that matches that ability, and work hard to accumulate strength to boost confidence. Arrogance causes you to miss learning opportunities, while insecurity prevents you from showing your true strength. I remind myself to maintain an "optimistic confidence." Believe in your ability to solve unknown problems, but remain humble, never ignoring reality's challenges or the wisdom of others.</p>
+<p>Honestly know where your current ability lies, exhibit a attitude that matches that ability, and work hard to accumulate strength to boost confidence. Arrogance causes you to miss learning opportunities, while sense of inferiority prevents you from showing your true strength. I remind myself to maintain "confidence". Believe in your ability to solve unknown problems, but remain humble, never ignoring reality's challenges or the wisdom of others.</p>
 
 <h2>8. Knowing How to Ask Questions is a Profound Skill</h2>
 <p>We are taught from a young age that "asking questions" implies ignorance or a lack of preparation. Conversely, in advanced research, asking a good question is an art form and a contribution.</p>
@@ -127,7 +127,7 @@ tags:
 <p>This is the deepest realization from the later stages of my research career. Academic training requires us to have Critical Thinking—to pick faults and find loopholes—but this doesn't mean we should become sharp, cold people.</p>
 <p>When giving feedback, instead of directly saying "You did this wrong," try saying "If we look at it from another angle, would there be a different result?" Giving empathy rather than cold criticism is a higher level of wisdom. How to lower the listener's defense mechanisms and cognitive threshold, allowing them to feel warmth and accept suggestions—that is the art of communication.</p>
 
-<h2>10. Rest is to Spark the Subconscious Creativity</h2>
+<h2>10. Rest is to Spark the Creativity</h2>
 <p>Many people think creativity is something you "force" out, but inspiration often emerges when you "zone out" or rest. An overworked brain is like an overheated CPU; it automatically throttles down and cannot perform high-level calculations.</p>
 <p>True efficiency isn't sitting at a lab bench or desk for long hours, but knowing how to switch between focus and relaxation. Rest isn't laziness; it is for repairing energy, ensuring you have the best explosive power at critical moments. Leave some blank space so inspiration can enter.</p>
 
