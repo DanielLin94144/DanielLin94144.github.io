@@ -189,23 +189,40 @@ layout: default
         setTimeout(updateLanguage, 200);
         setTimeout(updateLanguage, 500);
 
-        // GoatCounter page views - fetch from public API
-        function loadViewCount() {
+        // CountAPI - increments on EVERY page load (no deduplication)
+        function loadAndIncrementViewCount() {
             var path = window.location.pathname;
-            var apiUrl = 'https://daniel094144.goatcounter.com/counter/' + encodeURIComponent(path) + '.json';
+            // Create a unique key from the path (remove special chars)
+            var key = path.replace(/[^a-zA-Z0-9]/g, '_').replace(/^_+|_+$/g, '') || 'home';
+            var namespace = 'daniellin94144';
+
+            // CountAPI hit endpoint - increments counter and returns new value
+            var apiUrl = 'https://api.countapi.xyz/hit/' + namespace + '/' + key;
 
             fetch(apiUrl)
                 .then(function (r) { return r.json(); })
                 .then(function (data) {
                     var el = document.getElementById('gc-pageviews');
-                    if (el && data.count) {
-                        el.textContent = data.count;
+                    if (el && data.value !== undefined) {
+                        el.textContent = data.value;
                     }
                 })
-                .catch(function (e) { console.log('View count error:', e); });
+                .catch(function (e) {
+                    console.log('View count error:', e);
+                    // Fallback: try to just get the count without incrementing
+                    var getUrl = 'https://api.countapi.xyz/get/' + namespace + '/' + key;
+                    fetch(getUrl)
+                        .then(function (r) { return r.json(); })
+                        .then(function (data) {
+                            var el = document.getElementById('gc-pageviews');
+                            if (el && data.value !== undefined) {
+                                el.textContent = data.value;
+                            }
+                        })
+                        .catch(function () { });
+                });
         }
 
-        window.addEventListener('load', loadViewCount);
-        setTimeout(loadViewCount, 1000);
+        window.addEventListener('load', loadAndIncrementViewCount);
     })();
 </script>
