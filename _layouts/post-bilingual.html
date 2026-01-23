@@ -17,95 +17,30 @@ layout: default
         overflow: visible !important;
     }
 
-    /* If body has lang-zh class: Show Chinese, Hide English */
-    body.lang-zh #content-en {
+    /* If body or html has lang-zh class: Show Chinese, Hide English */
+    .lang-zh #content-en {
         display: none !important;
     }
 
-    body.lang-zh #content-zh {
+    .lang-zh #content-zh {
         display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         overflow: visible !important;
     }
 
-    /* Ensure page content is fully visible */
-    .page__content {
-        overflow: visible !important;
-        max-height: none !important;
+    /* Ensure active button states are clear */
+    .lang-zh #btnZh {
+        background: #28a745 !important;
+        color: white !important;
+        border-color: #28a745 !important;
     }
 
-    /* Clearfix for content sections */
-    #content-zh::after,
-    #content-en::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    /* Button Styling */
-    .bilingual-container {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 1rem;
-    }
-
-    .bilingual-sidebar {
-        width: 250px;
-        flex-shrink: 0;
-        padding-right: 2rem;
-    }
-
-    .bilingual-content {
-        flex: 1;
-        min-width: 300px;
-    }
-
-    @media (max-width: 768px) {
-        .bilingual-sidebar {
-            width: 100%;
-            padding-right: 0;
-            margin-bottom: 2rem;
-        }
-
-        .bilingual-content {
-            width: 100%;
-        }
-    }
-
-    .lang-toggle {
-        display: flex;
-        gap: 0.5rem;
-        margin-bottom: 1.5rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid #e1e4e8;
-    }
-
-    .lang-toggle a {
-        padding: 0.5rem 1rem;
-        border: 1px solid #d1d5da;
-        border-radius: 6px;
-        font-size: 0.875rem;
-        cursor: pointer;
-        text-decoration: none;
-        display: inline-block;
-        color: #24292e;
-        background: #f6f8fa;
-    }
-
-    /* Active States controlled by body class */
-    /* English Mode (Default) */
+    html:not(.lang-zh) #btnEn,
     body:not(.lang-zh) #btnEn {
         background: #343a40 !important;
         color: white !important;
         border-color: #343a40 !important;
-    }
-
-    /* Chinese Mode */
-    body.lang-zh #btnZh {
-        background: #28a745 !important;
-        color: white !important;
-        border-color: #28a745 !important;
     }
 </style>
 
@@ -129,8 +64,8 @@ layout: default
             </header>
 
             <div class="lang-toggle">
-                <a href="#lang=zh" id="btnZh">繁體中文</a>
-                <a href="#lang=en" id="btnEn">English</a>
+                <a href="#lang=zh" id="btnZh" onclick="window.setLanguage('zh'); return false;">繁體中文</a>
+                <a href="#lang=en" id="btnEn" onclick="window.setLanguage('en'); return false;">English</a>
             </div>
 
             <section class="page__content">
@@ -148,29 +83,35 @@ layout: default
 
 <script type="text/javascript">
     (function () {
-        // Core function to update the view based on current URL state
-        function updateView() {
+        // Use a globally accessible function to avoid scope issues with onclick
+        window.setLanguage = function (lang) {
+            if (lang === 'zh') {
+                document.documentElement.classList.add('lang-zh');
+                document.body.classList.add('lang-zh');
+                window.location.hash = 'lang=zh';
+            } else {
+                document.documentElement.classList.remove('lang-zh');
+                document.body.classList.remove('lang-zh');
+                window.location.hash = 'lang=en';
+            }
+        };
+
+        function updateFromUrl() {
             var hash = window.location.hash;
             var search = window.location.search;
 
             // Priority: URL Hash > URL Query Params > Default (English)
-            var isZh = false;
-            if (hash.indexOf('lang=zh') > -1) {
-                isZh = true;
-            } else if (hash.indexOf('lang=en') > -1) {
-                isZh = false;
-            } else if (search.indexOf('lang=zh') > -1) {
-                isZh = true;
-            }
+            var isZh = (hash.indexOf('lang=zh') > -1) || (search.indexOf('lang=zh') > -1);
 
-            // Apply language class to body
             if (isZh) {
+                document.documentElement.classList.add('lang-zh');
                 document.body.classList.add('lang-zh');
             } else {
+                document.documentElement.classList.remove('lang-zh');
                 document.body.classList.remove('lang-zh');
             }
 
-            // Cleanup: If we transitioned from Query Param to Hash, update address bar without reload
+            // Cleanup ?lang=zh into #lang=zh for unified counting
             if (search.indexOf('lang=zh') > -1 && hash.indexOf('lang=zh') === -1) {
                 var newUrl = window.location.pathname + "#lang=zh";
                 window.history.replaceState(null, '', newUrl);
@@ -178,15 +119,15 @@ layout: default
         }
 
         // Run immediately
-        updateView();
+        updateFromUrl();
 
-        // Listen for hash changes (when user clicks buttons)
-        window.addEventListener("hashchange", updateView);
+        // Listen for browser navigation (back/forward)
+        window.addEventListener("hashchange", updateFromUrl);
 
-        // Run on DOM Content Loaded as a safeguard
-        document.addEventListener("DOMContentLoaded", updateView);
-
-        // Final safeguard: Check again after a short delay (for theme initialization conflicts)
-        setTimeout(updateView, 100);
+        // Final safeguards
+        document.addEventListener("DOMContentLoaded", updateFromUrl);
+        window.addEventListener("load", updateFromUrl);
+        setTimeout(updateFromUrl, 100);
+        setTimeout(updateFromUrl, 500); // Extreme safeguard
     })();
 </script>
