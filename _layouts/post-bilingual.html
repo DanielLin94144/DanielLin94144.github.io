@@ -113,13 +113,27 @@ layout: default
 <script>
     (function () {
         try {
-            var url = window.location.href;
-            var hasLangZh = url.indexOf('lang=zh') > -1;
-            if (hasLangZh) {
-                document.body.classList.add('lang-zh');
-            } else {
-                document.body.classList.remove('lang-zh');
+            // Function to determine if Chinese should be shown
+            function checkLang() {
+                var hash = window.location.hash;
+                var search = window.location.search;
+                // Check hash first (#lang=zh), then legacy query param (?lang=zh)
+                var isZh = (hash.indexOf('lang=zh') > -1) || (search.indexOf('lang=zh') > -1);
+
+                if (isZh) {
+                    document.body.classList.add('lang-zh');
+                } else {
+                    document.body.classList.remove('lang-zh');
+                }
+
+                // Legacy Cleanup: If we found ?lang=zh, convert it to #lang=zh and clean base URL
+                if (search.indexOf('lang=zh') > -1) {
+                    var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + "#lang=zh";
+                    window.history.replaceState({ path: newUrl }, '', newUrl);
+                }
             }
+
+            checkLang();
         } catch (e) { console.error(e); }
     })();
 </script>
@@ -144,8 +158,8 @@ layout: default
             </header>
 
             <div class="lang-toggle">
-                <a href="?lang=zh" id="btnZh">繁體中文</a>
-                <a href="?lang=en" id="btnEn">English</a>
+                <a href="#lang=zh" id="btnZh">繁體中文</a>
+                <a href="#lang=en" id="btnEn">English</a>
             </div>
 
             <section class="page__content">
@@ -162,9 +176,20 @@ layout: default
 </div>
 
 <script type="text/javascript">
-    // Fallback script to ensure class is set if initial run missed (e.g. turbolinks)
+    // Listen for hash changes to toggle language without reload
+    window.addEventListener("hashchange", function () {
+        var isZh = window.location.hash.indexOf('lang=zh') > -1;
+        if (isZh) {
+            document.body.classList.add('lang-zh');
+        } else {
+            document.body.classList.remove('lang-zh');
+        }
+    });
+
+    // Fallback script to ensure class is set on load (double check)
     document.addEventListener("DOMContentLoaded", function () {
-        if (window.location.href.indexOf('lang=zh') > -1) {
+        var isZh = (window.location.hash.indexOf('lang=zh') > -1) || (window.location.search.indexOf('lang=zh') > -1);
+        if (isZh) {
             document.body.classList.add('lang-zh');
         } else {
             document.body.classList.remove('lang-zh');
