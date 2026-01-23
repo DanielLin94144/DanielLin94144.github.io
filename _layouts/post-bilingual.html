@@ -109,35 +109,6 @@ layout: default
     }
 </style>
 
-<!-- IMMEDIATE SCRIPT TO SET CLASS BEFORE RENDER -->
-<script>
-    (function () {
-        try {
-            // Function to determine if Chinese should be shown
-            function checkLang() {
-                var hash = window.location.hash;
-                var search = window.location.search;
-                // Check hash first (#lang=zh), then legacy query param (?lang=zh)
-                var isZh = (hash.indexOf('lang=zh') > -1) || (search.indexOf('lang=zh') > -1);
-
-                if (isZh) {
-                    document.body.classList.add('lang-zh');
-                } else {
-                    document.body.classList.remove('lang-zh');
-                }
-
-                // Legacy Cleanup: If we found ?lang=zh, convert it to #lang=zh and clean base URL
-                if (search.indexOf('lang=zh') > -1) {
-                    var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + "#lang=zh";
-                    window.history.replaceState({ path: newUrl }, '', newUrl);
-                }
-            }
-
-            checkLang();
-        } catch (e) { console.error(e); }
-    })();
-</script>
-
 <div class="bilingual-container">
     <aside class="bilingual-sidebar">
         {% include author-profile.html %}
@@ -176,23 +147,46 @@ layout: default
 </div>
 
 <script type="text/javascript">
-    // Listen for hash changes to toggle language without reload
-    window.addEventListener("hashchange", function () {
-        var isZh = window.location.hash.indexOf('lang=zh') > -1;
-        if (isZh) {
-            document.body.classList.add('lang-zh');
-        } else {
-            document.body.classList.remove('lang-zh');
-        }
-    });
+    (function () {
+        // Core function to update the view based on current URL state
+        function updateView() {
+            var hash = window.location.hash;
+            var search = window.location.search;
 
-    // Fallback script to ensure class is set on load (double check)
-    document.addEventListener("DOMContentLoaded", function () {
-        var isZh = (window.location.hash.indexOf('lang=zh') > -1) || (window.location.search.indexOf('lang=zh') > -1);
-        if (isZh) {
-            document.body.classList.add('lang-zh');
-        } else {
-            document.body.classList.remove('lang-zh');
+            // Priority: URL Hash > URL Query Params > Default (English)
+            var isZh = false;
+            if (hash.indexOf('lang=zh') > -1) {
+                isZh = true;
+            } else if (hash.indexOf('lang=en') > -1) {
+                isZh = false;
+            } else if (search.indexOf('lang=zh') > -1) {
+                isZh = true;
+            }
+
+            // Apply language class to body
+            if (isZh) {
+                document.body.classList.add('lang-zh');
+            } else {
+                document.body.classList.remove('lang-zh');
+            }
+
+            // Cleanup: If we transitioned from Query Param to Hash, update address bar without reload
+            if (search.indexOf('lang=zh') > -1 && hash.indexOf('lang=zh') === -1) {
+                var newUrl = window.location.pathname + "#lang=zh";
+                window.history.replaceState(null, '', newUrl);
+            }
         }
-    });
+
+        // Run immediately
+        updateView();
+
+        // Listen for hash changes (when user clicks buttons)
+        window.addEventListener("hashchange", updateView);
+
+        // Run on DOM Content Loaded as a safeguard
+        document.addEventListener("DOMContentLoaded", updateView);
+
+        // Final safeguard: Check again after a short delay (for theme initialization conflicts)
+        setTimeout(updateView, 100);
+    })();
 </script>
