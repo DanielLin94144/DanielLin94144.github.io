@@ -29,6 +29,64 @@ layout: default
         overflow: visible !important;
     }
 
+    /* Ensure page content is fully visible */
+    .page__content {
+        overflow: visible !important;
+        max-height: none !important;
+    }
+
+    /* Button Styling */
+    .bilingual-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .bilingual-sidebar {
+        width: 250px;
+        flex-shrink: 0;
+        padding-right: 2rem;
+    }
+
+    .bilingual-content {
+        flex: 1;
+        min-width: 300px;
+    }
+
+    @media (max-width: 768px) {
+        .bilingual-sidebar {
+            width: 100%;
+            padding-right: 0;
+            margin-bottom: 2rem;
+        }
+
+        .bilingual-content {
+            width: 100%;
+        }
+    }
+
+    .lang-toggle {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #e1e4e8;
+    }
+
+    .lang-toggle a {
+        padding: 0.5rem 1rem;
+        border: 1px solid #d1d5da;
+        border-radius: 6px;
+        font-size: 0.875rem;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        color: #24292e;
+        background: #f6f8fa;
+    }
+
     /* Ensure active button states are clear */
     .lang-zh #btnZh {
         background: #28a745 !important;
