@@ -144,75 +144,49 @@ layout: default
     </main>
 </div>
 
-<script type="text/javascript">
+<!-- Language Toggle Script - Must run immediately -->
+<script>
+    // Define globally FIRST before anything else
+    window.setLanguage = function (lang) {
+        console.log('setLanguage called with:', lang);
+        if (lang === 'zh') {
+            document.documentElement.classList.add('lang-zh');
+            document.body.classList.add('lang-zh');
+            window.location.hash = 'lang=zh';
+        } else {
+            document.documentElement.classList.remove('lang-zh');
+            document.body.classList.remove('lang-zh');
+            window.location.hash = 'lang=en';
+        }
+    };
+
+    // Check URL and apply language class
     (function () {
-        // Use a globally accessible function to avoid scope issues with onclick
-        window.setLanguage = function (lang) {
-            if (lang === 'zh') {
-                document.documentElement.classList.add('lang-zh');
-                document.body.classList.add('lang-zh');
-                window.location.hash = 'lang=zh';
-            } else {
-                document.documentElement.classList.remove('lang-zh');
-                document.body.classList.remove('lang-zh');
-                window.location.hash = 'lang=en';
-            }
-        };
-
-        function updateFromUrl() {
-            var hash = window.location.hash;
-            var search = window.location.search;
-
-            // Priority: URL Hash > URL Query Params > Default (English)
+        function updateLanguage() {
+            var hash = window.location.hash || '';
+            var search = window.location.search || '';
             var isZh = (hash.indexOf('lang=zh') > -1) || (search.indexOf('lang=zh') > -1);
+
+            console.log('updateLanguage - isZh:', isZh, 'hash:', hash);
 
             if (isZh) {
                 document.documentElement.classList.add('lang-zh');
-                document.body.classList.add('lang-zh');
+                if (document.body) document.body.classList.add('lang-zh');
             } else {
                 document.documentElement.classList.remove('lang-zh');
-                document.body.classList.remove('lang-zh');
-            }
-
-            // Cleanup ?lang=zh into #lang=zh for unified counting
-            if (search.indexOf('lang=zh') > -1 && hash.indexOf('lang=zh') === -1) {
-                var newUrl = window.location.pathname + "#lang=zh";
-                window.history.replaceState(null, '', newUrl);
+                if (document.body) document.body.classList.remove('lang-zh');
             }
         }
 
         // Run immediately
-        updateFromUrl();
+        updateLanguage();
 
-        // Listen for browser navigation (back/forward)
-        window.addEventListener("hashchange", updateFromUrl);
-
-        // Final safeguards
-        document.addEventListener("DOMContentLoaded", updateFromUrl);
-        window.addEventListener("load", updateFromUrl);
-        setTimeout(updateFromUrl, 100);
-        setTimeout(updateFromUrl, 500); // Extreme safeguard
-
-        // GoatCounter page views API
-        function loadGoatCounterViews() {
-            var path = window.location.pathname;
-            var apiUrl = "https://daniel094144.goatcounter.com/counter/" + encodeURIComponent(path) + ".json";
-
-            fetch(apiUrl)
-                .then(function (response) { return response.json(); })
-                .then(function (data) {
-                    var el = document.getElementById("gc-pageviews");
-                    if (el && data.count) {
-                        el.textContent = data.count;
-                    }
-                })
-                .catch(function (err) {
-                    console.log("GoatCounter API error:", err);
-                });
-        }
-
-        // Load view count after page loads
-        window.addEventListener("load", loadGoatCounterViews);
-        setTimeout(loadGoatCounterViews, 1000);
+        // Run on all possible events
+        window.addEventListener('hashchange', updateLanguage);
+        document.addEventListener('DOMContentLoaded', updateLanguage);
+        window.addEventListener('load', updateLanguage);
+        setTimeout(updateLanguage, 50);
+        setTimeout(updateLanguage, 200);
+        setTimeout(updateLanguage, 500);
     })();
 </script>
