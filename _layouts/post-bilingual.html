@@ -18,10 +18,15 @@ layout: default
     }
 
     /* If body or html has lang-zh class: Show Chinese, Hide English */
+    html.lang-zh #content-en,
+    body.lang-zh #content-en,
     .lang-zh #content-en {
         display: none !important;
+        visibility: hidden !important;
     }
 
+    html.lang-zh #content-zh,
+    body.lang-zh #content-zh,
     .lang-zh #content-zh {
         display: block !important;
         visibility: visible !important;
