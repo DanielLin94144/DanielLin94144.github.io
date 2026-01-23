@@ -11,7 +11,7 @@ tags:
   - Thoughts
 ---
 
-<div id="content-zh" style="display:none;">
+<div id="content-zh">
 
 
 <p>博士班旅程終於結束，常有人問我這幾年的訓練到底改變了什麼？我想分享的，不是論文裡那些艱深的公式或模型，而是這幾年在研究生涯中，被迫不斷打破慣性、重組思維後所留下受用一身的體悟。</p>
