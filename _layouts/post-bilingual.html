@@ -121,6 +121,8 @@ layout: default
                 </p>{% endif %}
                 {% if page.date %}<p class="page__date"><strong><i class="fa fa-fw fa-calendar"></i> Published:</strong>
                     <time>{{ page.date | date: "%B %d, %Y" }}</time>
+                    <span style="margin-left: 1rem;"><i class="fa fa-eye"></i> <span id="gc-pageviews">--</span>
+                        views</span>
                 </p>{% endif %}
             </header>
 
@@ -186,5 +188,24 @@ layout: default
         setTimeout(updateLanguage, 50);
         setTimeout(updateLanguage, 200);
         setTimeout(updateLanguage, 500);
+
+        // GoatCounter page views - fetch from public API
+        function loadViewCount() {
+            var path = window.location.pathname;
+            var apiUrl = 'https://daniel094144.goatcounter.com/counter/' + encodeURIComponent(path) + '.json';
+
+            fetch(apiUrl)
+                .then(function (r) { return r.json(); })
+                .then(function (data) {
+                    var el = document.getElementById('gc-pageviews');
+                    if (el && data.count) {
+                        el.textContent = data.count;
+                    }
+                })
+                .catch(function (e) { console.log('View count error:', e); });
+        }
+
+        window.addEventListener('load', loadViewCount);
+        setTimeout(loadViewCount, 1000);
     })();
 </script>
