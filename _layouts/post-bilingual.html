@@ -116,8 +116,8 @@ layout: default
                 </p>{% endif %}
                 {% if page.date %}<p class="page__date"><strong><i class="fa fa-fw fa-calendar"></i> Published:</strong>
                     <time>{{ page.date | date: "%B %d, %Y" }}</time>
-                    <span style="margin-left: 1rem;"><i class="fa fa-eye"></i> <span
-                            id="busuanzi_value_page_pv">--</span> views</span>
+                    <span style="margin-left: 1rem;"><i class="fa fa-eye"></i> <span id="gc-pageviews">--</span>
+                        views</span>
                 </p>{% endif %}
             </header>
 
@@ -187,5 +187,27 @@ layout: default
         window.addEventListener("load", updateFromUrl);
         setTimeout(updateFromUrl, 100);
         setTimeout(updateFromUrl, 500); // Extreme safeguard
+
+        // GoatCounter page views API
+        function loadGoatCounterViews() {
+            var path = window.location.pathname;
+            var apiUrl = "https://daniel094144.goatcounter.com/counter/" + encodeURIComponent(path) + ".json";
+
+            fetch(apiUrl)
+                .then(function (response) { return response.json(); })
+                .then(function (data) {
+                    var el = document.getElementById("gc-pageviews");
+                    if (el && data.count) {
+                        el.textContent = data.count;
+                    }
+                })
+                .catch(function (err) {
+                    console.log("GoatCounter API error:", err);
+                });
+        }
+
+        // Load view count after page loads
+        window.addEventListener("load", loadGoatCounterViews);
+        setTimeout(loadGoatCounterViews, 1000);
     })();
 </script>
