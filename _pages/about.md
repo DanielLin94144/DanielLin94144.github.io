@@ -90,7 +90,7 @@ Beyond academia, he enjoys singing 🎤, photography 📷, and watching MLB game
 ## Update
 
 <ul class="news-list" id="news-list">
-  <li><strong>2026/01</strong> Shared some reflection on my Ph.D. journey in the <a href="https://daniel094144.github.io/blog/2026/01/10/10-life-lessons-learned-during-phd/">blog post</a>.</li>
+  <li><strong>2026/01</strong> Started writing blog posts! Shared learnings on my Ph.D. journey in the <a href="https://daniellin94144.github.io/posts/2026/01/life-researcher-logics/#lang=en">post</a>.</li>
   <li><strong>2026/01</strong> Full-Duplex-Bench v1.5 accepted by ICASSP 2026 🇪🇸!</li>
   <li><strong>2025/12</strong> Successfully defended my Ph.D. dissertation! 🎓</li>
   <li><strong>2025/08</strong> Three papers accepted by ASRU 2025. See you in Hawaii 🏝</li>
