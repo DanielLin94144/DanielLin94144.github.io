@@ -176,14 +176,6 @@ _Speech understanding and generation toward human-like spoken dialogue_
   *SLT 2022 (**Best Paper Award**)*\\
   <a href="https://arxiv.org/abs/2210.07185" class="btn btn--small">PAPER</a> <a href="https://github.com/JSALT-2022-SSL/superb-prosody" class="btn btn--small">CODE</a>
 
-### Spoken Language Understanding and Spoken Question Answering
-<p style="margin-top: -0.5em; color: #666; font-style: italic;">End-to-end approaches to understand high-level semantic information in speech signals</p>
-
-* **Improving Textless Spoken Language Understanding with Discrete Units as Intermediate Target**\\
-  Guan-Wei Wu<sub>(co-first)</sub>, <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shang-Wen Li, Hung-yi Lee\\
-  *Interspeech 2023*\\
-  <a href="https://arxiv.org/abs/2305.18096" class="btn btn--small">PAPER</a>
-
 * **DUAL: Discrete Spoken Unit Adaptive Learning for Textless Spoken Question Answering**\\
   <u>Guan-Ting Lin</u>, Yung-Sung Chuang, Ho-Lam Chung, Shu-wen Yang, Hsuan-Jui Chen, Shuyan Dong, Shang-Wen Li, Abdelrahman Mohamed, Hung-yi Lee, Lin-shan Lee\\
   *Interspeech 2022*\\
@@ -223,7 +215,7 @@ _Speech understanding and generation toward human-like spoken dialogue_
 * The Zhu Shun Yi He Qin Scholarship @ NTHU
 
 ## Academic Services
-* **Official Reviewer**: ICLR'24'25, NeurIPS'24'25, ACL'24'25, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25
+* **Official Reviewer**: ICLR'24'25, NeurIPS'24'25, ACL'24'25, EMNLP'24, NAACL'23'24, ICASSP'23'24, ISCSLP'22'23'24, COLING'25, IEEE Transactions on Affective Computing
 
 
 
