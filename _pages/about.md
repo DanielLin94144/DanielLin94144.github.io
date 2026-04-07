@@ -131,7 +131,7 @@ _Speech understanding and generation toward human-like spoken dialogue_
 * **Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency**\\
   <u>Guan-Ting Lin</u>, Chen Chen, Zhehuai Chen, Hung-yi Lee\\
   *Arxiv 2026*\\
-  <a href="https://daniellin94144.github.io/FDB-v3-demo/Full_duplex_bench_v3_paper.pdf" class="btn btn--small">PAPER</a> <a href="https://daniellin94144.github.io/FDB-v3-demo/" class="btn btn--small">DEMO</a>
+  <a href="http://arxiv.org/abs/2604.04847" class="btn btn--small">PAPER</a> <a href="https://daniellin94144.github.io/FDB-v3-demo/" class="btn btn--small">DEMO</a>
 
 * **Full-Duplex-Bench-v2: A Multi-Turn Evaluation Framework for Duplex Dialogue Systems with an Automated Examiner**\\
   <u>Guan-Ting Lin</u><sub>(co-first)</sub>, Shih-Yun Shan Kuan<sub>(co-first)</sub>, Jiatong Shi, Kai-Wei Chang, Siddhant Arora, Shinji Watanabe, Hung-yi Lee\\
