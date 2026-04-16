@@ -20,7 +20,7 @@ redirect_from:
       Guan-Ting received his Ph.D. from the <a href="https://twitter.com/ntu_spml">Speech Processing and Machine Learning Lab</a> at <a href="https://www.ntu.edu.tw/">National Taiwan University (NTU)</a>, advised by Prof. <a href="https://speech.ee.ntu.edu.tw/~hylee/index.html">Hung-yi Lee</a>. His research focuses on <strong>Speech LLMs, Full-Duplex Interaction, Spoken Language Understanding/Generation, and Test-Time Adaptation for ASR</strong>.
     </p>
     <p>
-      He has published <strong>15+ first/co-first author</strong> papers at top-tier conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT) and received the <strong>Best Paper Award</strong> at IEEE SLT 2022. He serves as a reviewer for ICLR, NeurIPS, ACL, EMNLP, and is recognized as <a href="https://iclr.cc/Conferences/2025/Reviewers">ICLR 2025 Notable Reviewer</a>.
+      His academic innovation is deeply grounded in extensive research experience at leading AI labs including <a href="https://ai.meta.com/">Meta Superintelligence Lab</a>, <a href="https://deepmind.google/">Google DeepMind</a>, and <a href="https://www.amazon.science/">Amazon AGI</a>. As the project lead of the <a href="https://github.com/DanielLin94144/Full-Duplex-Bench">Full-Duplex-Bench series</a>, he pioneers the evaluation of real-time, full-duplex voice AI. He has published <strong>15+ first/co-first author</strong> papers at top-tier conferences (ACL, EMNLP, ICASSP, Interspeech, ASRU, SLT) and received the <strong>Best Paper Award</strong> at IEEE SLT 2022. He serves as a reviewer for ICLR, NeurIPS, ACL, EMNLP, and is recognized as <a href="https://iclr.cc/Conferences/2025/Reviewers">ICLR 2025 Notable Reviewer</a>.
     </p>
     <p><strong>Research Experience:</strong></p>
     <ul>
